@@ -1,27 +1,12 @@
 .content
 {
-	padding-left: 550px;
+	
 	padding-top: 200px;
 	padding-bottom: 200px;
-}
-
-#s1
-{
 	border-style: solid;
 	border-color: black;
 	border-width: 16px;
+	text-align: center;
+	list-style-type: none;
 }
 
-#s2
-{
-	border-style: solid;
-	border-color: black;
-	border-width: 16px;
-}
-
-#s3
-{
-	border-style: solid;
-	border-color: black;
-	border-width: 16px;
-}
