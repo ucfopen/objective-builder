@@ -1,4 +1,16 @@
 .content
 {
 	
+	padding-top: 200px;
+	padding-bottom: 200px;
+	border-style: solid;
+	border-color: black;
+	border-width: 12px;
+	text-align: center;
+	list-style-type: none;
+}
+.textbox
+{
+	display: block;
+	margin-left: 250px;
 }
