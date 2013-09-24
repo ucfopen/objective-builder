@@ -1,0 +1,53 @@
+{
+  "Cognitive": {
+    "Remember": [
+      "define",
+      "identify",
+      "list",
+      "name",
+      "recall",
+      "recognize",
+      "record",
+      "relate",
+      "repeat",
+      "underline"
+    ],
+    "Understand": [
+      "choose",
+      "cite examples of"
+      "demonstrate use of"
+      "describe"
+      "determine"
+      "differentiate between"
+      "discriminate"
+      "discuss"
+      "explain"
+      "express"
+      "give in own words"
+      "identify"
+      "interpret"
+      "locate"
+      "pick"
+      "report"
+      "restate"
+      "review"
+      "recognize"
+      "select"
+      "tell"
+      "translate"
+      "respond"
+      "practice"
+      "simulates"
+    ],
+    "Apply": [],
+    "Analyze": [],
+    "Evaluate": [],
+    "Create": []
+  }
+
+  "Affective": {
+    "Receiving" : [
+
+    ]
+  }
+}
