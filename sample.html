@@ -1,22 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="jquery-1.10.2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<title>Objective Builder Sample</title>
+	<script src="jquery-1.10.2.min.js"></script>
 </head>
 <body>
-	<section>
-		<h1>Title would go here</h1>
-		<p>Content goes here</p>
+	<section class ="content">
+		<h1>Welcome to the University of Central Florida's Objective Builder</h1>
 	</section>
 
-	<section>
-		<h1>Title goes here</h1>
-		<p>Content goes here</p>
+	<section class ="content">
+		<h1>Please select a Domain</h1>
+		<ul id="domain_selector">
+			<li><a href="#cognitive"> Cognitive (Thinking) </a></li>
+			<li><a href="#psychomotor"> Psychomotor (Doing) </a></li>
+			<li><a href="#affective"> Affective (Feeling) </a></li>
+		</ul>
 	</section>
-	<section>
-		<h1>Title goes here</h1>
-		<p>Content goes here</p>
+	<!--This starts the Coginitve Section of slides -->
+	<section class ="content" id="cognitive">
+		<h1>Cognitive</h1>
+		<select id="cognitive_select">
+			<option value="null"></option>
+			<option value="remember"> Remember</option>
+			<option value="understand"> Understand</option>
+			<option value="apply"> Apply</option>
+			<option value="analyze"> Analyze</option>
+			<option value="evaluate"> Evaluate</option>
+			<option value="create"> Create</option>
+		</select>
+	</section>
+	<!--This starts the Affective Section of slides-->
+	<section class ="content" id="affective">
+		<h1>Affective</h1>
+		<select id="affective_select">
+			<option value="null"></option>
+			<option value="receiving"> Receving</option>
+			<option value="responding"> Responding</option>
+			<option value="valuing"> Valuing</option>
+			<option value="orginization"> Organization</option>
+			<option value="characterization"> Characterization</option>
+		</select>
+	</section>
+	<!-- This starts the Psychomotor Section of slides-->
+	<section class ="content" id="psychomotor">
+		<h1>Psychomotor</h1>
+		<select id="psychomotor_select">
+			<option value="null"></option>
+			<option value="observing"> Observing</option>
+			<option value="imitating"> Imitating</option>
+			<option value="practicing"> Practicing</option>
+			<option value="adapting"> Adapting</option>
+		</select>
+	</section>
+	<section class ="content">
+		<h1>Audience</h1>
+		<p>Who are your learners?</p>
+		<textarea rows="10" cols="60" placeholder="Text goes here" id="audience_text"></textarea>
+	</section>
+	<section class ="content" id="behavior">
+		<h1>Behavior</h1>
+		<p>Fill out the complete task that you intend for the learner to be able to perform or complete.</p>
+		<textarea rows="10" cols="60" placeholder="Text goes here" id="behavior_text"></textarea>
+	</section>
+	<section class ="content">
+		<h1>Condition</h1>
+		<p>Please state specifically as possible what will be provided.<br/>This allows the learner to know what exactly will be provided.</p>
+		<textarea rows="10" cols="60" placeholder="Text goes here" id="condition_text"></textarea>
+	</section>
+	<section class ="content">
+		<h1>Degree</h1>
+		<p>State the level of accuracy that you deem "acceptable"</p>
+		<textarea rows="10" cols="60" placeholder="Text goes here" id="degree_text"></textarea>
+	</section>
+	<section class ="content">
+		<h1>Finished Product</h1>
+		<textarea rows="10" cols="60" placeholder="Text goes here" id="finished_text"></textarea>
 	</section>
 </body>
+<script type="text/javascript" src="logic.js"></script>
 </html>
