@@ -172,7 +172,8 @@
     ],
   }
 
-  "Psychomotor": {
+  "Psychomotor": { 
+    "Verbs" : [
     "bend",
     "calibrates",
     "constructs",
@@ -187,5 +188,17 @@
     "heats",
     "manipulates",
     "measures",
+    "mends",
+    "mixes",
+    "operate",
+    "organizes",
+    "perform (skillfully)",
+    "reach",
+    "relax",
+    "shorten",
+    "sketches",
+    "stretch",
+    "write"
+    ],
   }
 }
