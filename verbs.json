@@ -131,8 +131,8 @@
       "set-up",
       "synthesize",
       "systematize devise"
-    ],
-  }
+    ]
+  },
 
   "Affective" : {
     "Receiving" : [
@@ -169,8 +169,8 @@
     "Characterization by Value" : [
       "internalize",
       "verify"
-    ],
-  }
+    ]
+  },
 
   "Psychomotor": { 
     "Verbs" : [
@@ -199,6 +199,6 @@
     "sketches",
     "stretch",
     "write"
-    ],
+    ]
   }
 }
