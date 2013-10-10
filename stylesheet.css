@@ -17,3 +17,7 @@ select
 {
 	width: 150px;
 }
+button
+{
+	display: inline-block;
+}

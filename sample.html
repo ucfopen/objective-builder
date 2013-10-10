@@ -6,16 +6,15 @@
 	<script src="jquery-1.10.2.min.js"></script>
 </head>
 <body>
-	<section class ="content">
+	<section class ="content" id="begin">
 		<h1>Welcome to the University of Central Florida's Objective Builder</h1>
+		<a href="#audience"><button>Next>></button></a>
 	</section>
-
-
-	<section class ="content">
+	<section class ="content" id="audience">
 		<h1>Audience</h1>
-
 		<p>Who are your learners?</p>
-		<textarea rows="10" cols="60" placeholder="Text goes here" id="audience_text"></textarea>
+		<textarea rows="10" cols="60" placeholder="Text goes here" id="audience_text" class="user_input"></textarea>
+		<a href="#behavior"><button type="button">Next>></button></a>
 	</section>
 	<section class ="content" id="behavior">
 		<h1>Behavior</h1>
@@ -24,21 +23,25 @@
 		<h2>Select a Level</h2>
 		<select id="level"></select>
 		<h2>Select a Verb</h2>
-		<select id="verb"></select>
+		<select id="verb" class="user_input"></select>
+		<a href="#condition"><button type="button">Next>></button></a>
 	</section>
-	<section class ="content">
+	<section class ="content" id="condition">
 		<h1>Condition</h1>
 		<p>Please state specifically as possible what will be provided.<br/>This allows the learner to know what exactly will be provided.</p>
-		<textarea rows="10" cols="60" placeholder="Text goes here" id="condition_text"></textarea>
+		<textarea rows="10" cols="60" placeholder="Text goes here" id="condition_text" class="user_input"></textarea>
+		<a href="#degree"><button type="button">Next>></button></a>
 	</section>
-	<section class ="content">
+	<section class ="content" id="degree">
 		<h1>Degree</h1>
 		<p>State the level of accuracy that you deem "acceptable"</p>
-		<textarea rows="10" cols="60" placeholder="Text goes here" id="degree_text"></textarea>
+		<textarea rows="10" cols="60" placeholder="Text goes here" id="degree_text" class="user_input"></textarea>
+		<a href="#finish"><button type="button">Next>></button></a>
 	</section>
-	<section class ="content">
+	<section class ="content" id="finish">
 		<h1>Finished Product</h1>
 		<textarea rows="10" cols="60" placeholder="Text goes here" id="finished_text"></textarea>
+		<a href="#begin"><button>Start Over</button></a>
 	</section>
 </body>
 <script type="text/javascript" src="logic.js"></script>
