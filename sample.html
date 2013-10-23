@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href='http://fonts.googleapis.com/css?family=Advent+Pro|Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<title>Objective Builder Sample</title>
 	<script src="jquery-1.10.2.min.js"></script>
+	<script src="jquery.slides.min.js"></script>
+	<style>
+		#slides{
+			display: none;
+		}
+	</style>
 </head>
 <body>
-	<section class ="content" id="begin">
-		<h1>Welcome to the University of Central Florida's Objective Builder</h1>
-		<a href="#audience"><button>Next>></button></a>
-	</section>
+	<div>
+		<section class ="content" id="begin">
+			<h1>Objective Builder</h1>
+			<span class="blocks" id="red_block"></span>
+			<span class="blocks" id="orange_block"></span>
+			<span class="blocks" id="green_block"></span>
+			<span class="blocks" id="blue_block"></span>
+			<span class="blocks" id="purple_block"></span>
+			<a href="#audience"><button>Next>></button></a>
+		</section>
 	<section class ="content" id="audience">
 		<h1>Audience</h1>
 		<p>Who are your learners?</p>
