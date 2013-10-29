@@ -1,12 +1,8 @@
 .content
 {
 	padding-top: 200px;
-	padding-bottom: 200px;
-	border-style: solid;
-	border-color: black;
-	border-width: 10px;
+	padding-bottom: 600px;
 	text-align: center;
-	list-style-type: none;
 }
 #begin
 {
@@ -55,6 +51,11 @@ p
 	font-size: 24px;
 	color: white;
 	margin-top: -50px;
+	text-align: center;
+}
+#splash_text
+{
+	font-size: 20px;
 }
 .blocks
 {
@@ -62,7 +63,7 @@ p
 	height: 10px;
 	margin-left: -10px;
 	margin-right: -10px;
-	padding-top: -50px;
+	margin-top: -50px;
 	display: inline-block;
 }
 #red_block
@@ -90,7 +91,28 @@ p
 	border-color: rgba(142,68,173,1);
 	background-color: rgba(142,68,173,1);
 }
+#domain_div
+{
+	margin-left: -800px;
+	display: inline-block;
 
+}
+#level_div
+{
+	display: inline-block;
+	margin-top: -100px;
+}
+#verb_div
+{
+	margin-left: 800px;
+	display: inline-block;
+
+}
+.line
+{
+	border-color: white;
+	border-width: 2px;
+}
 select
 {
 	width: 150px;
