@@ -12,6 +12,11 @@
 {
 	background-color: rgba(192,57,43,1);
 }
+#audience_example
+{
+	border-color: white;
+	border-width: 20px;
+}
 #behavior
 {
 	background-color: rgba(243,156,18,1);
@@ -48,10 +53,13 @@ h2
 p
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
+	font-size: 22px;
 	color: white;
-	margin-top: -50px;
 	text-align: center;
+}
+#splash_title
+{
+	margin-bottom: -50px;
 }
 #splash_text
 {
@@ -61,34 +69,28 @@ p
 {
 	width: 150px;
 	height: 10px;
-	margin-left: -10px;
 	margin-right: -10px;
 	margin-top: -50px;
 	display: inline-block;
 }
 #red_block
 {
-	border-color: rgba(192,57,43,1);
 	background-color: rgba(192,57,43,1);
 }
 #orange_block
 {
-	border-color: rgba(243,156,18,1);
 	background-color: rgba(243,156,18,1);
 }
 #green_block
 {
-	border-color: rgba(39,174,96,1);
 	background-color: rgba(39,174,96,1);
 }
 #blue_block
 {
-	border-color: rgba(41,128,185,1);
 	background-color: rgba(41,128,185,1);
 }
 #purple_block
 {
-	border-color: rgba(142,68,173,1);
 	background-color: rgba(142,68,173,1);
 }
 #domain_div
