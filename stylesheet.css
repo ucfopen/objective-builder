@@ -59,7 +59,7 @@ p
 }
 #splash_title
 {
-	margin-bottom: -50px;
+	margin-bottom: -5px;
 }
 #splash_text
 {
@@ -70,7 +70,7 @@ p
 	width: 150px;
 	height: 10px;
 	margin-right: -10px;
-	margin-top: -50px;
+	margin-top: -5px;
 	display: inline-block;
 }
 #red_block
