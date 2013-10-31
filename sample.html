@@ -13,6 +13,11 @@
 	</style>
 </head>
 <body>
+
+	<div id="status-bar">
+		<section id="bar"></section>
+	</div>
+
 	<div id="slides">
 		<section class ="content" id="begin">
 			<h1 id="splash_title">Objective Builder</h1>
@@ -22,7 +27,9 @@
 				<span class="blocks" id="blue_block"></span>
 				<span class="blocks" id="purple_block"></span>
 				<p id="splash_text">Welcome to Objective Builder created by the University of Central Florida Center for Distibuted Learning.</br>Objective Builder provides a simple step-by-step process using the ABCD method for writing measurable learning objectives</p>
+				<span class="next_button">
 				<a href="#audience"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
+				</span>
 		</section>
 
 		<section class ="content" id="audience">
@@ -31,10 +38,13 @@
 			<section id="auidence_example" class="example_text">
 				<p>Typically, the generic word student is used however be specific if writing your objective for a narrow population.</p>
 			</section>
+			<span class="prev_button">
+				<a href="#audience"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation"></a>
+			</span>
 
-			<a href="#audience"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation"></a>
-			<a href="#behavior"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></button></a>
-
+			<span class="next_button">
+				<a href="#behavior"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></button></a>
+			</span>
 		</section>
 
 		<section class ="content" id="behavior">
@@ -55,8 +65,13 @@
 			</div>
 			<div class="line"></div>
 
-			<a href="#behavior"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation"></a>
-			<a href="#condition"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
+			<span class="prev_button">
+				<a href="#behavior"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation"></a>
+			</span>
+
+			<span class="next_button">
+				<a href="#condition"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
+			</span>
 		</section>
 
 		<section class ="content" id="condition">
@@ -64,8 +79,13 @@
 			<p>Please state specifically as possible what will be provided.<br/>This allows the learner to know what exactly will be provided.</p>
 			<textarea rows="10" cols="60" placeholder="Text goes here" id="condition_text" class="user_input"></textarea>
 
-			<a href="#condition"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation"></a>
+			<span class="prev_button">
+			<a href="#condition"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation" ></a>
+			</span>
+
+			<span class="next_button">
 			<a href="#degree"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
+			</span>
 		</section>
 
 		<section class ="content" id="degree">
@@ -73,18 +93,26 @@
 			<p>State the level of accuracy that you deem "acceptable"</p>
 			<textarea rows="10" cols="60" placeholder="Text goes here" id="degree_text" class="user_input"></textarea>
 
-			<a href="#degree"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation"></a>
+			<span class="prev_button">
+				<a href="#degree"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation"></a>
+			</span>
+
+			<span class="next_button">
 			<a href="#finish"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
+			</span>
 		</section>
 
 		<section class ="content" id="finish">
 			<h1>Finished Product</h1>
 			<p>Congratulations on completing your learning objective!</p>
 			<textarea rows="10" cols="60" placeholder="Text goes here" id="finished_text"></textarea>
-			<a href="#begin"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
-		</section>
 
+			<span class="next_button">
+				<a href="#begin"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
+			</span>
+		</section>
 	</div>
+
 </body>
 <script type="text/javascript" src="logic.js"></script>
 <script type="text/javascript" src="slider.js"></script>
