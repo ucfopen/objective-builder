@@ -139,3 +139,9 @@ textarea
 	margin-left: 380px;
 	display: block;
 }
+#bottom_bar
+{
+	background-color: rgba(105,115,117,1);
+	height: 70px;
+	width: 1280px;
+}
