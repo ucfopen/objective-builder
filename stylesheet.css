@@ -1,9 +1,9 @@
-.content
+#slides
 {
-	padding-top: 200px;
-	padding-bottom: 600px;
-	text-align: center;
+	height: 600px;
+	width: 800px;
 }
+
 #begin
 {
 	background-color: rgba(105,115,117,1);
