@@ -47,6 +47,7 @@ h1
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
 	color: white;
+	margin-top: 80px;
 }
 h2
 {
@@ -100,19 +101,19 @@ p
 }
 #domain_div
 {
-	margin-left: 100px;
+	margin-right: 60%;
 	display: inline-block;
 
 }
 #level_div
 {
-	display: inline-block;
-	margin-top: -100px;
+	margin-top: -10%;
+
 }
 #verb_div
 {
-	margin-left: 100px;
-	display: inline-block;
+	margin-left: 60%;
+	margin-top: -10%;
 }
 .line
 {
@@ -148,10 +149,10 @@ textarea
 #bottom_bar div
 {
 	display: inline-block;
-	width: 100px;	
+	width: 14%;	
 	height: 25px;
 	text-align: center;
-	border: 1px solid black;
+	border: 2px solid white;
 	padding: 5px;
 }
 
@@ -159,3 +160,40 @@ textarea
 {
 	display: none;
 } 
+#bar_home
+{
+	margin-left: 5px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(105,115,117,1);
+	color: white;
+}
+#bar_condition
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(39,174,96,1);
+	color: white;
+}
+#bar_audience
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(192,57,43,1);
+	color: white;
+}
+#bar_behavior
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(243,156,18,1);
+	color: white;
+}
+#bar_degree
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(41,128,185,1);
+	color: white;
+}
+#bar_finish
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(142,68,173,1);
+	color: white;
+}
