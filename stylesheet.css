@@ -1,4 +1,14 @@
-#slides
+body
+{
+	margin: 0px;
+	height: 600px;
+	width: 800px;
+}
+img
+{
+	height: 75px;
+}
+#master
 {
 	width: 800px;
 	height: 600px;
@@ -127,10 +137,15 @@ select
 .next_button
 {
 	display: inline-block;
+	padding-left: 50%;
+	padding-top: 5%;
+	position: bottom-right;
 }
 .next-button-text
 {
 	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	margin-left: 50px;
 }
 .prev_button
 {
@@ -162,40 +177,39 @@ textarea
 {
 	display: none;
 } 
-#bar_home
-{
-	margin-left: 5px;
-	font-family: 'Open Sans', sans-serif;
-	background-color: rgba(105,115,117,1);
-	color: white;
-}
+
 #bar_condition
 {
 	font-family: 'Open Sans', sans-serif;
 	background-color: rgba(39,174,96,1);
+	border-radius: 3px;
 	color: white;
 }
 #bar_audience
 {
 	font-family: 'Open Sans', sans-serif;
 	background-color: rgba(192,57,43,1);
+	border-radius: 3px;
 	color: white;
 }
 #bar_behavior
 {
 	font-family: 'Open Sans', sans-serif;
 	background-color: rgba(243,156,18,1);
+	border-radius: 3px;
 	color: white;
 }
 #bar_degree
 {
 	font-family: 'Open Sans', sans-serif;
 	background-color: rgba(41,128,185,1);
+	border-radius: 3px;
 	color: white;
 }
 #bar_finish
 {
 	font-family: 'Open Sans', sans-serif;
 	background-color: rgba(142,68,173,1);
+	border-radius: 3px;
 	color: white;
 }

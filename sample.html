@@ -13,109 +13,107 @@
 	</style>
 </head>
 <body>
-
-	<div id="slides">
-		<section class ="content" id="begin">
-			<h1 id="splash_title">Objective Builder</h1>
-				<span class="blocks" id="red_block"></span>
-				<span class="blocks" id="orange_block"></span>
-				<span class="blocks" id="green_block"></span>
-				<span class="blocks" id="blue_block"></span>
-				<span class="blocks" id="purple_block"></span>
-				<p id="splash_text">Welcome to Objective Builder created by the University of Central Florida Center for Distibuted Learning.</br>Objective Builder provides a simple step-by-step process using the ABCD method for writing measurable learning objectives</p>
-				<span class="next-button-text"><p>Next</p></span>
-				<span class="next_button">
-				<a href="#audience"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
+	<div id="master">
+		<div id="slides">
+			<section class ="content" id="begin">
+				<h1 id="splash_title">Objective Builder</h1>
+					<span class="blocks" id="red_block"></span>
+					<span class="blocks" id="orange_block"></span>
+					<span class="blocks" id="green_block"></span>
+					<span class="blocks" id="blue_block"></span>
+					<span class="blocks" id="purple_block"></span>
+					<p id="splash_text">Welcome to Objective Builder created by the University of Central Florida Center for Distibuted Learning.</br>Objective Builder provides a simple step-by-step process using the ABCD method for writing measurable learning objectives</p>
+					<span class="next-button-text"><p>Next</p></span>
+					<span class="next_button">
+					<a href="#audience"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
 				</span>
-		</section>
-
-		<section class ="content" id="audience">
-			<h1>Audience</h1>
-			<p>Typically, the generic word student is used however be specific if writing your objective for a narrow population.</p>
-			<textarea rows="10" cols="60" placeholder="Text goes here" id="audience_text" class="user_input"></textarea>
-			<section id="auidence_example" class="example_text">
 			</section>
-			<span class="prev_button">
-				<a href="#audience"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation"></a>
-			</span>
 
-			<span class="next_button">
-				<a href="#behavior"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></button></a>
-			</span>
-		</section>
+			<section class ="content" id="audience">
+				<h1>Audience</h1>
+				<p>Typically, the generic word student is used however be specific if writing your objective for a narrow population.</p>
+				<textarea rows="10" cols="60" placeholder="Text goes here" id="audience_text" class="user_input"></textarea>
+				<section id="auidence_example" class="example_text">
+				</section>
+				<span class="prev_button">
+					<a href="#audience"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+				</span>
 
-		<section class ="content" id="behavior">
-			<h1>Behavior</h1>
-			<div id="domain_div">
-				<h2>Select a Domain</h2>
+				<span class="next_button">
+					<a href="#behavior"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></button></a>
+				</span>
+			</section>
+
+			<section class ="content" id="behavior">
+				<h1>Behavior</h1>
+				<div id="domain_div">
+					<h2>Select a Domain</h2>
 				<select id="domain"></select>
-			</div>
-			<div id="level_div">
-				<h2>Select a Level</h2>
-				<select id="level"></select>
-			</div>
-			<div id="verb_div">
-				<h2>Select a Verb</h2>
-				<select id="verb" class="user_input"></select>
-			</div>
-			<span class="prev_button" id="behavior_prev">
-				<a href="#behavior"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation"></a>
-			</span>
+				</div>
+				<div id="level_div">
+					<h2>Select a Level</h2>
+					<select id="level"></select>
+				</div>
+				<div id="verb_div">
+					<h2>Select a Verb</h2>
+					<select id="verb" class="user_input"></select>
+				</div>
+				<span class="prev_button" id="behavior_prev">
+					<a href="#behavior"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+				</span>
 			
-			<span class="next_button" id="behavior_next">
-				<a href="#condition"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
-			</span>
-		</section>
+				<span class="next_button" id="behavior_next">
+					<a href="#condition"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+				</span>
+			</section>
 
-		<section class ="content" id="condition">
-			<h1>Condition</h1>
-			<p>Please state specifically as possible what will be provided.<br/>This allows the learner to know what exactly will be provided.</p>
-			<textarea rows="10" cols="60" placeholder="Text goes here" id="condition_text" class="user_input"></textarea>
+			<section class ="content" id="condition">
+				<h1>Condition</h1>
+				<p>Please state specifically as possible what will be provided.<br/>This allows the learner to know what exactly will be provided.</p>
+				<textarea rows="10" cols="60" placeholder="Text goes here" id="condition_text" class="user_input"></textarea>
 
-			<span class="prev_button">
-			<a href="#condition"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation" ></a>
-			</span>
+				<span class="prev_button">
+				<a href="#condition"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation" ></a>
+				</span>
 
-			<span class="next_button">
-			<a href="#degree"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
-			</span>
-		</section>
+				<span class="next_button">
+				<a href="#degree"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+				</span>
+			</section>
 
-		<section class ="content" id="degree">
-			<h1>Degree</h1>
-			<p>State the level of accuracy that you deem "acceptable"</p>
-			<textarea rows="10" cols="60" placeholder="Text goes here" id="degree_text" class="user_input"></textarea>
+			<section class ="content" id="degree">
+				<h1>Degree</h1>
+				<p>State the level of accuracy that you deem "acceptable"</p>
+				<textarea rows="10" cols="60" placeholder="Text goes here" id="degree_text" class="user_input"></textarea>
 
-			<span class="prev_button">
-				<a href="#degree"><img src="previous.png" alt="previous" height="150" width="225" class="slidesjs-previous slidesjs-navigation"></a>
-			</span>
+				<span class="prev_button">
+					<a href="#degree"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+				</span>
 
-			<span class="next_button">
-			<a href="#finish"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
-			</span>
-		</section>
+				<span class="next_button">
+				<a href="#finish"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+				</span>
+			</section>
 
-		<section class ="content" id="finish">
-			<h1>Finished Product</h1>
-			<p>Congratulations on completing your learning objective!</p>
-			<textarea rows="10" cols="60" placeholder="Text goes here" id="finished_text"></textarea>
+			<section class ="content" id="finish">
+				<h1>Finished Product</h1>
+				<p>Congratulations on completing your learning objective!</p>
+				<textarea rows="10" cols="60" placeholder="Text goes here" id="finished_text"></textarea>
 
-			<span class="next_button">
-				<a href="#begin"><img src="arrow.png" alt="next" height="150" width="225" class="slidesjs-next slidesjs-navigation"></a>
-			</span>
-		</section>
-	</div>
+				<span class="next_button">
+					<a href="#begin"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+				</span>
+			</section>
+		</div>
 	
-	<div id="bottom_bar">
-		<div slideid="0" id="bar_home">Home</div>
-		<div slideid="3" id="bar_condition">[Condition]</div>
-		<div slideid="1" id="bar_audience">[Audience]</div>
-		<div slideid="2" id="bar_behavior">[Behavior]</div>
-		<div slideid="4" id="bar_degree">[Degree]</div>
-		<div slideid="5" id="bar_finish">Finish</div>
+		<div id="bottom_bar">
+			<div slideid="2" id="bar_condition">Condition</div>
+			<div slideid="0" id="bar_audience">Audience</div>
+			<div slideid="1" id="bar_behavior">Behavior</div>
+			<div slideid="3" id="bar_degree">Degree</div>
+			<div slideid="4" id="bar_finish">Finish</div>
+		</div>
 	</div>
-	
-
 </body>
 <script type="text/javascript" src="logic.js"></script>
 <script type="text/javascript" src="slider.js"></script>
