@@ -126,12 +126,14 @@ select
 }
 .next_button
 {
-	margin-left: 55%;
 	display: inline-block;
+}
+.next-button-text
+{
+	font-family: 'Open Sans', sans-serif;
 }
 .prev_button
 {
-	margin-left: 55%x;
 	display: inline-block;
 }
 textarea
@@ -152,8 +154,8 @@ textarea
 	width: 14%;	
 	height: 25px;
 	text-align: center;
-	border: 2px solid white;
 	padding: 5px;
+	margin-top: 5px;
 }
 
 .slidesjs-pagination
