@@ -15,7 +15,7 @@ img
 }
 .content
 {
-	padding-bottom: 600px;
+	height: 550px;
 	text-align: center;
 }
 #begin
@@ -113,7 +113,6 @@ p
 {
 	margin-right: 60%;
 	display: inline-block;
-
 }
 #level_div
 {
@@ -136,20 +135,17 @@ select
 }
 .next_button
 {
-	display: inline-block;
-	padding-left: 50%;
-	padding-top: 5%;
-	position: bottom-right;
-}
-.next-button-text
-{
-	font-family: 'Open Sans', sans-serif;
-	display: inline-block;
-	margin-left: 50px;
+	display: block;
+	position: absolute;
+	bottom:5%;
+	right: 5%;
 }
 .prev_button
 {
-	display: inline-block;
+	position: absolute;
+	display: block;
+	bottom:5%;
+	left: 5%;
 }
 textarea
 {
@@ -162,7 +158,6 @@ textarea
 	height: 50px;
 	width: 800px;
 }
-
 #bottom_bar div
 {
 	display: inline-block;
@@ -171,12 +166,10 @@ textarea
 	text-align: center;
 	padding: 5px;
 }
-
 .slidesjs-pagination
 {
 	display: none;
 } 
-
 #bar_condition
 {
 	font-family: 'Open Sans', sans-serif;
