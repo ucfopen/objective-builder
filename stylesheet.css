@@ -109,20 +109,38 @@ p
 {
 	background-color: rgba(142,68,173,1);
 }
+#master_behavior
+{
+	width: 550px;
+	height: 250px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
 #domain_div
 {
-	margin-right: 60%;
-	display: inline-block;
+	width: 150px;
+	height: 250px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
 }
 #level_div
 {
-	margin-top: -10%;
-
+	width: 150px;
+	height: 250px;
+	position: absolute;
+	left: 200px;
+	top: 0px;
 }
 #verb_div
 {
-	margin-left: 60%;
-	margin-top: -10%;
+	width: 150px;
+	height: 250px;
+	position: absolute;
+	left: 400px;
+	top: 0px;
 }
 .line
 {
