@@ -170,7 +170,6 @@ textarea
 	height: 25px;
 	text-align: center;
 	padding: 5px;
-	margin-top: 5px;
 }
 
 .slidesjs-pagination
@@ -191,6 +190,7 @@ textarea
 	background-color: rgba(192,57,43,1);
 	border-radius: 3px;
 	color: white;
+	margin-left: 50px;
 }
 #bar_behavior
 {
@@ -206,9 +206,9 @@ textarea
 	border-radius: 3px;
 	color: white;
 }
-#bar_finish
+#bar_finish img
 {
-	font-family: 'Open Sans', sans-serif;
-	border-radius: 3px;
-	color: white;
+	height: 40px;
+	width: 40px;
+	position: absolute;
 }
