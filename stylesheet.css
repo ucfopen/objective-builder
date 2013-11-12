@@ -190,7 +190,7 @@ textarea
 	background-color: rgba(192,57,43,1);
 	border-radius: 3px;
 	color: white;
-	margin-left: 50px;
+	margin-left: 110px;
 }
 #bar_behavior
 {
@@ -205,6 +205,11 @@ textarea
 	background-color: rgba(41,128,185,1);
 	border-radius: 3px;
 	color: white;
+}
+#bottom_bar div#bar_finish 
+{
+	height: 25px;
+	width: 25px;
 }
 #bar_finish img
 {
