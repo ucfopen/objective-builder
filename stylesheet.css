@@ -15,7 +15,7 @@ img
 }
 .content
 {
-	height: 550px;
+	height: 500px;
 	text-align: center;
 }
 #begin
@@ -173,21 +173,84 @@ textarea
 #bottom_bar
 {
 	background-color: rgba(189,195,199,1);
+	height: 100px;
+	width: 800px;
+	position: relative;
+}
+#objective
+{
+	margin: 0;
+	padding: 0;
 	height: 50px;
 	width: 800px;
 }
-#bottom_bar div
+#bottom_bar_buttons {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 800px;
+}
+#bottom_bar_buttons div
 {
 	display: inline-block;
 	width: 14%;	
 	height: 25px;
 	text-align: center;
 	padding: 5px;
+	cursor: pointer;
 }
 .slidesjs-pagination
 {
 	display: none;
 } 
+#objective_condition
+{
+	color: rgba(39,174,96,1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+	#objective_condition:hover
+	{
+		color: white;
+		background-color: rgba(39,174,96,1);
+		text-decoration: none;
+	}
+#objective_audience
+{
+	color: rgba(192,57,43,1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+	#objective_audience:hover
+	{
+		color: white;
+		background-color: rgba(192,57,43,1);
+		text-decoration: none;
+	}
+#objective_behavior
+{
+	color: rgba(243,156,18,1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+	#objective_behavior:hover
+	{
+		color: white;
+		background-color: rgba(243,156,18,1);
+		text-decoration: none;
+	}
+#objective_degree
+{
+	color: rgba(41,128,185,1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+	#objective_degree:hover
+	{
+		color: white;
+		background-color: rgba(41,128,185,1);
+		text-decoration: none;
+	}
 #bar_condition
 {
 	font-family: 'Open Sans', sans-serif;
@@ -217,14 +280,15 @@ textarea
 	border-radius: 3px;
 	color: white;
 }
-#bottom_bar div#bar_finish 
+#bottom_bar_buttons div#bar_finish 
 {
-	height: 25px;
-	width: 25px;
+	height: 35px;
+	width: 35px;
+	margin: 0;
+	padding: 0;
 }
 #bar_finish img
 {
-	height: 40px;
-	width: 40px;
-	position: absolute;
+	height: 35px;
+	width: 35px;
 }
