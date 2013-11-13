@@ -261,6 +261,7 @@ textarea
 #bar_audience
 {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	background-color: rgba(192,57,43,1);
 	border-radius: 3px;
 	color: white;
@@ -269,6 +270,7 @@ textarea
 #bar_behavior
 {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	background-color: rgba(243,156,18,1);
 	border-radius: 3px;
 	color: white;
@@ -276,6 +278,7 @@ textarea
 #bar_degree
 {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	background-color: rgba(41,128,185,1);
 	border-radius: 3px;
 	color: white;
