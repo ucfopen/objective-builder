@@ -162,8 +162,22 @@ select
 }
 textarea
 {
-	margin-left: 150px;
+	position: absolute;
+	bottom: 50%;
+	right: 10%;
 	display: block;
+}
+.page_title
+{
+
+}
+.page_info
+{
+	position: absolute;
+	
+	display: block;
+	height: 50px;
+	width: 250px;
 }
 #bottom_bar
 {
