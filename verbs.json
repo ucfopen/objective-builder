@@ -1,275 +1,347 @@
 {
   "Cognitive": {
-    "Remember": [
-      "define",
-      "identify",
-      "list",
-      "name",
-      "recall",
-      "recognize",
-      "record",
-      "relate",
-      "repeat",
-      "underline"
-    ],
-    "Understand": [
-      "choose",
-      "cite examples of",
-      "demonstrate use of",
-      "describe",
-      "determine",
-      "differentiate between",
-      "discriminate",
-      "discuss",
-      "explain",
-      "express",
-      "give in own words",
-      "identify",
-      "interpret",
-      "locate",
-      "pick",
-      "report",
-      "restate",
-      "review",
-      "recognize",
-      "select",
-      "tell",
-      "translate",
-      "respond",
-      "practice",
-      "simulates"
-    ],
-    "Apply": [
-      "apply",
-      "demonstrate",
-      "dramatize",
-      "employ",
-      "generalize",
-      "illustrate",
-      "interpret",
-      "operate",
-      "operationalize",
-      "practice",
-      "relate",
-      "schedule",
-      "shop",
-      "use",
-      "utilize",
-      "initiate"
-    ],
-    "Analyze": [
-      "analyze",
-      "appraise",
-      "calculate",
-      "categorize",
-      "compare",
-      "conclude",
-      "contrast",
-      "correlate",
-      "criticize",
-      "deduce",
-      "debate",
-      "detect",
-      "determine",
-      "develop",
-      "diagram",
-      "diagnose",
-      "differentiate",
-      "distinguish",
-      "draw conclusions",
-      "estimate",
-      "evaluate",
-      "examine",
-      "experiment",
-      "identify",
-      "infer",
-      "inspect",
-      "inventory",
-      "predict",
-      "question",
-      "relate",
-      "solve",
-      "test"
-    ],
-    "Evaluate": [
-      "appraise",
-      "assess",
-      "choose",
-      "compare",
-      "critique",
-      "estimate",
-      "evaluate",
-      "judge",
-      "measure",
-      "rate",
-      "revise",
-      "score",
-      "select",
-      "validate",
-      "value",
-      "test"
-    ],
-    "Create": [
-      "arrange",
-      "assemble",
-      "collect",
-      "compose",
-      "construct",
-      "create",
-      "design",
-      "develop",
-      "formulate",
-      "manage",
-      "modify",
-      "organize",
-      "plan",
-      "prepare",
-      "produce",
-      "propose",
-      "predict",
-      "reconstruct",
-      "set-up",
-      "synthesize",
-      "systematize devise"
-    ]
+    "Remember": {
+      "definition": "Ability to recall previously learned material.",
+      "example": "name the capital of Florida",
+      "verbs": [
+        "define",
+        "identify",
+        "list",
+        "name",
+        "recall",
+        "recognize",
+        "record",
+        "relate",
+        "repeat",
+        "underline"
+      ]
+    },
+    "Understand": {
+      "definition": "Ability to grasp meaning, explain, restate ideas.",
+      "example": "paraphrase a passage", 
+      "verbs": [
+        "choose",
+        "cite examples of",
+        "demonstrate use of",
+        "describe",
+        "determine",
+        "differentiate between",
+        "discriminate",
+        "discuss",
+        "explain",
+        "express",
+        "give in own words",
+        "identify",
+        "interpret",
+        "locate",
+        "pick",
+        "report",
+        "restate",
+        "review",
+        "recognize",
+        "select",
+        "tell",
+        "translate",
+        "respond",
+        "practice",
+        "simulates"
+      ]
+    },
+    "Apply": {
+      "definition": "Ability to use learned material in new situations.",
+      "example": "solve a problem",
+      "verbs": [
+        "apply",
+        "demonstrate",
+        "dramatize",
+        "employ",
+        "generalize",
+        "illustrate",
+        "interpret",
+        "operate",
+        "operationalize",
+        "practice",
+        "relate",
+        "schedule",
+        "shop",
+        "use",
+        "utilize",
+        "initiate"
+      ]
+    },
+    "Analyze": {
+      "definition": "Ability to separate material into component parts and show relationships between parts.",
+      "example": "troubleshoot a computer",
+      "verbs": [
+        "analyze",
+        "appraise",
+        "calculate",
+        "categorize",
+        "compare",
+        "conclude",
+        "contrast",
+        "correlate",
+        "criticize",
+        "deduce",
+        "debate",
+        "detect",
+        "determine",
+        "develop",
+        "diagram",
+        "diagnose",
+        "differentiate",
+        "distinguish",
+        "draw conclusions",
+        "estimate",
+        "evaluate",
+        "examine",
+        "experiment",
+        "identify",
+        "infer",
+        "inspect",
+        "inventory",
+        "predict",
+        "question",
+        "relate",
+        "solve",
+        "test"
+      ]
+    },
+    "Evaluate": {
+      "definition": "Ability to judge the worth of material against stated criteria.",
+      "example": "justify a budget",
+      "verbs": [
+        "appraise",
+        "assess",
+        "choose",
+        "compare",
+        "critique",
+        "estimate",
+        "evaluate",
+        "judge",
+        "measure",
+        "rate",
+        "revise",
+        "score",
+        "select",
+        "validate",
+        "value",
+        "test"
+      ]
+    },
+    "Create": {
+      "definition": "Ability to put together the separate ideas to form new whole, establish new relationships.",
+      "example": "create a presentation",
+      "verbs": [
+        "arrange",
+        "assemble",
+        "collect",
+        "compose",
+        "construct",
+        "create",
+        "design",
+        "develop",
+        "formulate",
+        "manage",
+        "modify",
+        "organize",
+        "plan",
+        "prepare",
+        "produce",
+        "propose",
+        "predict",
+        "reconstruct",
+        "set-up",
+        "synthesize",
+        "systematize devise"
+      ]
+    }
   },
 
-  "Affective" : {
-    "Receiving" : [
-      "accept",
-      "attend",
-      "develop",
-      "recognize"
-    ],
-    "Responding" : [
-      "complete",
-      "comply",
-      "cooperate",
-      "discuss",
-      "examine",
-      "obey",
-      "respond"
-    ],
-    "Valuing" : [
-      "accept",
-      "defend",
-      "devote",
-      "pursue",
-      "seek"
-    ],
-    "Organization" : [
-      "codify",
-      "discriminate",
-      "display",
-      "order",
-      "organize",
-      "systematize",
-      "weigh"
-    ],
-    "Characterization by Value" : [
-      "internalize",
-      "verify"
-    ]
+  "Affective": {
+    "Receiving": {
+      "definition": "Being aware of or attending to something in the environment.",
+      "example": "recognize importance of rights",
+      "verbs": [
+        "accept",
+        "attend",
+        "develop",
+        "recognize"
+      ]
+    },
+    "Responding": {
+      "definition": "Showing some new behaviors as a result of experience.",
+      "example": "examine a series of books",
+      "verbs": [
+        "complete",
+        "comply",
+        "cooperate",
+        "discuss",
+        "examine",
+        "obey",
+        "respond"
+      ]
+    },
+    "Valuing": {
+      "definition": "Showing some definite involvement or commitment.",
+      "example": "pursue a lecture",
+      "verbs": [
+        "accept",
+        "defend",
+        "devote",
+        "pursue",
+        "seek"
+      ]
+    },
+    "Organization": {
+      "definition": "Integrating a new value into one's general set of values, giving it some ranking among one's general priorities.",
+      "example": "organize a rally",
+      "verbs": [
+        "codify",
+        "discriminate",
+        "display",
+        "order",
+        "organize",
+        "systematize",
+        "weigh"
+      ]
+    },
+    "Characterization by Value": {
+      "definition": "Acting consistently with the new value.",
+      "example": "internalize a value",
+      "verbs": [
+        "internalize",
+        "verify"
+      ]
+    }
   },
 
   "Psychomotor": { 
-    "Perception" : [
-      "choose",
-      "describe",
-      "detect",
-      "differentiate",
-      "distinguish",
-      "identify",
-      "isolate",
-      "relate",
-      "select",
-      "separate"
-    ],
-    "Set":[
-      "begin",
-      "display",
-      "explain",
-      "move",
-      "proceed",
-      "react",
-      "respond",
-      "start",
-      "volunteer"
-    ],
-    "Guided Response":[
-      "assemble",
-      "build",
-      "calibrate",
-      "construct",
-      "dismantle",
-      "display",
-      "dissect",
-      "fasten",
-      "fix",
-      "grind",
-      "heat",
-      "manipulate",
-      "measure",
-      "mend",
-      "mix",
-      "organize",
-      "sketch"
-    ],
-    "Mechanism":[
-      "assemble",
-      "build",
-      "calibrate",
-      "construct",
-      "dismantle",
-      "display",
-      "dissect",
-      "fasten",
-      "fix",
-      "grind",
-      "heat",
-      "manipulate",
-      "measure",
-      "mend",
-      "mix",
-      "organize",
-      "sketch"
-    ],
-    "Complex Response":[
-      "assemble",
-      "build",
-      "calibrate",
-      "construct",
-      "dismantle",
-      "display",
-      "dissect",
-      "fasten",
-      "fix",
-      "grind",
-      "heat",
-      "manipulate",
-      "measure",
-      "mend",
-      "mix",
-      "organize",
-      "sketch"
-    ],
-    "Adaptation":[
-      "adapt",
-      "alter",
-      "change",
-      "rearrange",
-      "reorganize",
-      "revises",
-      "vary"
-    ],
-    "Origination":[
-      "arrange",
-      "combine",
-      "compose",
-      "construct",
-      "creates",
-      "design",
-      "originate"
-    ]
+    "Perception": {
+      "definition": "Use sensory cues to guide motor activity.",
+      "example": "recognize a sound",
+      "verbs": [
+        "choose",
+        "describe",
+        "detect",
+        "differentiate",
+        "distinguish",
+        "identify",
+        "isolate",
+        "relate",
+        "select",
+        "separate"
+      ]
+    },
+    "Set": {
+      "definition": "Readiness to act. Referred to as \"mindsets\".",
+      "example": "acts upon a sequence",
+      "verbs": [
+        "begin",
+        "display",
+        "explain",
+        "move",
+        "proceed",
+        "react",
+        "respond",
+        "start",
+        "volunteer"
+      ]
+    },
+    "Guided Response": {
+      "definition": "Early stage of learning a complex task.",
+      "example": "parks a car in an open space",
+      "verbs": [
+        "assemble",
+        "build",
+        "calibrate",
+        "construct",
+        "dismantle",
+        "display",
+        "dissect",
+        "fasten",
+        "fix",
+        "grind",
+        "heat",
+        "manipulate",
+        "measure",
+        "mend",
+        "mix",
+        "organize",
+        "sketch"
+      ]
+    },
+    "Mechanism": {
+      "definition": "Intermediate stage in learning a complex task.",
+      "example": "parks a car in normal parking spot",
+      "verbs": [
+        "assemble",
+        "build",
+        "calibrate",
+        "construct",
+        "dismantle",
+        "display",
+        "dissect",
+        "fasten",
+        "fix",
+        "grind",
+        "heat",
+        "manipulate",
+        "measure",
+        "mend",
+        "mix",
+        "organize",
+        "sketch"
+      ]
+    },
+    "Complex Response": {
+      "definition": "The skillful performance of motor acts that involve complex movement patterns.",
+      "example": "maneuver a car into a tight parallel parking spot",
+      "verbs": [
+        "assemble",
+        "build",
+        "calibrate",
+        "construct",
+        "dismantle",
+        "display",
+        "dissect",
+        "fasten",
+        "fix",
+        "grind",
+        "heat",
+        "manipulate",
+        "measure",
+        "mend",
+        "mix",
+        "organize",
+        "sketch"
+      ]
+    },
+    "Adaptation": {
+      "definition": "The individual can modify a movement patterns to fit special requirements.",
+      "example": "perform an unique task",
+      "verbs": [
+        "adapt",
+        "alter",
+        "change",
+        "rearrange",
+        "reorganize",
+        "revises",
+        "vary"
+      ]
+    },
+    "Origination": {
+      "definition": "Creating new movement patterns to fit a particular situation or specific problem.",
+      "example": "create a new gymnastic routine",
+      "verbs": [
+        "arrange",
+        "combine",
+        "compose",
+        "construct",
+        "creates",
+        "design",
+        "originate"
+      ]
+    }
   }
 }
