@@ -114,11 +114,12 @@ p
 }
 #domain_div
 {
-	width: 150px;
+	width: 180px;
 	height: 250px;
 	position: absolute;
 	left: 0px;
 	top: 0px;
+	background-color: rgba(211,84,0,1);
 
 }
 #level_div
@@ -128,6 +129,7 @@ p
 	position: absolute;
 	left: 200px;
 	top: 0px;
+	background-color: rgba(241, 196, 15,1);
 }
 #verb_div
 {
@@ -136,11 +138,7 @@ p
 	position: absolute;
 	left: 400px;
 	top: 0px;
-}
-.line
-{
-	border-color: white;
-	border-width: 2px;
+	background-color: rgba(105,115,117,1);
 }
 select
 {
@@ -303,4 +301,49 @@ textarea
 	height: 17px;
 	display: inline-block;
 	padding: 0px;
+}
+.line
+{
+	background-color: rgba(255,255,255,1);
+}
+#first
+{
+	position: absolute;
+	left: 170px;
+	width: 5px;
+	height: 250px;
+}
+#second
+{
+	position: absolute;
+	left: 370px;
+	width: 5px;
+	height: 250px;
+}
+.edit
+{
+	position: absolute;
+	top: 230px;
+	display: inline-block;
+}
+#add
+{
+	right: 440px;
+	border-radius: 3px;
+	border-color: white;
+	font-size: 18pt;
+}
+#editing
+{
+	left: 490px;
+	border-radius: 3px;
+	border-color: white;
+	font-size: 18pt;
+}
+#delete
+{
+	left: 670px;
+	border-radius: 3px;
+	border-color: white;
+	font-size: 18pt;
 }
