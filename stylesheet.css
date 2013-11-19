@@ -198,7 +198,7 @@ textarea
 }
 #bottom_bar_buttons div
 {
-	display: inline-block;
+	position: absolute;
 	width: 14%;	
 	height: 25px;
 	text-align: center;
@@ -263,6 +263,7 @@ textarea
 	background-color: rgba(39,174,96,1);
 	border-radius: 3px;
 	color: white;
+	left: 390px;
 }
 #bar_audience
 {
@@ -271,7 +272,7 @@ textarea
 	background-color: rgba(192,57,43,1);
 	border-radius: 3px;
 	color: white;
-	margin-left: 110px;
+	left: 130px;
 }
 #bar_behavior
 {
@@ -280,6 +281,7 @@ textarea
 	background-color: rgba(243,156,18,1);
 	border-radius: 3px;
 	color: white;
+	left: 260px;
 }
 #bar_degree
 {
@@ -288,17 +290,17 @@ textarea
 	background-color: rgba(41,128,185,1);
 	border-radius: 3px;
 	color: white;
+	left: 520px;
 }
-#bottom_bar_buttons div#bar_finish 
+#bar_finish 
 {
-	height: 35px;
-	width: 35px;
-	margin: 0;
-	padding: 0;
+	border-radius: 3px;
 	background-color: rgba(142,68,173,1);
+	left: 650px;
 }
 #bar_finish img
 {
-	height: 35px;
-	width: 35px;
+	height: 17px;
+	display: inline-block;
+	padding: 0px;
 }
