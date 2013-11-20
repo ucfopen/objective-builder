@@ -119,8 +119,6 @@ p
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	background-color: rgba(211,84,0,1);
-
 }
 #level_div
 {
@@ -129,7 +127,6 @@ p
 	position: absolute;
 	left: 200px;
 	top: 0px;
-	background-color: rgba(241, 196, 15,1);
 }
 #verb_div
 {
@@ -138,7 +135,6 @@ p
 	position: absolute;
 	left: 400px;
 	top: 0px;
-	background-color: rgba(105,115,117,1);
 }
 select
 {
@@ -176,7 +172,7 @@ textarea
 }
 #bottom_bar
 {
-	background-color: rgba(189,195,199,1);
+	background-color: rgba(64, 66, 68, 1);
 	height: 100px;
 	width: 800px;
 	position: relative;
@@ -304,14 +300,15 @@ textarea
 }
 .line
 {
-	background-color: rgba(255,255,255,1);
+	border-color:rgba(255,255,255,1);
 }
 #first
 {
 	position: absolute;
 	left: 170px;
-	width: 5px;
+	width: 100px;
 	height: 200px;
+	border-width: 5px;
 }
 #second
 {
@@ -350,5 +347,5 @@ textarea
 #tools
 {
 	position: absolute;
-	bottom: 100px;
+	top: 300px;
 }
