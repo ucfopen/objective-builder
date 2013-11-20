@@ -115,7 +115,7 @@ p
 #domain_div
 {
 	width: 180px;
-	height: 250px;
+	height: 200px;
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -125,7 +125,7 @@ p
 #level_div
 {
 	width: 150px;
-	height: 250px;
+	height: 200px;
 	position: absolute;
 	left: 200px;
 	top: 0px;
@@ -134,7 +134,7 @@ p
 #verb_div
 {
 	width: 150px;
-	height: 250px;
+	height: 200px;
 	position: absolute;
 	left: 400px;
 	top: 0px;
@@ -311,14 +311,14 @@ textarea
 	position: absolute;
 	left: 170px;
 	width: 5px;
-	height: 250px;
+	height: 200px;
 }
 #second
 {
 	position: absolute;
 	left: 370px;
 	width: 5px;
-	height: 250px;
+	height: 200px;
 }
 .edit
 {
@@ -346,4 +346,9 @@ textarea
 	border-radius: 3px;
 	border-color: white;
 	font-size: 18pt;
+}
+#tools
+{
+	position: absolute;
+	bottom: 100px;
 }
