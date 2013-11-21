@@ -349,3 +349,14 @@ textarea
 	position: absolute;
 	top: 300px;
 }
+#completed
+{
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	height: 250px;
+	width: 400px;
+	position: absolute;
+	left: 300px;
+	top: 120px;
+}
