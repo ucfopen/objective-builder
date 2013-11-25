@@ -325,21 +325,24 @@ textarea
 }
 #add
 {
-	right: 440px;
+	right: 410px;
+	top: 370px;
 	border-radius: 3px;
 	border-color: white;
 	font-size: 18pt;
 }
 #editing
 {
-	left: 490px;
+	right: 240px;
+	top: 370px;
 	border-radius: 3px;
 	border-color: white;
 	font-size: 18pt;
 }
 #delete
 {
-	left: 670px;
+	right: 65px;
+	top: 370px;
 	border-radius: 3px;
 	border-color: white;
 	font-size: 18pt;
@@ -357,6 +360,12 @@ textarea
 	height: 250px;
 	width: 400px;
 	position: absolute;
-	left: 300px;
+	left: 340px;
 	top: 120px;
+}
+#hide
+{
+	width: 800px;
+	height: 100px;
+	background-color: rgba(105,115,117,1);
 }
