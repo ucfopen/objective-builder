@@ -369,3 +369,12 @@ textarea
 	height: 100px;
 	background-color: rgba(105,115,117,1);
 }
+#tool_title
+{
+	font-size: 20px;
+	margin: 0px;
+}
+#tool_info
+{
+	display: inline-block;
+}
