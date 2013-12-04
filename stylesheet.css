@@ -239,6 +239,18 @@ textarea
 		background-color: rgba(243,156,18,1);
 		text-decoration: none;
 	}
+#objective_tool
+{
+	color: rgba(243,156,18,1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+	#objective_tool:hover
+	{
+		color: white;
+		background-color: rgba(243,156,18,1);
+		text-decoration: none;
+	}
 #objective_degree
 {
 	color: rgba(41,128,185,1);
@@ -362,6 +374,8 @@ textarea
 	position: absolute;
 	left: 340px;
 	top: 120px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
 }
 #hide
 {
