@@ -337,27 +337,39 @@ textarea
 }
 #add
 {
-	right: 410px;
+	right: 355px;
 	top: 370px;
 	border-radius: 3px;
 	border-color: white;
 	font-size: 18pt;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+	width: 100px;
 }
 #editing
 {
-	right: 240px;
+	right: 200px;
 	top: 370px;
 	border-radius: 3px;
 	border-color: white;
 	font-size: 18pt;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+	width: 100px;
 }
 #delete
 {
-	right: 65px;
+	right: 50px;
 	top: 370px;
 	border-radius: 3px;
 	border-color: white;
 	font-size: 18pt;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+	width: 100px;
 }
 #tools
 {
