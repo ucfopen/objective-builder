@@ -310,24 +310,17 @@ textarea
 	display: inline-block;
 	padding: 0px;
 }
-.line
-{
-	border-color:rgba(255,255,255,1);
-}
 #first
 {
-	position: absolute;
-	left: 170px;
-	width: 100px;
-	height: 200px;
+	border-color:rgba(255,255,255,1);
+	border-style: solid;
+	border-radius: 3px;
 	border-width: 5px;
-}
-#second
-{
 	position: absolute;
-	left: 370px;
-	width: 5px;
-	height: 200px;
+	left: 0px;
+	width: 555px;
+	height: 270px;
+	border-width: 5px;
 }
 .edit
 {
