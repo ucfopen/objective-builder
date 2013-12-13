@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,49 +14,150 @@
 	</style>
 </head>
 <body>
-	<div>
+	<div id="slides">
 		<section class ="content" id="begin">
-			<h1>Objective Builder</h1>
-			<span class="blocks" id="red_block"></span>
-			<span class="blocks" id="orange_block"></span>
-			<span class="blocks" id="green_block"></span>
-			<span class="blocks" id="blue_block"></span>
-			<span class="blocks" id="purple_block"></span>
-			<a href="#audience"><button>Next>></button></a>
+			<h1 id="splash_title">Objective Builder</h1>
+				<span class="blocks" id="red_block"></span>
+				<span class="blocks" id="orange_block"></span>
+				<span class="blocks" id="green_block"></span>
+				<span class="blocks" id="blue_block"></span>
+				<span class="blocks" id="purple_block"></span>
+				<p id="splash_text">Welcome to Objective Builder created by the University of Central Florida Center for Distibuted Learning.</br>Objective Builder provides a simple step-by-step process using the ABCD method for writing measurable learning objectives</p>
+				<div class="next_button" id="splash_next">
+					<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+				</div>
 		</section>
-	<section class ="content" id="audience">
-		<h1>Audience</h1>
-		<p>Who are your learners?</p>
-		<textarea rows="10" cols="60" placeholder="Text goes here" id="audience_text" class="user_input"></textarea>
-		<a href="#behavior"><button type="button">Next>></button></a>
-	</section>
-	<section class ="content" id="behavior">
-		<h1>Behavior</h1>
-		<h2>Select a Domain</h2>
-		<select id="domain"></select>
-		<h2>Select a Level</h2>
-		<select id="level"></select>
-		<h2>Select a Verb</h2>
-		<select id="verb" class="user_input"></select>
-		<a href="#condition"><button type="button">Next>></button></a>
-	</section>
-	<section class ="content" id="condition">
-		<h1>Condition</h1>
-		<p>Please state specifically as possible what will be provided.<br/>This allows the learner to know what exactly will be provided.</p>
-		<textarea rows="10" cols="60" placeholder="Text goes here" id="condition_text" class="user_input"></textarea>
-		<a href="#degree"><button type="button">Next>></button></a>
-	</section>
-	<section class ="content" id="degree">
-		<h1>Degree</h1>
-		<p>State the level of accuracy that you deem "acceptable"</p>
-		<textarea rows="10" cols="60" placeholder="Text goes here" id="degree_text" class="user_input"></textarea>
-		<a href="#finish"><button type="button">Next>></button></a>
-	</section>
-	<section class ="content" id="finish">
-		<h1>Finished Product</h1>
-		<textarea rows="10" cols="60" placeholder="Text goes here" id="finished_text"></textarea>
-		<a href="#begin"><button>Start Over</button></a>
-	</section>
+
+		<section class ="content" id="audience">
+			<div class="title">
+				<h1>Audience</h1>
+			</div>
+			<div class="page_info">
+				<p>Typically, the generic word student is used however be specific if writing your objective for a narrow population.</p>
+			</div>
+			<textarea rows="3" cols="50" placeholder="Text goes here" id="audience_text" class="user_input"></textarea>
+			<section id="auidence_example" class="example_text">
+			</section>
+			<div class="prev_button">
+				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+			</div>
+
+			<div class="next_button">
+				<a href="#">
+					<img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation">
+				</a>
+			</div>
+		</section>
+
+		<section class ="content" id="behavior">
+			<div class="title">
+				<h1>Behavior</h1>
+			</div>
+			<div id="master_behavior">
+				<div id="domain_div">
+					<h2>Select a Domain</h2>
+					<select id="domain" class="user_input"></select>
+				</div>
+				
+				<div id="level_div">
+					<h2>Select a Level</h2>
+					<select id="level" class="user_input"></select>
+				</div>
+				<div id="verb_div">
+					<h2>Select a Verb</h2>
+					<select id="verb" class="user_input"></select>
+				</div>
+				<div id="tools">
+					<h2 id="tool_title">Tool</h2>
+					<p id="tool_info">Please provide a tool for your audience</p>
+					<input type="text" name="tool" id="tool_input" class="user_input"></input>
+				</div>
+			</div>
+			<div class="prev_button" id="behavior_prev">
+				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+			</div>
+			
+			<div class="next_button" id="behavior_next">
+				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+			</div>
+		</section>
+
+		<section class ="content" id="condition">
+			<div class="title">
+				<h1>Condition</h1>
+			</div>
+			<div class="page_info">
+				<p>Please state specifically as possible what will be provided.<br/>This allows the learner to know what exactly will be provided.</p>
+			</div>
+			<textarea rows="3" cols="50" placeholder="Text goes here" id="condition_text" class="user_input"></textarea>
+
+			<div class="prev_button">
+				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation" ></a>
+			</div>
+
+			<div class="next_button">
+				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+			</div>
+		</section>
+
+		<section class ="content" id="degree">
+			<div class="title">
+				<h1>Degree</h1>
+			</div>
+			<div class="page_info">
+				<p>State the level of accuracy that you deem "acceptable"</p>
+			</div>
+			<textarea rows="3" cols="50" placeholder="Text goes here" id="degree_text" class="user_input"></textarea>
+
+			<div class="prev_button">
+				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+			</div>
+
+			<div class="next_button">
+				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+			</div>
+		</section>
+
+		<section class ="content" id="finish">
+			<div class="title">
+				<h1>Finished Product</h1>
+			</div>
+			<div class="page_info">
+				<p>Congratulations on completing your learning objective!</p>
+			</div>
+			<div id="completed">
+				<ul id="compList"></ul>
+			</div>
+			<div id="finish_edit">
+				<p class="edit" id="add">add</p>
+				<p class="edit" id="editing">edit</p>
+				<p class="edit" id="delete">delete</p>
+			</div>
+			<div class="prev_button">
+				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+			</div>
+		</section>
+	</div>
+	
+		<div id="bottom_bar">
+			<p id="objective">
+				Given <span id="objective_condition" slideid="3"></span>,
+				<span id="objective_audience" slideid="1"></span> will
+				<span id="objective_behavior" slideid="2"></span>
+				<span id="objective_tool" slideid="3"></span>
+				<span id="objective_degree" slideid="4"></span>.
+			</p>
+			<div id="bottom_bar_buttons">
+				<div slideid="1" id="bar_audience">Audience</div>
+				<div slideid="2" id="bar_behavior">Behavior</div>
+				<div slideid="3" id="bar_condition">Condition</div>
+				<div slideid="4" id="bar_degree">Degree</div>
+				<div slideid="5" id="bar_finish"><img src="check.png" alt="finish" title="finish"></div>
+			</div>
+		</div>
+		<div id="hide"></div>
+
 </body>
 <script type="text/javascript" src="logic.js"></script>
+<script type="text/javascript" src="slider.js"></script>
 </html>

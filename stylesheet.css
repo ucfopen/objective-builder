@@ -1,12 +1,17 @@
+body
+{
+	margin: 0px;
+	height: 600px;
+	width: 800px;
+}
+img
+{
+	height: 65px;
+}
 .content
 {
-	padding-top: 200px;
-	padding-bottom: 200px;
-	border-style: solid;
-	border-color: black;
-	border-width: 10px;
+	height: 500px;
 	text-align: center;
-	list-style-type: none;
 }
 #begin
 {
@@ -15,6 +20,11 @@
 #audience
 {
 	background-color: rgba(192,57,43,1);
+}
+#audience_example
+{
+	border-color: white;
+	border-width: 20px;
 }
 #behavior
 {
@@ -40,64 +50,350 @@
 h1
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 72px;
+	font-size: 60px;
 	color: white;
+	margin:0px;
 }
 h2
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 }
 p
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	color: white;
-	margin-top: -50px;
+	text-align: center;
+}
+#splash_title
+{
+	margin-bottom: -5px;
+}
+#splash_text
+{
+	font-size: 18px;
+	padding: 10px;
 }
 .blocks
 {
-	width: 150px;
-	height: 10px;
-	margin-left: -10px;
+	width: 15%;
+	height: 7px;
 	margin-right: -10px;
-	padding-top: -50px;
+	margin-top: -5px;
 	display: inline-block;
 }
 #red_block
 {
-	border-color: rgba(192,57,43,1);
 	background-color: rgba(192,57,43,1);
 }
 #orange_block
 {
-	border-color: rgba(243,156,18,1);
 	background-color: rgba(243,156,18,1);
 }
 #green_block
 {
-	border-color: rgba(39,174,96,1);
 	background-color: rgba(39,174,96,1);
 }
 #blue_block
 {
-	border-color: rgba(41,128,185,1);
 	background-color: rgba(41,128,185,1);
 }
 #purple_block
 {
-	border-color: rgba(142,68,173,1);
 	background-color: rgba(142,68,173,1);
 }
-
+#master_behavior
+{
+	width: 550px;
+	height: 250px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#domain_div
+{
+	width: 180px;
+	height: 200px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#level_div
+{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	left: 200px;
+	top: 0px;
+}
+#verb_div
+{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	left: 400px;
+	top: 0px;
+}
 select
 {
 	width: 150px;
 }
-button
+.next_button
 {
-	margin-left: 900px;
-	margin-top: 20px;
 	display: block;
+	position: absolute;
+	bottom:5%;
+	right: 5%;
+}
+.prev_button
+{
+	position: absolute;
+	display: block;
+	bottom:5%;
+	left: 5%;
+}
+textarea
+{
+	position: absolute;
+	bottom: 55%;
+	right: 8%;
+	display: block;
+}
+.page_info
+{
+	position: absolute;
+	left: 3%;
+	top: 29%;
+	display: block;
+	height: 50px;
+	width: 270px;
+}
+#bottom_bar
+{
+	background-color: rgba(64, 66, 68, 1);
+	height: 100px;
+	width: 800px;
+	position: relative;
+}
+#objective
+{
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	width: 800px;
+}
+#bottom_bar_buttons {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 800px;
+}
+#bottom_bar_buttons div
+{
+	position: absolute;
+	width: 14%;	
+	height: 25px;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+}
+.slidesjs-pagination
+{
+	display: none;
+} 
+#objective_condition
+{
+	color: rgba(39,174,96,1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+	#objective_condition:hover
+	{
+		color: white;
+		background-color: rgba(39,174,96,1);
+		text-decoration: none;
+	}
+#objective_audience
+{
+	color: rgba(192,57,43,1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+	#objective_audience:hover
+	{
+		color: white;
+		background-color: rgba(192,57,43,1);
+		text-decoration: none;
+	}
+#objective_behavior
+{
+	color: rgba(243,156,18,1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+	#objective_behavior:hover
+	{
+		color: white;
+		background-color: rgba(243,156,18,1);
+		text-decoration: none;
+	}
+#objective_tool
+{
+	color: rgba(243,156,18,1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+	#objective_tool:hover
+	{
+		color: white;
+		background-color: rgba(243,156,18,1);
+		text-decoration: none;
+	}
+#objective_degree
+{
+	color: rgba(41,128,185,1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+	#objective_degree:hover
+	{
+		color: white;
+		background-color: rgba(41,128,185,1);
+		text-decoration: none;
+	}
+#bar_condition
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(39,174,96,1);
+	border-radius: 3px;
+	color: white;
+	left: 390px;
+}
+#bar_audience
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	background-color: rgba(192,57,43,1);
+	border-radius: 3px;
+	color: white;
+	left: 130px;
+}
+#bar_behavior
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	background-color: rgba(243,156,18,1);
+	border-radius: 3px;
+	color: white;
+	left: 260px;
+}
+#bar_degree
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	background-color: rgba(41,128,185,1);
+	border-radius: 3px;
+	color: white;
+	left: 520px;
+}
+#bar_finish 
+{
+	border-radius: 3px;
+	background-color: rgba(142,68,173,1);
+	left: 650px;
+}
+#bar_finish img
+{
+	height: 17px;
+	display: inline-block;
+	padding: 0px;
+}
+#first
+{
+	border-color:rgba(255,255,255,1);
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 5px;
+	position: absolute;
+	left: 0px;
+	width: 555px;
+	height: 270px;
+	border-width: 5px;
+}
+.edit
+{
+	position: absolute;
+	top: 230px;
+	display: inline-block;
+}
+#add
+{
+	right: 355px;
+	top: 370px;
+	border-radius: 3px;
+	border-color: white;
+	font-size: 18pt;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+	width: 100px;
+}
+#editing
+{
+	right: 200px;
+	top: 370px;
+	border-radius: 3px;
+	border-color: white;
+	font-size: 18pt;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+	width: 100px;
+}
+#delete
+{
+	right: 50px;
+	top: 370px;
+	border-radius: 3px;
+	border-color: white;
+	font-size: 18pt;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+	width: 100px;
+}
+#tools
+{
+	position: absolute;
+	top: 300px;
+}
+#completed
+{
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	height: 250px;
+	width: 400px;
+	position: absolute;
+	left: 340px;
+	top: 120px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+#hide
+{
+	width: 800px;
+	height: 100px;
+	background-color: rgba(105,115,117,1);
+}
+#tool_title
+{
+	font-size: 20px;
+	margin: 0px;
+}
+#tool_info
+{
+	display: inline-block;
 }
