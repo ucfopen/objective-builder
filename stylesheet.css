@@ -322,12 +322,6 @@ textarea
 	height: 270px;
 	border-width: 5px;
 }
-.edit
-{
-	position: absolute;
-	top: 230px;
-	display: inline-block;
-}
 #add
 {
 	right: 355px;
@@ -397,3 +391,16 @@ textarea
 {
 	display: inline-block;
 }
+#compList
+{
+	list-style-type: none;
+	cursor: pointer;
+	position: absolute;
+	left: 0px;
+	background-color: rgba(64,66,68,1);
+}
+#compList:hover
+{
+
+}
+	
