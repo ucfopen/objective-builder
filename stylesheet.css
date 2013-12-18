@@ -322,10 +322,12 @@ textarea
 	height: 270px;
 	border-width: 5px;
 }
+#finish_edit
+{
+	left: 100px;
+}
 #add
 {
-	right: 355px;
-	top: 370px;
 	border-radius: 3px;
 	border-color: white;
 	font-size: 18pt;
@@ -402,5 +404,9 @@ textarea
 #compList:hover
 {
 
+}
+#edit_icon a img
+{
+	height: 40px;
 }
 	
