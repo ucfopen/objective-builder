@@ -322,10 +322,6 @@ textarea
 	height: 270px;
 	border-width: 5px;
 }
-#finish_edit
-{
-	left: 100px;
-}
 #add
 {
 	border-radius: 3px;
@@ -409,4 +405,10 @@ textarea
 {
 	height: 40px;
 }
-	
+#finish_edit
+{
+	position: absolute;
+	right: 355px;
+	top: 370px;
+
+}
