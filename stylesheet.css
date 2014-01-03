@@ -4,10 +4,6 @@ body
 	height: 600px;
 	width: 800px;
 }
-img
-{
-	height: 65px;
-}
 .content
 {
 	height: 500px;
@@ -147,12 +143,20 @@ select
 	bottom:5%;
 	right: 5%;
 }
+.next_button img
+{
+	height: 65px;
+}
 .prev_button
 {
 	position: absolute;
 	display: block;
 	bottom:5%;
 	left: 5%;
+}
+.prev_button img
+{
+	height: 65px;
 }
 textarea
 {
@@ -364,6 +368,7 @@ textarea
 #completed
 {
 	border-width: 5px;
+	border-radius: 3px;
 	border-style: solid;
 	border-color: white;
 	height: 250px;
@@ -402,6 +407,10 @@ textarea
 
 }
 #edit_icon a img
+{
+	height: 40px;
+}
+.edit
 {
 	height: 40px;
 }
