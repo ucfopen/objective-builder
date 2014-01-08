@@ -442,8 +442,23 @@ textarea
 	width: 50%;
 	height: 50%;
 	padding: 16px;
-	border: 16px solid orange;
+	border-radius: 3px;
 	background-color: white;
 	z-index: 1002;
 	overflow: auto;
+}
+.white_content li
+{
+	font-family: 'Open Sans', sans-serif;
+	width: 392px;
+	background-color: white;
+	color: black;
+	list-style-type:square;
+}
+li
+{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	background-color: rgba(64,66,68,1);
+	width: 360px;
 }
