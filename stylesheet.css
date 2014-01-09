@@ -462,3 +462,25 @@ li
 	background-color: rgba(64,66,68,1);
 	width: 360px;
 }
+#download_pic
+{
+	position: absolute;
+	top: 390px;
+	left: 460px;
+}
+#download_button
+{
+	border-width: 2px;
+	border-radius: 3px;
+	border-color: white;
+	border-style: solid;
+	width: 150px;
+	position: absolute;
+	left: 460px;
+	top: 390px;
+
+}
+#download_text
+{
+	font-size: 18pt;
+}
