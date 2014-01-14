@@ -474,11 +474,11 @@ li
 	border-radius: 3px;
 	border-color: white;
 	border-style: solid;
-	width: 150px;
+	width: 200px;
 	position: absolute;
 	left: 460px;
 	top: 390px;
-
+	cursor: pointer;
 }
 #download_text
 {
