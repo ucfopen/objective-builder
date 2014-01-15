@@ -371,10 +371,10 @@ textarea
 	border-radius: 3px;
 	border-style: solid;
 	border-color: white;
-	height: 250px;
-	width: 400px;
+	height: 260px;
+	width: 440px;
 	position: absolute;
-	left: 340px;
+	left: 310px;
 	top: 120px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
@@ -399,7 +399,9 @@ textarea
 	list-style-type: none;
 	cursor: pointer;
 	position: absolute;
-	left: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	background-color: rgba(64,66,68,1);
 }
 #compList:hover
@@ -417,7 +419,7 @@ textarea
 #finish_edit
 {
 	position: absolute;
-	right: 355px;
+	right: 385px;
 	top: 370px;
 }
 .black_overlay
@@ -459,14 +461,8 @@ li
 {
 	font-family: 'Open Sans', sans-serif;
 	color: white;
-	background-color: rgba(64,66,68,1);
-	width: 360px;
-}
-#download_button
-{
-	
-
-	
+	width: 440px;
+	height: 40px;
 }
 #download_text
 {
@@ -477,7 +473,28 @@ li
 	border-style: solid;
 	top: 370px;
 	position: absolute;
-	left: 460px;
+	left: 430px;
 	cursor: pointer;
 	width: 104px;
+}
+#finCon
+{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	background-color: rgba(64,66,68,1);
+	text-align: left;
+	padding-left: 7px;
+	display: inline-block;
+}
+.pencil
+{
+	left: 140px;
+	bottom: 40px;
+	position: relative;
+}
+.close
+{
+	left: 145px;
+	bottom: 40px;
+	position: relative;
 }
