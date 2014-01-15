@@ -310,7 +310,7 @@ textarea
 }
 #bar_finish img
 {
-	height: 17px;
+	height: 25px;
 	display: inline-block;
 	padding: 0px;
 }
@@ -462,25 +462,22 @@ li
 	background-color: rgba(64,66,68,1);
 	width: 360px;
 }
-#download_pic
-{
-	position: absolute;
-	top: 390px;
-	left: 460px;
-}
 #download_button
 {
-	border-width: 2px;
-	border-radius: 3px;
-	border-color: white;
-	border-style: solid;
-	width: 200px;
-	position: absolute;
-	left: 460px;
-	top: 390px;
-	cursor: pointer;
+	
+
+	
 }
 #download_text
 {
 	font-size: 18pt;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 3px;
+	border-style: solid;
+	top: 370px;
+	position: absolute;
+	left: 460px;
+	cursor: pointer;
+	width: 104px;
 }
