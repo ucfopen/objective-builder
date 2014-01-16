@@ -184,7 +184,7 @@ textarea
 #objective
 {
 	margin: 0;
-	padding: 0;
+	padding-top: 7px;
 	height: 50px;
 	width: 800px;
 }
@@ -197,7 +197,7 @@ textarea
 #bottom_bar_buttons div
 {
 	position: absolute;
-	width: 14%;	
+	width: 110px;	
 	height: 25px;
 	text-align: center;
 	padding: 5px;
@@ -363,7 +363,8 @@ textarea
 #tools
 {
 	position: absolute;
-	top: 300px;
+	top: 230px;
+	left: 30px;
 }
 #completed
 {
@@ -378,6 +379,9 @@ textarea
 	top: 120px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	overflow-y: auto; 
+
 }
 #hide
 {
@@ -496,4 +500,10 @@ li
 	left: 145px;
 	bottom: 40px;
 	position: relative;
+}
+#txtfile
+{
+	position: absolute;
+	left: 40px;
+	top: 12px;
 }
