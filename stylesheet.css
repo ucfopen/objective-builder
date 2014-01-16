@@ -273,7 +273,7 @@ textarea
 	background-color: rgba(39,174,96,1);
 	border-radius: 3px;
 	color: white;
-	left: 390px;
+	left: 330px;
 }
 #bar_audience
 {
@@ -282,7 +282,7 @@ textarea
 	background-color: rgba(192,57,43,1);
 	border-radius: 3px;
 	color: white;
-	left: 130px;
+	left: 50px;
 }
 #bar_behavior
 {
@@ -291,7 +291,7 @@ textarea
 	background-color: rgba(243,156,18,1);
 	border-radius: 3px;
 	color: white;
-	left: 260px;
+	left: 190px;
 }
 #bar_degree
 {
@@ -300,13 +300,13 @@ textarea
 	background-color: rgba(41,128,185,1);
 	border-radius: 3px;
 	color: white;
-	left: 520px;
+	left: 470px;
 }
 #bar_finish 
 {
 	border-radius: 3px;
 	background-color: rgba(142,68,173,1);
-	left: 650px;
+	left: 610px;
 }
 #bar_finish img
 {
@@ -479,7 +479,6 @@ li
 }
 #finCon
 {
-	margin-top: 10px;
 	margin-bottom: 5px;
 	background-color: rgba(64,66,68,1);
 	text-align: left;
