@@ -466,7 +466,6 @@ li
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	width: 440px;
-	height: 40px;
 }
 #download_text
 {
@@ -489,21 +488,19 @@ li
 	padding-left: 7px;
 	display: inline-block;
 }
+#txtfile
+{
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	width: 360px;
+	height: 230px;
+}
 .pencil
 {
-	left: 140px;
-	bottom: 40px;
 	position: relative;
 }
 .close
 {
-	left: 145px;
-	bottom: 40px;
 	position: relative;
-}
-#txtfile
-{
-	position: absolute;
-	left: 40px;
-	top: 12px;
 }
