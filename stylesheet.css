@@ -465,6 +465,7 @@ li
 {
 	font-family: 'Open Sans', sans-serif;
 	color: white;
+	cursor: auto;
 	width: 440px;
 }
 #download_text
@@ -488,6 +489,7 @@ li
 	padding-left: 7px;
 	display: inline-block;
 	width: 300px;
+	cursor: auto;
 }
 #txtfile
 {
