@@ -164,6 +164,7 @@ textarea
 	bottom: 55%;
 	right: 8%;
 	display: block;
+	resize:none;
 }
 .page_info
 {
