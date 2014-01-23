@@ -187,6 +187,7 @@ textarea
 	padding-top: 7px;
 	height: 50px;
 	width: 800px;
+	word-wrap: break-word;
 }
 #bottom_bar_buttons {
 	position: absolute;
