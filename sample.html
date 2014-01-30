@@ -60,20 +60,23 @@
 				<div id="domain_div">
 					<h2>Select a Domain</h2>
 					<select id="domain" class="user_input"></select>
+					<div class="square" id="first_square"></div>
 				</div>
-				
+				<div class="line" id="first_line"></div>
 				<div id="level_div">
 					<h2>Select a Level</h2>
 					<select id="level" class="user_input"></select>
+					<div class="square" id="second_square"></div>
 				</div>
+				<div class="line" id="second_line"></div>
 				<div id="verb_div">
 					<h2>Select a Verb</h2>
 					<select id="verb" class="user_input"></select>
+					<div class="square" id="third_square"></div>
 				</div>
 				<div id="tools">
 					<h2 id="tool_title">Item</h2>
-					<p id="tool_info">Please provide a tool for your audience</p>
-					<p>Example: a paper</p>
+					<p id="tool_info">Please provide a tool for your audience<br/>Example: a paper</p>
 					<input type="text" name="tool" id="tool_input" class="user_input" maxlength="10"></input>
 				</div>
 			</div>
@@ -109,7 +112,8 @@
 				<h1>Degree</h1>
 			</div>
 			<div class="page_info">
-				<p>State the level of accuracy that you deem "acceptable"</p>
+				<p>State the level of accuracy that you deem "acceptable."</p>
+				<p>Example:80%,in 500 words or less, on the first attempt, within 15 minutes.</p>
 			</div>
 			<textarea rows="3" cols="50" placeholder="Text goes here" id="degree_text" class="user_input" maxlength="10"></textarea>
 
@@ -140,7 +144,7 @@
 			</div>
 			<div id="download">
 				<div id="download_button">
-					<p id="download_text">export</p>
+					<p id="download_text">view all</p>
 				</div>
 				<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
 				<div class="white_content"><textarea readonly id="txtfile" cols="50"></textarea></div>

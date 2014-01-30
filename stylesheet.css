@@ -61,7 +61,6 @@ p
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	color: white;
-	text-align: center;
 }
 #splash_title
 {
@@ -174,6 +173,7 @@ textarea
 	display: block;
 	height: 50px;
 	width: 270px;
+	text-align: left;
 }
 #bottom_bar
 {
@@ -189,6 +189,7 @@ textarea
 	height: 50px;
 	width: 800px;
 	word-wrap: break-word;
+	text-align: center;
 }
 #bottom_bar_buttons {
 	position: absolute;
@@ -365,8 +366,8 @@ textarea
 #tools
 {
 	position: absolute;
-	top: 230px;
-	left: 30px;
+	top: 280px;
+	left: 120px;
 }
 #completed
 {
@@ -398,7 +399,7 @@ textarea
 }
 #tool_info
 {
-	display: inline-block;
+
 }
 #compList
 {
@@ -508,4 +509,50 @@ li
 .close
 {
 	position: relative;
+}
+.text
+{
+	text-align: left;
+}
+.line
+{
+	background-color: white;
+	border-width: 3px;
+	border-color: white;
+	border-style: solid;
+}
+#first_line
+{	
+	height: 230px;
+	position: absolute;
+	right: 365px;
+	top: 40px;
+}
+#second_line
+{
+	height: 230px;
+	position: absolute;
+	right: 170px;
+	top: 40px;
+}
+.square
+{
+	background-color: white;
+	height: 10px;
+	width: 10px;
+}
+#first_square
+{
+	position: absolute;
+	left: 70px;
+}
+#second_square
+{
+	position: absolute;
+	left: 70px;
+}
+#third_square
+{
+	position: absolute;
+	left: 70px;
 }
