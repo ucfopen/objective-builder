@@ -338,7 +338,6 @@ textarea
 	border-width: 2px;
 	border-style: solid;
 	cursor: pointer;
-	padding: 3px;
 }
 #editing
 {
@@ -481,7 +480,7 @@ li
 	border-style: solid;
 	top: 370px;
 	position: absolute;
-	left: 430px;
+	left: 470px;
 	cursor: pointer;
 	width: 104px;
 }
@@ -559,4 +558,15 @@ li
 	position: absolute;
 	left: 30px;
 	top: 165px;
+}
+#framework
+{
+	position: absolute;
+	padding: 10px;
+	left: 20px;
+	top: 200px;
+}
+#splash_list li
+{
+	padding: 7px;
 }
