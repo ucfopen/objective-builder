@@ -397,10 +397,7 @@ textarea
 	font-size: 20px;
 	margin: 0px;
 }
-#tool_info
-{
 
-}
 #compList
 {
 	list-style-type: none;
@@ -443,6 +440,20 @@ textarea
 	filter: alpha (opacity = 80);
 }
 .white_content
+{
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border-radius: 3px;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+.white_content2
 {
 	display: none;
 	position: absolute;
@@ -569,4 +580,16 @@ li
 #splash_list li
 {
 	padding: 7px;
+}
+#help
+{
+	cursor: pointer;
+}
+#help
+{
+	cursor: pointer;
+}
+#info
+{
+	display: inline-block;
 }
