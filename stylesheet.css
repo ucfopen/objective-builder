@@ -593,3 +593,7 @@ li
 {
 	display: inline-block;
 }
+#info img 
+{
+	height: 35px;
+}
