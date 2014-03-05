@@ -407,6 +407,7 @@ textarea
 	display: inline-block;
 	position: absolute;
 	height: 50px;
+	left: 60px;
 }
 #tool_input
 {
