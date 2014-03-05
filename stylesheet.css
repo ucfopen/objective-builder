@@ -55,6 +55,9 @@ h2
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	color: white;
+	display: inline-block;
+	left: 30px;
+	padding-top: 3px;
 }
 p
 {
@@ -102,34 +105,32 @@ p
 #master_behavior
 {
 	width: 550px;
-	height: 250px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 }
 #domain_div
 {
-	width: 180px;
-	height: 200px;
+	width: 350px;
 	position: absolute;
 	left: 0px;
-	top: 0px;
+	top: 10px;
+}
+#domain_title
+{
+
 }
 #level_div
 {
-	width: 150px;
-	height: 200px;
+	width: 325px;
 	position: absolute;
-	left: 200px;
-	top: 0px;
+	top: 100px;
 }
 #verb_div
 {
-	width: 150px;
-	height: 200px;
+	width: 320px;
 	position: absolute;
-	left: 400px;
-	top: 0px;
+	top: 190px;
 }
 select
 {
@@ -367,7 +368,6 @@ textarea
 {
 	position: absolute;
 	top: 280px;
-	left: 120px;
 }
 #completed
 {
@@ -396,6 +396,22 @@ textarea
 {
 	font-size: 20px;
 	margin: 0px;
+	left: 30px;
+	top: 20px;
+	position: absolute;
+}
+#tool_info
+{
+	font-size: 14px;
+	width: 190px;
+	display: inline-block;
+	position: absolute;
+	height: 50px;
+}
+#tool_input
+{
+	position: absolute;
+	left: 250px;
 }
 
 #compList
@@ -439,7 +455,7 @@ textarea
 	opacity: .80;
 	filter: alpha (opacity = 80);
 }
-.white_content
+#white_content
 {
 	display: none;
 	position: absolute;
@@ -453,20 +469,7 @@ textarea
 	z-index: 1002;
 	overflow: auto;
 }
-.white_content2
-{
-	display: none;
-	position: absolute;
-	top: 25%;
-	left: 25%;
-	width: 50%;
-	height: 50%;
-	padding: 16px;
-	border-radius: 3px;
-	background-color: white;
-	z-index: 1002;
-	overflow: auto;
-}
+
 .white_content li
 {
 	font-family: 'Open Sans', sans-serif;
@@ -581,19 +584,52 @@ li
 {
 	padding: 7px;
 }
-#help
+#help1 
+{
+	cursor: pointer;
+	position: absolute;
+	left: 280px;
+	top: 79px;
+}
+#help1 img
 {
 	cursor: pointer;
 }
-#help
+#help2
+{
+	cursor: pointer;
+	position: absolute;
+	left: 460px;
+	top: 79px;
+}
+#help2 img
 {
 	cursor: pointer;
 }
-#info
+#help3
+{
+	cursor: pointer;
+	position: absolute;
+	left: 655px;
+	top: 79px;
+}
+#help3 img
+{
+	cursor: pointer;
+}
+.info
 {
 	display: inline-block;
 }
-#info img 
+.info img 
 {
 	height: 35px;
+}
+.numbers
+{
+	position: absolute;
+}
+#one
+{
+	
 }
