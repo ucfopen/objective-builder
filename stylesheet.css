@@ -58,6 +58,7 @@ h2
 	display: inline-block;
 	left: 30px;
 	padding-top: 3px;
+	padding-left: 50px;
 }
 p
 {
@@ -470,7 +471,62 @@ textarea
 	z-index: 1002;
 	overflow: auto;
 }
-
+#white_content2
+{
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border-radius: 3px;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+#white_content3
+{
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border-radius: 3px;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+#white_content4
+{
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border-radius: 3px;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+#white_content5
+{
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border-radius: 3px;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
 .white_content li
 {
 	font-family: 'Open Sans', sans-serif;
@@ -585,52 +641,18 @@ li
 {
 	padding: 7px;
 }
-#help1 
-{
-	cursor: pointer;
-	position: absolute;
-	left: 280px;
-	top: 79px;
-}
-#help1 img
-{
-	cursor: pointer;
-}
-#help2
-{
-	cursor: pointer;
-	position: absolute;
-	left: 460px;
-	top: 79px;
-}
-#help2 img
-{
-	cursor: pointer;
-}
-#help3
-{
-	cursor: pointer;
-	position: absolute;
-	left: 655px;
-	top: 79px;
-}
-#help3 img
-{
-	cursor: pointer;
-}
-.info
-{
-	display: inline-block;
-}
-.info img 
-{
-	height: 35px;
-}
 .numbers
 {
 	position: absolute;
 }
-#one
+.numbers img
 {
-	
+	height: 45px;
+}
+.info img
+{
+	height: 50px;
+	left: 500px;
+	top: 15px;
+	position: absolute;
 }
