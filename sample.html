@@ -53,6 +53,7 @@
 		</section>
 
 		<section class ="content" id="behavior">
+			<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
 			<div class="title">
 				<h1>Behavior</h1>
 			</div>
@@ -61,10 +62,9 @@
 					<p class="numbers" id="one"><img src="1.png" alt="one" title="one"></p>
 					<h2 id="domain_title">Select a Domain</h2>
 					<select id="domain" class="user_input"></select>
-					<p class="info"><img src="info.png"></p>
+					<p class="info" id="info_pic1"><img src="info.png"></p>
 					<div id="domain_info">
-						<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
-						<div id="white_content2">
+						<div id="domain_help_content">
 							<p id="domain_help">
 								<ul>
 									<li>The Cognitive domain consists of thinking and development of intellectual skills</li>
@@ -80,10 +80,9 @@
 					<p class="numbers" id="two"><img src="2.png" alt="two" title="two"></p>
 					<h2>Select a Level</h2>
 					<select id="level" class="user_input"></select>
-					<p class="info"><img src="info.png"></p>
+					<p class="info" id="info_pic2"><img src="info.png"></p>
 					<div id="level_info">
-						<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
-						<div id="white_content3">
+						<div id="level_help_content">
 							<p id="level_help">Each domain is broken into different levels. Each level represents an increase in difficulty of mastery. The levels are listed simple (top) to complex (bottom)</p>
 						</div>
 					</div>
@@ -93,10 +92,9 @@
 					<p class="numbers" id="three"><img src="3.png" alt="three" title="three"></p>
 					<h2>Select a Verb</h2>
 					<select id="verb" class="user_input"></select>
-					<p class="info"><img src="info.png"></p>
+					<p class="info" id="info_pic3"><img src="info.png"></p>
 					<div id="verb_info">
-						<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
-						<div id="white_content4"></div>
+						<div id="verb_help_content"></div>
 					</div>
 
 				</div>
@@ -106,10 +104,9 @@
 					<h2 id="tool_title">Item</h2>
 					<p id="tool_info">Please provide a tool for your audience<br/>Example: a paper</p>
 					<input type="text" name="tool" id="tool_input" class="user_input"></input>
-					<p class="info"><img src="info.png"></p>
+					<p class="info" id="info_pic4"><img src="info.png"></p>
 					<div id="tool_pop">
-						<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
-						<div id="white_content5">
+						<div id="tool_help_content">
 							<p id="tool_help">Example: A paper</p>
 						</div>
 					</div>
@@ -183,7 +180,7 @@
 					<p id="download_text">view all</p>
 				</div>
 				<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
-				<div id="white_content"><textarea readonly id="txtfile" cols="50"></textarea></div>
+				<div id="finished_objective_text"><textarea readonly id="txtfile" cols="50"></textarea></div>
 				
 			</div>
 			<div class="prev_button">
