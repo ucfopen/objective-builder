@@ -400,6 +400,8 @@ textarea
 	left: 30px;
 	top: 20px;
 	position: absolute;
+	padding-left: 25px;
+	padding-top: 5px;
 }
 #tool_info
 {
@@ -414,6 +416,7 @@ textarea
 {
 	position: absolute;
 	left: 250px;
+	top: 25px;
 }
 
 #compList
@@ -476,14 +479,17 @@ textarea
 	display: none;
 	position: absolute;
 	top: 25%;
-	left: 25%;
-	width: 50%;
-	height: 50%;
 	padding: 16px;
 	border-radius: 3px;
 	background-color: white;
 	z-index: 1002;
 	overflow: auto;
+}
+#domain_help li
+{
+	z-index: 1003;
+	color: black;
+	text-align: left;
 }
 #level_help_content
 {
@@ -499,7 +505,7 @@ textarea
 	z-index: 1002;
 	overflow: auto;
 }
-#white_content4
+#verb_help_content
 {
 	display: none;
 	position: absolute;
@@ -513,7 +519,7 @@ textarea
 	z-index: 1002;
 	overflow: auto;
 }
-#white_content5
+#tool_help_content
 {
 	display: none;
 	position: absolute;
@@ -526,6 +532,13 @@ textarea
 	background-color: white;
 	z-index: 1002;
 	overflow: auto;
+}
+#tool_help
+{
+	z-index: 1003;
+	position: absolute;
+	left: 190px;
+	bottom: 150px;
 }
 .white_content li
 {
