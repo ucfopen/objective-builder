@@ -119,7 +119,7 @@ p
 {
 	margin-top: 23px;
 	position: absolute;
-	left: 65px;
+	left: 54px;
 }
 #level_div
 {
@@ -131,7 +131,11 @@ p
 {
 	margin-top: 23px;
 	position: absolute;
-	left: 65px;
+	left: 54px;
+}
+#level_help
+{
+	color: black;
 }
 #verb_div
 {
@@ -182,11 +186,11 @@ textarea
 .page_info
 {
 	position: absolute;
-	left: 3%;
-	top: 29%;
+	left: 2%;
+	top: 30%;
 	display: block;
 	height: 50px;
-	width: 270px;
+	width: 294px;
 	text-align: left;
 }
 #bottom_bar
@@ -352,6 +356,7 @@ textarea
 	border-width: 2px;
 	border-style: solid;
 	cursor: pointer;
+	padding: 2px;
 }
 #editing
 {
@@ -389,15 +394,14 @@ textarea
 	border-style: solid;
 	border-color: white;
 	height: 260px;
-	width: 440px;
+	width: 495px;
 	position: absolute;
-	left: 310px;
+	left: 157px;
 	top: 120px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
-	overflow-y: auto; 
-
+	overflow-y: auto;
 }
 #hide
 {
@@ -456,7 +460,7 @@ textarea
 #finish_edit
 {
 	position: absolute;
-	right: 335px;
+	right: 396px;
 	top: 370px;
 }
 .black_overlay
@@ -504,13 +508,11 @@ textarea
 	text-align: left;
 }
 #level_help_content
-{
+{	
 	display: none;
 	position: absolute;
-	top: 25%;
+	top: -40px;
 	left: 25%;
-	width: 50%;
-	height: 50%;
 	padding: 16px;
 	border-radius: 3px;
 	background-color: white;
@@ -576,9 +578,10 @@ li
 	border-style: solid;
 	top: 370px;
 	position: absolute;
-	left: 480px;
+	left: 422px;
 	cursor: pointer;
 	width: 104px;
+	padding: 2px;
 }
 #finCon
 {
@@ -681,9 +684,15 @@ li
 }
 .info img
 {
-	height: 50px;
+	height: 40px;
 	left: 500px;
-	top: 15px;
+	top: 20px;
 	position: absolute;
 	cursor: pointer;
+}
+#congrats
+{
+	top: 12%;
+	width: 476px;
+	left: 175px;
 }
