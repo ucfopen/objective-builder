@@ -56,9 +56,7 @@ h2
 	font-size: 18px;
 	color: white;
 	display: inline-block;
-	left: 30px;
 	padding-top: 3px;
-	padding-left: 50px;
 }
 p
 {
@@ -74,6 +72,7 @@ p
 {
 	font-size: 18px;
 	padding: 10px;
+	text-align: left;
 }
 .blocks
 {
@@ -112,30 +111,43 @@ p
 }
 #domain_div
 {
-	width: 350px;
+	width: 440px;
 	position: absolute;
-	left: 0px;
 	top: 10px;
 }
 #domain_title
 {
-
+	margin-top: 23px;
+	position: absolute;
+	left: 65px;
 }
 #level_div
 {
-	width: 325px;
+	width: 440px;
 	position: absolute;
 	top: 100px;
 }
+#level_title
+{
+	margin-top: 23px;
+	position: absolute;
+	left: 65px;
+}
 #verb_div
 {
-	width: 320px;
+	width: 440px;
 	position: absolute;
 	top: 190px;
+}
+#verb_title
+{
+	margin-top: 23px;
 }
 select
 {
 	width: 150px;
+	position: absolute;
+	top: 28px;
 }
 .next_button
 {
@@ -395,7 +407,7 @@ textarea
 }
 #tool_title
 {
-	font-size: 20px;
+	font-size: 18px;
 	margin: 0px;
 	left: 30px;
 	top: 20px;
@@ -415,7 +427,7 @@ textarea
 #tool_input
 {
 	position: absolute;
-	left: 250px;
+	left: 217px;
 	top: 25px;
 }
 
@@ -444,7 +456,7 @@ textarea
 #finish_edit
 {
 	position: absolute;
-	right: 385px;
+	right: 335px;
 	top: 370px;
 }
 .black_overlay
@@ -564,7 +576,7 @@ li
 	border-style: solid;
 	top: 370px;
 	position: absolute;
-	left: 470px;
+	left: 480px;
 	cursor: pointer;
 	width: 104px;
 }
@@ -647,12 +659,17 @@ li
 {
 	position: absolute;
 	padding: 10px;
-	left: 20px;
 	top: 200px;
 }
 #splash_list li
 {
 	padding: 7px;
+	text-align: left;
+	width: 600px;
+}
+#splash_list
+{
+
 }
 .numbers
 {
