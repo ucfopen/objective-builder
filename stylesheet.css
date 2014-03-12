@@ -13,6 +13,10 @@ body
 {
 	background-color: rgba(105,115,117,1);
 }
+#example
+{
+	background-color: rgba(64,66,68,1);
+}
 #audience
 {
 	background-color: rgba(192,57,43,1);
@@ -684,9 +688,9 @@ li
 }
 .info img
 {
-	height: 40px;
-	left: 500px;
-	top: 20px;
+	height: 26px;
+	left: 377px;
+	top: 4px;
 	position: absolute;
 	cursor: pointer;
 }
