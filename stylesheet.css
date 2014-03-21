@@ -336,8 +336,9 @@ textarea
 }
 #bar_finish img
 {
-	height: 17px;
-	display: inline-block;
+	height: 22px;
+	margin-left: 45px;
+	display: table;
 	padding: 0px;
 }
 #first
