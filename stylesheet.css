@@ -787,20 +787,39 @@ li
 #definition
 {
 	position: absolute;
-	left: 93px;
-	top: 45px;
+	left: 426px;
+	top: -34px;
 	font-size: 15px;
-	width: 312px;
+	width: 221px;
 }
 #level_example
 {
-
+	position: absolute;
+	left: 427px;
+	top: 85px;
+	font-size: 15px;
+	width: 219px;
 }
 #def
 {
-
+	position: absolute;
+	left: 429px;
+	top: -62px;
 }
 #ex
 {
-	
+	position: absolute;
+	left: 429px;
+	top: 58px;
+
+}
+h3
+{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	position: absolute;
+	left: 418px;
+	top: -90px;
+	width: 239px;
+	font-size: 17px;
 }
