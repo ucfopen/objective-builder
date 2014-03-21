@@ -700,3 +700,72 @@ li
 	width: 476px;
 	left: 175px;
 }
+.example_letters img
+{
+	height: 60px;
+}
+#letter_list
+{
+	list-style-type: none;
+	position: absolute;
+	right: 493px;
+}
+#letter_list li 
+{
+	padding: 10px;
+}
+.letter_text
+{
+	display: inline-block;
+	position: absolute;
+	font-size: 22px;
+
+}
+#c_text
+{
+	color: rgba(39,174,96,1);
+	position: absolute;
+	top: -3px;
+}
+#a_text
+{
+	color: rgba(192,57,43,1);
+	position: absolute;
+	top: 82px;
+}
+#b_text
+{
+	color: rgba(243,156,18,1);
+	position: absolute;
+	top: 168px;
+}
+#d_text
+{
+	color: rgba(41,128,185,1);
+	position: absolute;
+	top: 253px;
+}
+#example_text
+{
+	position: absolute;
+	left: 380px;
+	top: 149px;
+	font-size: 30px;
+	width: 300px;
+}
+#green_span
+{
+	color: rgba(39,174,96,1);
+}
+#red_span
+{
+	color: rgba(192,57,43,1);
+}
+#orange_span
+{
+	color: rgba(243,156,18,1);
+}
+#blue_span
+{
+	color: rgba(41,128,185,1);
+}
