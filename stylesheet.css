@@ -667,7 +667,7 @@ li
 {
 	position: absolute;
 	padding: 10px;
-	top: 200px;
+	top: 219px;
 }
 #splash_list li
 {
@@ -677,7 +677,8 @@ li
 }
 #splash_list
 {
-
+	position: absolute;
+	top: 255px;
 }
 .numbers
 {
