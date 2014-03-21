@@ -770,3 +770,37 @@ li
 {
 	color: rgba(41,128,185,1);
 }
+#left_bracket
+{
+	position: absolute;
+	left: 44px;
+	top: -7px;
+	font-size: 44px;
+}
+#right_bracket
+{
+	position: absolute;
+	left: 398px;
+	top: -7px;
+	font-size: 44px;
+}
+#definition
+{
+	position: absolute;
+	left: 93px;
+	top: 45px;
+	font-size: 15px;
+	width: 312px;
+}
+#level_example
+{
+
+}
+#def
+{
+
+}
+#ex
+{
+	
+}
