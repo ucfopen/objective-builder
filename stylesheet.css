@@ -361,7 +361,7 @@ textarea
 	border-width: 2px;
 	border-style: solid;
 	cursor: pointer;
-	padding: 2px;
+	padding: 3px;
 }
 #editing
 {
@@ -572,7 +572,7 @@ li
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	cursor: auto;
-	width: 440px;
+	width: 503px;
 }
 #download_text
 {
@@ -586,7 +586,7 @@ li
 	left: 422px;
 	cursor: pointer;
 	width: 104px;
-	padding: 2px;
+	padding: 3px;
 }
 #finCon
 {
