@@ -15,60 +15,63 @@
 </head>
 <body>
 	<div id="slides">
-		<section class ="content" id="begin">
-			<h1 id="splash_title">Objective Builder</h1>
+		<section class ="content" id="begin" role="section" aria-flowto="splash_title">
+			<h1 id="splash_title" role="banner" aria-flowto="splash_text">Objective Builder</h1>
 				<span class="blocks" id="red_block"></span>
 				<span class="blocks" id="orange_block"></span>
 				<span class="blocks" id="green_block"></span>
 				<span class="blocks" id="blue_block"></span>
 				<span class="blocks" id="purple_block"></span>
-				<p id="splash_text">Objective builder provides a step-by-step process for the creation of measurable learning objectives in the cognitive, affective, or psychomotor domains.<br/>Learning objectives are created in the ABCD format, which stands for Audience, Behavior, Condition, and Degree.</p>
-				<p id="framework">The following theoretical frameworks are used:</p>
-				<ul id="splash_list">
+				<p id="splash_text" role="" aria-flowto="framework">Objective builder provides a step-by-step process for the creation of measurable learning objectives in the cognitive, affective, or psychomotor domains.<br/>Learning objectives are created in the ABCD format, which stands for Audience, Behavior, Condition, and Degree.</p>
+				<p id="framework" role="" aria-flowto="splash_list">The following theoretical frameworks are used:</p>
+				<ul id="splash_list" role="" aria-flowto="splash_next">
 					<li>Anderson and Krathwohl Revised Bloom&#39;s Taxonomy of the Cognitive Domain (2001)</li>
 					<li>Krathwohl and Bloom&#39;s Taxonomy of the Affective Domain (1964)</li>
 					<li>Simpson&#39;s Taxonomy of the Psychomotor Domain (1972)</li>
 				</ul>
-				<div class="next_button" id="splash_next">
+				<div class="next_button" id="splash_next" role="" aria-flowto="example">
 					<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
 				</div>
 		</section>
 
-		<section class="content" id="example">
-			<h1 id="example_title">Example</h1>
-			<ul id="letter_list">
-			<li><span class="example_letters" id="c"><img src="C.png"></span><p class="letter_text" id="c_text">an essay</p></li>
-			<li><span class="example_letters" id="a"><img src="A.png"></span><p class="letter_text" id="a_text">the student</p></li>
-			<li><span class="example_letters" id="b"><img src="B.png"></span><p class="letter_text" id="b_text">identify errors</p></li>
-			<li><span class="example_letters" id="d"><img src="D.png"></span><p class="letter_text" id="d_text">for thirty minutes</p></li>
+		<section class="content" id="example" role="section" aria-flowto="example_title">
+			<h1 id="example_title" role="banner" aria-flowto="letter_list" class="title">Example</h1>
+			<ul id="letter_list" role="" aria-flowto="example_text">
+				<li><span class="example_letters" id="c"><img src="C.png"></span><p class="letter_text" id="c_text">an essay</p></li>
+				<li><span class="example_letters" id="a"><img src="A.png"></span><p class="letter_text" id="a_text">the student</p></li>
+				<li><span class="example_letters" id="b"><img src="B.png"></span><p class="letter_text" id="b_text">identify errors</p></li>
+				<li><span class="example_letters" id="d"><img src="D.png"></span><p class="letter_text" id="d_text">for thirty minutes</p></li>
 			</ul>
-			<p id="example_text">"Given <span id="green_span">an essay </span><span id="red_span">the student</span> will <span id="orange_span">identify errors</span> for <span id="blue_span">thirty minutes</span>"</p>
-			<div class="next_button" id="splash_next">
+			<p id="example_text" role="" aria-flowto="example_next">"Given <span id="green_span">an essay </span><span id="red_span">the student</span> will <span id="orange_span">identify errors</span> for <span id="blue_span">thirty minutes</span>"</p>
+			
+			<div class="next_button" id="example_next" role="" araia-flowto="#audience">
 					<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
 			</div>
 		</section>
 
-		<section class ="content" id="audience">
-			<div class="title">
+		<section class ="content" id="audience" role="section" aria-flowto="audience_title">
+			<div class="title" id="audience_title" role="banner" aria-flowto="audience_content">
 				<h1>Audience</h1>
 			</div>
-			<div class="page_info">
+			<div class="page_info" id="audience_content" role="" aria-flowto="audience_text">
 				<p>Typically, the generic word "student" is used, however be specific if writing your objective for a narrow population.</p>
 			</div>
-			<textarea rows="3" cols="50" placeholder="e.g., the student" id="audience_text" class="user_input"></textarea>
-			<section id="auidence_example" class="example_text">
-			</section>
+			<textarea rows="3" cols="50" placeholder="e.g., the student" id="audience_text" class="user_input" role="" aria-flowto="a_next"></textarea>
 
-			<div class="next_button">
+			<div class="prev_button">
+				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+			</div>
+
+			<div class="next_button" id="a_next" role="" aria-flowto="behavior">
 				<a href="#">
 					<img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation">
 				</a>
 			</div>
 		</section>
 
-		<section class ="content" id="behavior">
+		<section class ="content" id="behavior" role="section" aria-flowto="behavior_title">
 			<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
-			<div class="title">
+			<div class="title" id="behavior_title">
 				<h1>Behavior</h1>
 			</div>
 			<div id="master_behavior">
@@ -135,7 +138,7 @@
 			</div>
 		</section>
 
-		<section class ="content" id="condition">
+		<section class ="content" id="condition" role="section">
 			<div class="title">
 				<h1>Condition</h1>
 			</div>
@@ -153,7 +156,7 @@
 			</div>
 		</section>
 
-		<section class ="content" id="degree">
+		<section class ="content" id="degree" role="section">
 			<div class="title">
 				<h1>Degree</h1>
 			</div>
@@ -171,7 +174,7 @@
 			</div>
 		</section>
 
-		<section class ="content" id="finish">
+		<section class ="content" id="finish" role="section">
 			<div class="title">
 				<h1>Finished Product</h1>
 			</div>
@@ -203,10 +206,10 @@
 	
 		<div id="bottom_bar">
 			<p id="objective">
-				Given <span id="objective_condition" slideid="3"></span>,
-				<span id="objective_audience" slideid="1"></span> will
-				<span id="objective_behavior" slideid="2"></span>
-				<span id="objective_degree" slideid="4"></span>.
+				Given <span id="objective_condition" slideid="4"></span>,
+				<span id="objective_audience" slideid="2"></span> will
+				<span id="objective_behavior" slideid="3"></span>
+				<span id="objective_degree" slideid="5"></span>.
 			</p>
 			<div id="bottom_bar_buttons">
 				<div slideid="2" id="bar_audience">Audience</div>
@@ -217,6 +220,7 @@
 			</div>
 		</div>
 		<div id="hide"></div>
+		<div id="example_hide"></div>
 
 </body>
 <script type="text/javascript" src="logic.js"></script>

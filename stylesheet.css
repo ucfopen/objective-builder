@@ -121,7 +121,7 @@ p
 }
 #domain_title
 {
-	margin-top: 23px;
+	margin-top: 27px;
 	position: absolute;
 	left: 54px;
 }
@@ -133,7 +133,7 @@ p
 }
 #level_title
 {
-	margin-top: 23px;
+	margin-top: 26px;
 	position: absolute;
 	left: 54px;
 }
@@ -156,6 +156,8 @@ select
 	width: 150px;
 	position: absolute;
 	top: 28px;
+	padding: 4px;
+	border-radius: 3px;
 }
 .next_button
 {
@@ -182,10 +184,12 @@ select
 textarea
 {
 	position: absolute;
-	bottom: 55%;
-	right: 8%;
+	font-family: 'Open Sans', sans-serif;
+	top: 187px;
+	right: 34px;
 	display: block;
 	resize:none;
+	border-radius: 3px;
 }
 .page_info
 {
@@ -357,11 +361,12 @@ textarea
 {
 	border-radius: 3px;
 	border-color: white;
-	font-size: 18pt;
+	font-size: 14pt;
 	border-width: 2px;
 	border-style: solid;
 	cursor: pointer;
-	padding: 3px;
+	padding: 3px 5px;
+	margin-top: 28px;
 }
 #editing
 {
@@ -414,12 +419,20 @@ textarea
 	height: 100px;
 	background-color: rgba(105,115,117,1);
 }
+#example_hide
+{
+	width: 800px;
+	height: 100px;
+	background-color: rgba(64,66,68,1);
+	top: 500px;
+	position: absolute;
+}
 #tool_title
 {
 	font-size: 18px;
 	margin: 0px;
 	left: 30px;
-	top: 20px;
+	top: 23px;
 	position: absolute;
 	padding-left: 25px;
 	padding-top: 5px;
@@ -435,11 +448,13 @@ textarea
 }
 #tool_input
 {
+	left: 220px;
+	width: 139px;
 	position: absolute;
-	left: 217px;
-	top: 25px;
+	top: 28px;
+	padding: 3px;
+	border-radius: 3px;
 }
-
 #compList
 {
 	list-style-type: none;
@@ -450,9 +465,11 @@ textarea
 	margin-bottom: 0px;
 	background-color: rgba(64,66,68,1);
 }
-#compList:hover
+#compList li
 {
-
+	display: table;
+	padding: 7px;
+	border-bottom: 1px solid #646464;
 }
 #edit_icon a img
 {
@@ -576,12 +593,12 @@ li
 }
 #download_text
 {
-	font-size: 18pt;
+	font-size: 14pt;
 	border-width: 2px;
 	border-color: white;
 	border-radius: 3px;
 	border-style: solid;
-	top: 370px;
+	top: 379px;
 	position: absolute;
 	left: 422px;
 	cursor: pointer;
@@ -590,13 +607,18 @@ li
 }
 #finCon
 {
-	margin-bottom: 5px;
+	margin: 0;
 	background-color: rgba(64,66,68,1);
+	display: table-cell;
 	text-align: left;
-	padding-left: 7px;
-	display: inline-block;
 	width: 300px;
 	cursor: auto;
+	vertical-align: middle;
+}
+.objButtons 
+{
+	display: table-cell;
+	vertical-align: middle;
 }
 #txtfile
 {
@@ -698,9 +720,10 @@ li
 }
 #congrats
 {
-	top: 12%;
+	top: 58px;
 	width: 476px;
-	left: 175px;
+	left: 219px;
+	position: absolute;
 }
 .example_letters img
 {
