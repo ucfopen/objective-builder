@@ -16,7 +16,7 @@
 <body>
 	<div id="slides">
 		<section class ="content" id="begin" role="section" aria-flowto="splash_title">
-			<h1 id="splash_title" role="banner" aria-flowto="splash_text">Objective Builder</h1>
+			<h1 id="splash_title" role="heading" aria-flowto="splash_text">Objective Builder</h1>
 				<span class="blocks" id="red_block"></span>
 				<span class="blocks" id="orange_block"></span>
 				<span class="blocks" id="green_block"></span>
@@ -29,13 +29,13 @@
 					<li>Krathwohl and Bloom&#39;s Taxonomy of the Affective Domain (1964)</li>
 					<li>Simpson&#39;s Taxonomy of the Psychomotor Domain (1972)</li>
 				</ul>
-				<div class="next_button" id="splash_next" role="" aria-flowto="example">
-					<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+				<div class="next_button" id="splash_next" >
+					<a href="#" role="landmark" aria-flowto="example" aria-live="rude"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
 				</div>
 		</section>
 
-		<section class="content" id="example" role="section" aria-flowto="example_title">
-			<h1 id="example_title" role="banner" aria-flowto="letter_list" class="title">Example</h1>
+		<section class="content" id="example" role="section" aria-flowto="example_title" aria-hidden="true">
+			<h1 id="example_title" role="heading" aria-flowto="letter_list" class="title">Example</h1>
 			<ul id="letter_list" role="" aria-flowto="example_text">
 				<li><span class="example_letters" id="c"><img src="C.png"></span><p class="letter_text" id="c_text">an essay</p></li>
 				<li><span class="example_letters" id="a"><img src="A.png"></span><p class="letter_text" id="a_text">the student</p></li>
@@ -71,7 +71,7 @@
 
 		<section class ="content" id="behavior" role="section" aria-flowto="behavior_title">
 			<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
-			<div class="title" id="behavior_title" role="" aria-flowto="domain_help">
+			<div class="title" id="behavior_title" role="heading" aria-flowto="domain_help">
 				<h1>Behavior</h1>
 			</div>
 			<div id="master_behavior">
@@ -108,58 +108,51 @@
 				</div>
 
 				<div id="verb_div">
-					<p class="numbers" id="three"><img src="3.png" alt="three" title="three"></p>
-					<h2 id="level_title">Select a Verb</h2>
-					<select id="verb" class="user_input"></select>
-					<div id="verb_info">
-						<div id="verb_help_content"></div>
-					</div>
-
+					<p class="numbers" id="three" role="" aria-flowto="verb_title"><img src="3.png" alt="three" title="three"></p>
+					<h2 id="verb_title" role="" aria-flowto="verb">Select a Verb</h2>
+					<select id="verb" class="user_input" role="" aria-flowto="four"></select>
 				</div>
 
 				<div id="tools">
-					<p class="numbers" id="four"><img src="4.png" alt="four" title="four"></p>
-					<h2 id="tool_title">Item</h2>
-					<input type="text" name="tool" id="tool_input" class="user_input"></input>
-					<div id="tool_pop">
-						<div id="tool_help_content">
-							<p id="tool_help">Example: A paper</p>
-						</div>
+					<p class="numbers" id="four" role="" aria-flowto="tool_title"><img src="4.png" alt="four" title="four"></p>
+					<h2 id="tool_title" role="" aria-flowto="tool_input">Item</h2>
+					<input type="text" name="tool" id="tool_input" class="user_input" role="" aria-flowto="tool_help"></input>
+					<div id="tool_help_content">
+						<p id="tool_help" role="" aria-flowto="behavior_next">Example: A paper</p>
 					</div>
-
 				</div>
 
 			</div>
 			<div class="prev_button" id="behavior_prev">
 				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
 			</div>
-			<div class="next_button" id="behavior_next">
+			<div class="next_button" id="behavior_next" role="" aria-flowto="condition">
 				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
 			</div>
 		</section>
 
-		<section class ="content" id="condition" role="section">
-			<div class="title">
+		<section class ="content" id="condition" role="section" role="" aria-flowto="condition_title">
+			<div class="title" id="condition_title" role="heading" aria-flowto="condition_info">
 				<h1>Condition</h1>
 			</div>
-			<div class="page_info">
+			<div class="page_info" id="condition_info" role="" aria-flowto="condition_text">
 				<p>Please state as specifically as possible what will be provided to the audience.  Example:  a thesis statement, the quadratic equation, a map.</p>
 			</div>
-			<textarea rows="3" cols="50" placeholder="e.g., a thesis statement" id="condition_text" class="user_input"></textarea>
+			<textarea rows="3" cols="50" placeholder="e.g., a thesis statement" id="condition_text" class="user_input" role="" aria-flowto="condition_next"></textarea>
 
 			<div class="prev_button">
 				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation" ></a>
 			</div>
 
-			<div class="next_button">
+			<div class="next_button" id="condition_next" role="" aria-flowto="degree">
 				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
 			</div>
 		</section>
 
-		<section class ="content" id="degree" role="section">
-			<div class="title">
+		<section class ="content" id="degree" role="section" role="" aria-flowto="degree_title">
+			<div class="title" id="degree_title">
 				<h1>Degree</h1>
-			</div>
+-			</div>
 			<div class="page_info">
 				<p>State the level of accuracy that you deem "acceptable". Example: 80%,in 500 words or less, on the first attempt, within 15 minutes.</p>
 			</div>
@@ -169,13 +162,13 @@
 				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
 			</div>
 
-			<div class="next_button">
+			<div class="next_button" id="degree_next">
 				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
 			</div>
 		</section>
 
-		<section class ="content" id="finish" role="section">
-			<div class="title">
+		<section class ="content" id="finish" role="section" aria-hidden="true">
+			<div class="title" >
 				<h1>Finished Product</h1>
 			</div>
 			<div class="page_info" id="congrats">
