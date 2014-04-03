@@ -71,18 +71,18 @@
 
 		<section class ="content" id="behavior" role="section" aria-flowto="behavior_title">
 			<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
-			<div class="title" id="behavior_title">
+			<div class="title" id="behavior_title" role="" aria-flowto="domain_help">
 				<h1>Behavior</h1>
 			</div>
 			<div id="master_behavior">
 				<div id="domain_div">
-					<p class="numbers" id="one"><img src="1.png" alt="one" title="one"></p>
-					<h2 id="domain_title">Select a Domain</h2>
-					<select id="domain" class="user_input"></select>
+					<p class="numbers" id="one" role="" aria-flowto="domain_title"><img src="1.png" alt="one" title="one"></p>
+					<h2 id="domain_title" role="" aria-flowto="domain">Select a Domain</h2>
+					<select id="domain" class="user_input" role="" aria-flowto="two"></select>
 					<p class="info" id="info_pic1"><img src="info.png"></p>
 					<div id="domain_info">
 						<div id="domain_help_content">
-							<ul id="domain_help">
+							<ul id="domain_help" role="" aria-flowto="one">
 								<li>The Cognitive domain consists of thinking and development of intellectual skills</li>
 								<li>The Affective domain consists of how people interact with emotions and feelings</li>
 								<li>The Psychomotor domain consists of a person's physical movement, coordination, and use of the motor-skill</li>
@@ -92,17 +92,17 @@
 				</div>
 
 				<div id="level_div">
-					<p class="numbers" id="two"><img src="2.png" alt="two" title="two"></p>
-					<h2 id="level_title">Select a Level</h2>
-					<select id="level" class="user_input"></select>
+					<p class="numbers" id="two" role="" aria-flowto="level_title"><img src="2.png" alt="two" title="two"></p>
+					<h2 id="level_title" role="" aria-flowto="level_help">Select a Level</h2>
+					<select id="level" class="user_input" role="" aria-flowto="definition_title"></select>
 					<div id="level_definition">
-						<h3 id="definition_title">Level Definition &amp; Example</h3>
-						<p id="def">Definition:</p><p id="definition"></p><p id="ex">Example:</p><p id="level_example"></p>
+						<h3 id="definition_title" role="" aria-flowto="def">Level Definition &amp; Example</h3>
+						<p id="def" role="" aria-flowto="definition">Definition:</p><p id="definition" role="" aria-flowto="ex"></p><p id="ex" role="" aria-flowto="level_example">Example:</p><p id="level_example" role="" aria-flowto="three"></p>
 					</div>
 					<p class="info" id="info_pic2"><img src="info.png"></p>
 					<div id="level_info">
 						<div id="level_help_content">
-							<p id="level_help">Each domain is broken into different levels. Each level represents an increase in difficulty of mastery. The levels are listed simple (top) to complex (bottom)</p>
+							<p id="level_help" role="" aria-flowto="level">Each domain is broken into different levels. Each level represents an increase in difficulty of mastery. The levels are listed simple (top) to complex (bottom)</p>
 						</div>
 					</div>
 				</div>
