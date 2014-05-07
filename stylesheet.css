@@ -150,6 +150,8 @@ p
 #verb_title
 {
 	margin-top: 23px;
+	position: absolute;
+	left: 54px;
 }
 select
 {
@@ -303,7 +305,7 @@ textarea
 	background-color: rgba(39,174,96,1);
 	border-radius: 3px;
 	color: white;
-	left: 330px;
+	left: 50px;
 }
 #bar_audience
 {
@@ -312,7 +314,7 @@ textarea
 	background-color: rgba(192,57,43,1);
 	border-radius: 3px;
 	color: white;
-	left: 50px;
+	left: 190px;
 }
 #bar_behavior
 {
@@ -321,7 +323,7 @@ textarea
 	background-color: rgba(243,156,18,1);
 	border-radius: 3px;
 	color: white;
-	left: 190px;
+	left: 330px;
 }
 #bar_degree
 {
@@ -689,7 +691,7 @@ li
 {
 	position: absolute;
 	padding: 10px;
-	top: 219px;
+	top: 225px;
 }
 #splash_list li
 {
@@ -700,7 +702,7 @@ li
 #splash_list
 {
 	position: absolute;
-	top: 255px;
+	top: 262px;
 }
 .numbers
 {
