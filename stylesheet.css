@@ -561,10 +561,10 @@ textarea
 {
 	display: none;
 	position: absolute;
-	top: 25%;
-	left: 25%;
-	width: 50%;
-	height: 50%;
+	bottom: 123px;
+	left: 90px;
+	width: 350px;
+	height: 110px;
 	padding: 16px;
 	border-radius: 3px;
 	background-color: white;
@@ -575,8 +575,9 @@ textarea
 {
 	z-index: 1003;
 	position: absolute;
-	left: 190px;
+	left: 67px;
 	bottom: 150px;
+	color: black;
 }
 .white_content li
 {
@@ -727,15 +728,12 @@ li
 	left: 219px;
 	position: absolute;
 }
-.example_letters img
-{
-	height: 60px;
-}
 #letter_list
 {
 	list-style-type: none;
 	position: absolute;
-	right: 493px;
+	right: 473px;
+	width: 564px
 }
 #letter_list li 
 {
@@ -752,13 +750,13 @@ li
 {
 	color: rgba(39,174,96,1);
 	position: absolute;
-	top: -3px;
+	top: 39px;
 }
 #a_text
 {
 	color: rgba(192,57,43,1);
 	position: absolute;
-	top: 82px;
+	top: 124px;
 }
 #b_text
 {
@@ -770,7 +768,7 @@ li
 {
 	color: rgba(41,128,185,1);
 	position: absolute;
-	top: 253px;
+	top: 321px;
 }
 #example_text
 {
@@ -848,4 +846,44 @@ h3
 	top: -90px;
 	width: 239px;
 	font-size: 17px;
+}
+#c
+{
+	position: absolute;
+	top: 4px;
+	text-decoration: underline;
+}
+#c p
+{
+	font-size: 28px;
+}
+#a
+{
+	position: absolute;
+	top: 91px;
+	text-decoration: underline;
+}
+#a p
+{
+	font-size: 28px;
+}
+#b
+{
+	position: absolute;
+	top: 132px;
+	text-decoration: underline;
+}
+#b p
+{
+	font-size: 28px;
+}
+#d
+{
+	position: absolute;
+	top: 214px;
+	text-decoration: underline;
+}
+#d p
+{
+	font-size: 28px;
 }

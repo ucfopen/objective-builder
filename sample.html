@@ -17,39 +17,35 @@
 	<div id="slides">
 		<section class ="content" id="begin" >
 			<h1 id="splash_title">Objective Builder</h1>
-				<span class="blocks" id="red_block"></span>
-				<span class="blocks" id="orange_block"></span>
-				<span class="blocks" id="green_block"></span>
-				<span class="blocks" id="blue_block"></span>
-				<span class="blocks" id="purple_block"></span>
-				<p id="splash_text">Objective builder provides a step-by-step process for the creation of measurable learning objectives in the cognitive, affective, or psychomotor domains.<br/><br/>Learning objectives are created in the ABCD format, which stands for Audience, Behavior, Condition, and Degree.</p>
-				<p id="framework">The following theoretical frameworks are used:</p>
-				<ul id="splash_list">
-					<li>Anderson and Krathwohl Revised Bloom&#39;s Taxonomy of the Cognitive Domain (2001)</li>
-					<li>Krathwohl and Bloom&#39;s Taxonomy of the Affective Domain (1964)</li>
-					<li>Simpson&#39;s Taxonomy of the Psychomotor Domain (1972)</li>
-				</ul>
-				<div class="next_button" id="splash_next" >
-					<a href="#" role="link" aria-flowto="example"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
-				</div>
+			<span class="blocks" id="red_block"></span>
+			<span class="blocks" id="orange_block"></span>
+			<span class="blocks" id="green_block"></span>
+			<span class="blocks" id="blue_block"></span>
+			<span class="blocks" id="purple_block"></span>
+			<p id="splash_text">Objective builder provides a step-by-step process for the creation of measurable learning objectives in the cognitive, affective, or psychomotor domains.<br/><br/>Learning objectives are created in the ABCD format, which stands for Audience, Behavior, Condition, and Degree.</p>
+			<p id="framework">The following theoretical frameworks are used:</p>
+			<ul id="splash_list">
+				<a href="http://www.jstor.org/stable/1477405" target="_blank"><li>Anderson and Krathwohl Revised Bloom&#39;s Taxonomy of the Cognitive Domain (2001)</li></a>
+				<a href="http://ets.tlt.psu.edu/learningdesign/objectives/affective" target="_blank"><li>Krathwohl and Bloom&#39;s Taxonomy of the Affective Domain (1964)</li></a>
+				<a href="http://books.google.com:books?id=0BP7MVhDzigC&lpg=PA60&ots=0n69tTbKCg&dq=%E2%80%A2	Simpson's Taxonomy of the Psychomotor Domain&lr&pg=PA60#v=onepage&q=%E2%80%A2%09Simpson's%20Taxonomy%20of%20the%20Psychomotor%20Domain&f=false" target="_blank"><li>Simpson&#39;s Taxonomy of the Psychomotor Domain (1972)</li></a>
+			</ul>
+			<button class="next-button"></button>
 		</section>
 
 		<section class="content" id="example" role="section" aria-flowto="example_title" aria-hidden="true">
-			<h1 id="example_title" role="heading" aria-flowto="letter_list" class="title">Example</h1>
-			<ul id="letter_list" role="" aria-flowto="example_text">
-				<li><span class="example_letters" id="c"><img src="C.png"></span><p class="letter_text" id="c_text">an essay</p></li>
-				<li><span class="example_letters" id="a"><img src="A.png"></span><p class="letter_text" id="a_text">the student</p></li>
-				<li><span class="example_letters" id="b"><img src="B.png"></span><p class="letter_text" id="b_text">identify errors</p></li>
-				<li><span class="example_letters" id="d"><img src="D.png"></span><p class="letter_text" id="d_text">for thirty minutes</p></li>
+			<h1 id="example_title" class="title">Example</h1>
+			<ul id="letter_list">
+				<li><span class="example_letters" id="c"><p>Condition</p></span><p class="letter_text" id="c_text">Given a blank map of the United States</p></li>
+				<li><span class="example_letters" id="a"><p>Audience</p></span><p class="letter_text" id="a_text">the student</p></li>
+				<li><span class="example_letters" id="b"><p>Behavior</p></span><p class="letter_text" id="b_text">will identify all 50 states and capitals </p></li>
+				<li><span class="example_letters" id="d"><p>Degree</p></span><p class="letter_text" id="d_text">with 90 percent accuracy</p></li>
 			</ul>
 			<p id="example_text" role="" aria-flowto="example_next">"Given <span id="green_span">an essay </span><span id="red_span">the student</span> will <span id="orange_span">identify errors</span> for <span id="blue_span">thirty minutes</span>"</p>
-			
-			<div class="next_button" id="example_next" role="link" araia-flowto="#audience">
-					<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
-			</div>
-
+			<button class="prev-button"></button>
+			<button class="next-button"></button>
 		</section>
-				<section class ="content" id="condition" role="section" role="" aria-flowto="condition_title">
+
+		<section class ="content" id="condition" role="section" role="" aria-flowto="condition_title">
 			<div class="title" id="condition_title" role="heading" aria-flowto="condition_info">
 				<h1>Condition</h1>
 			</div>
@@ -58,13 +54,8 @@
 			</div>
 			<textarea rows="3" cols="50" placeholder="e.g., a thesis statement" id="condition_text" class="user_input" role="" aria-flowto="condition_next"></textarea>
 
-			<div class="prev_button">
-				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation" ></a>
-			</div>
-
-			<div class="next_button" id="condition_next" role="link" aria-flowto="degree">
-				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
-			</div>
+			<button class="prev-button"></button>
+			<button class="next-button"></button>
 		</section>
 
 		<section class ="content" id="audience" role="section" aria-flowto="audience_title">
@@ -76,15 +67,8 @@
 			</div>
 			<textarea rows="3" cols="50" placeholder="e.g., the student" id="audience_text" class="user_input" role="" aria-flowto="a_next"></textarea>
 
-			<div class="prev_button">
-				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
-			</div>
-
-			<div class="next_button" id="a_next" role="link" aria-flowto="behavior">
-				<a href="#">
-					<img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation">
-				</a>
-			</div>
+			<button class="prev-button"></button>
+			<button class="next-button"></button>
 		</section>
 
 		<section class ="content" id="behavior">
@@ -135,19 +119,15 @@
 					<p class="numbers" id="four"><img src="4.png" alt="four" title="four"></p>
 					<h2 id="tool_title" role="" aria-flowto="tool_input">Product</h2>
 					<input type="text" name="tool" id="tool_input"></input>
-					<p class="info" id="info_pic3"><img src="info.png"></p>
+					<p class="info" id="info_pic4"><img src="info.png"></p>
 					<div id="tool_help_content">
-						<p id="tool_help">Example: A paper</p>
+						<p id="tool_help">What the student will be doing or creating</p>
 					</div>
 				</div>
 
 			</div>
-			<div class="prev_button" id="behavior_prev">
-				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
-			</div>
-			<div class="next_button" id="behavior_next" role="link" aria-flowto="condition">
-				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
-			</div>
+			<button class="prev-button"></button>
+			<button class="next-button"></button>
 		</section>
 
 
@@ -168,6 +148,9 @@
 			<div class="next_button" id="degree_next" role="link" >
 				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
 			</div>
+
+			<button class="prev-button"></button>
+			<button class="next-button"></button>
 		</section>
 
 		<section class ="content" id="finish" role="section" aria-hidden="true">
@@ -190,13 +173,11 @@
 				<div id="download_button">
 					<p id="download_text">View All</p>
 				</div>
-				<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
+				<div class="black_overlay"><p>Copy your objectives and click anywhere outside the box to close.</p></div>
 				<div id="finished_objective_text"><textarea readonly id="txtfile" cols="50"></textarea></div>
 				
 			</div>
-			<div class="prev_button">
-				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
-			</div>
+			<button class="prev-button"></button>
 		</section>
 	</div>
 	

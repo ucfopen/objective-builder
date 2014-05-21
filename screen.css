@@ -1,0 +1,25 @@
+#container
+{
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+}
+.content
+{
+	height: 4800px;
+	-webkit-transition:all 1.0s ease-in-out;
+	-moz-transition:all 1.0s ease-in-out;
+	-o-transition:all 1.0s ease-in-out;
+	transition:all 1.0s ease-in-out;
+}
+.content section
+{
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.next-button
+{
+	display: block;
+	background-image: url("arrow.png");
+}
