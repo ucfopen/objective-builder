@@ -2,13 +2,15 @@
 <html>
 <head>
 	<title>Objective Builder</title>
+	<script src="jquery-1.10.2.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="screen.css">
+	<link href='http://fonts.googleapis.com/css?family=Advent+Pro|Open+Sans:400,600' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
 	<div id="container">
-	<section class ="content" id="begin" >
+	<section class ="slide active" id="begin" id="slide_1">
 		<h1 id="splash_title">Objective Builder</h1>
 		<span class="blocks" id="red_block"></span>
 		<span class="blocks" id="orange_block"></span>
@@ -23,10 +25,10 @@
 			<a href="http://books.google.com:books?id=0BP7MVhDzigC&lpg=PA60&ots=0n69tTbKCg&dq=%E2%80%A2" target="_blank"><li>Simpson&#39;s Taxonomy of the Psychomotor Domain (1972)</li></a>
 		</ul>
 		
-		<button class="next-button" id="begin_next" onclick="location.href='#example'"></button>
+		<button class="next-button" id="begin_next"></button>
 	</section>
 
-	<section class="content" id="example">
+	<section  id="example" id="slide_2">
 		<h1 id="example_title" class="title">Example</h1>
 		<ul id="letter_list">
 			<li><span class="example_letters" id="c"><p>Condition</p></span><p class="letter_text" id="c_text">Given a blank map of the United States</p></li>
@@ -38,10 +40,10 @@
 		
 		
 		<button class="prev-button"></button>
-		<button class="next-button" id="example_next" onclick="location.href='#condition'"></button>
+		<button class="next-button" id="example_next"></button>
 	</section>
 
-	<section class ="content" id="condition">
+	<section  id="condition" id="slide_3">
 		<div class="title" id="condition_title">
 			<h1>Condition</h1>
 		</div>
@@ -52,24 +54,24 @@
 
 	
 		<button class="prev-button"></button>
-		<button class="next-button"></button>
+		<button class="next-button"  id="condition_next"></button>
 	</section>
 
-	<section class ="content" id="audience" role="section" aria-flowto="audience_title">
-		<div class="title" id="audience_title" role="banner" aria-flowto="audience_content">
+	<section  id="audience" id="slide_4">
+		<div class="title" id="audience_title">
 			<h1>Audience</h1>
 		</div>
-		<div class="page_info" id="audience_content" role="" aria-flowto="audience_text">
+		<div class="page_info" id="audience_content" >
 			<p>Typically, the generic word "student" is used, however be specific if writing your objective for a narrow population.</p>
 		</div>
 		<textarea rows="3" cols="50" placeholder="e.g., the student" id="audience_text" class="user_input"></textarea>
 
 	
 		<button class="prev-button"></button>
-		<button class="next-button"></button>
+		<button class="next-button" id="audience_next"></button>
 	</section>
 
-	<section class ="content" id="behavior">
+	<section  id="behavior" id="slide_5">
 		<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
 		<div class="title" id="behavior_title">
 			<h1>Behavior</h1>
@@ -125,12 +127,12 @@
 
 		</div>
 		<button class="prev-button"></button>
-		<button class="next-button"></button>
+		<button class="next-button" id="behavior_next"></button>
 	</section>
 
 
 
-	<section class ="content" id="degree" role="section" role="" aria-flowto="degree_title">
+	<section id="degree" id="slide_6">
 		<div class="title" id="degree_title">
 			<h1>Degree</h1>
 		</div>
@@ -144,7 +146,7 @@
 
 	</section>
 
-	<section class ="content" id="finish">
+	<section id="finish" id="slide_7">
 		<div class="title" >
 			<h1>Finished Product</h1>
 		</div>
@@ -171,6 +173,14 @@
 		
 		<button class="prev-button"></button>
 	</section>
+	  <div id="bottom_bar">
+        <ul>
+            <li><button value="1">Condition</button></li>
+            <li><button value="2">Audience</button></li>
+            <li><button value="3">Behavior</button></li>
+            <li><button value="4">Degree</button></li>
+        </ul>
+    </div>
 	</div>
 </body>
 <script type="text/javascript" src="objbuild.js"></script>

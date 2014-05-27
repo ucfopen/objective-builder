@@ -1,6 +1,13 @@
-//Function to enable sliding
-$(document).ready(function(){
-	$('#begin_next').on('click','span',function(){
-		$('#begin').css("transform","translateX("+(this).index()*-450+"px)");
-	})
-})
+//Function to enable sliding via bottom bar
+var active_slide = 1;
+
+$(document).on("click", "#bottom_bar button", function() {
+    var id = $(this).val();
+    
+    $("#slide_" + active_slide).removeClass("active");
+    
+    active_slide = id;
+    
+    $("#slide_" + id).addClass("active");
+});
+//Function to enable navigation between slides

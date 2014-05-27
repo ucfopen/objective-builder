@@ -1,25 +1,79 @@
-#container
+/* Body */
+body
 {
+	margin: 0px;
 	height: 600px;
 	width: 800px;
+}
+#container
+{
+	height: 800px;
+	width: 600px;
 	overflow: hidden;
 }
-.content
+.slide 
 {
-	height: 4800px;
-	-webkit-transition:all 1.0s ease-in-out;
-	-moz-transition:all 1.0s ease-in-out;
-	-o-transition:all 1.0s ease-in-out;
-	transition:all 1.0s ease-in-out;
-}
-.content section
-{
-	padding: 0;
-	margin: 0;
-	float: left;
-}
+    width: 800px;
+    height: 500px;
+
+} 
+
+/* Navigation */
 .next-button
 {
 	display: block;
 	background-image: url("arrow.png");
 }
+.previous-button
+{
+	display: block;
+	background-image: url("arrow.png");
+}
+
+section:not(.active) {
+    display: none;
+}
+
+#bottom_bar ul li {
+    display: inline;    
+}
+
+/* Slide Colors */
+#begin
+{
+	background-color: rgba(105,115,117,1);
+}
+#example
+{
+	background-color: rgba(64,66,68,1);
+}
+#audience
+{
+	background-color: rgba(192,57,43,1);
+}
+#behavior
+{
+	background-color: rgba(243,156,18,1);
+}
+#condition
+{
+	background-color: rgba(39,174,96,1);
+}
+#degree
+{
+	background-color: rgba(41,128,185,1);
+}
+#finish
+{
+	background-color: rgba(142,68,173,1);
+}
+
+/*titles
+h1
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	color: white;
+	margin:0px;
+
+*/
