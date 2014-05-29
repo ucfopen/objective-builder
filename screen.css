@@ -44,15 +44,15 @@ textarea
 {
 	display: block;
 	position: absolute;
-	bottom:5%;
-	right: 5%;
+	left: 676px;
+	bottom: 158px;
 }
 .prev-button
 {
 	position: absolute;
 	display: block;
-	bottom:5%;
-	left: 5%;
+	left: 31px;
+	bottom: 158px;
 }
 
 .next_button img
