@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,47 +14,38 @@
 </head>
 <body>
 	<div id="slides">
-		<section class ="content" id="begin" >
-			<h1 id="splash_title">Objective Builder</h1>
-			<span class="blocks" id="red_block"></span>
-			<span class="blocks" id="orange_block"></span>
-			<span class="blocks" id="green_block"></span>
-			<span class="blocks" id="blue_block"></span>
-			<span class="blocks" id="purple_block"></span>
-			<p id="splash_text">Objective builder provides a step-by-step process for the creation of measurable learning objectives in the cognitive, affective, or psychomotor domains.<br/><br/>Learning objectives are created in the ABCD format, which stands for Audience, Behavior, Condition, and Degree.</p>
-			<p id="framework">The following theoretical frameworks are used:</p>
-			<ul id="splash_list">
-				<a href="http://www.jstor.org/stable/1477405" target="_blank"><li>Anderson and Krathwohl Revised Bloom&#39;s Taxonomy of the Cognitive Domain (2001)</li></a>
-				<a href="http://ets.tlt.psu.edu/learningdesign/objectives/affective" target="_blank"><li>Krathwohl and Bloom&#39;s Taxonomy of the Affective Domain (1964)</li></a>
-				<a href="http://books.google.com:books?id=0BP7MVhDzigC&lpg=PA60&ots=0n69tTbKCg&dq=%E2%80%A2	Simpson's Taxonomy of the Psychomotor Domain&lr&pg=PA60#v=onepage&q=%E2%80%A2%09Simpson's%20Taxonomy%20of%20the%20Psychomotor%20Domain&f=false" target="_blank"><li>Simpson&#39;s Taxonomy of the Psychomotor Domain (1972)</li></a>
-			</ul>
-			<button class="next-button"></button>
+		<section class ="content" id="begin" role="section" aria-flowto="splash_title">
+			<h1 id="splash_title" role="heading" aria-flowto="splash_text">Objective Builder</h1>
+				<span class="blocks" id="red_block"></span>
+				<span class="blocks" id="orange_block"></span>
+				<span class="blocks" id="green_block"></span>
+				<span class="blocks" id="blue_block"></span>
+				<span class="blocks" id="purple_block"></span>
+				<p id="splash_text" role="" aria-flowto="framework">Objective builder provides a step-by-step process for the creation of measurable learning objectives in the cognitive, affective, or psychomotor domains.<br/>Learning objectives are created in the ABCD format, which stands for Audience, Behavior, Condition, and Degree.</p>
+				<p id="framework" role="" aria-flowto="splash_list">The following theoretical frameworks are used:</p>
+				<ul id="splash_list" role="" aria-flowto="splash_next">
+					<li>Anderson and Krathwohl Revised Bloom&#39;s Taxonomy of the Cognitive Domain (2001)</li>
+					<li>Krathwohl and Bloom&#39;s Taxonomy of the Affective Domain (1964)</li>
+					<li>Simpson&#39;s Taxonomy of the Psychomotor Domain (1972)</li>
+				</ul>
+				<div class="next_button" id="splash_next" >
+					<a href="#" role="landmark" aria-flowto="example" aria-live="rude"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+				</div>
 		</section>
 
 		<section class="content" id="example" role="section" aria-flowto="example_title" aria-hidden="true">
-			<h1 id="example_title" class="title">Example</h1>
-			<ul id="letter_list">
-				<li><span class="example_letters" id="c"><p>Condition</p></span><p class="letter_text" id="c_text">Given a blank map of the United States</p></li>
-				<li><span class="example_letters" id="a"><p>Audience</p></span><p class="letter_text" id="a_text">the student</p></li>
-				<li><span class="example_letters" id="b"><p>Behavior</p></span><p class="letter_text" id="b_text">will identify all 50 states and capitals </p></li>
-				<li><span class="example_letters" id="d"><p>Degree</p></span><p class="letter_text" id="d_text">with 90 percent accuracy</p></li>
+			<h1 id="example_title" role="heading" aria-flowto="letter_list" class="title">Example</h1>
+			<ul id="letter_list" role="" aria-flowto="example_text">
+				<li><span class="example_letters" id="c"><img src="C.png"></span><p class="letter_text" id="c_text">an essay</p></li>
+				<li><span class="example_letters" id="a"><img src="A.png"></span><p class="letter_text" id="a_text">the student</p></li>
+				<li><span class="example_letters" id="b"><img src="B.png"></span><p class="letter_text" id="b_text">identify errors</p></li>
+				<li><span class="example_letters" id="d"><img src="D.png"></span><p class="letter_text" id="d_text">for thirty minutes</p></li>
 			</ul>
 			<p id="example_text" role="" aria-flowto="example_next">"Given <span id="green_span">an essay </span><span id="red_span">the student</span> will <span id="orange_span">identify errors</span> for <span id="blue_span">thirty minutes</span>"</p>
-			<button class="prev-button"></button>
-			<button class="next-button"></button>
-		</section>
-
-		<section class ="content" id="condition" role="section" role="" aria-flowto="condition_title">
-			<div class="title" id="condition_title" role="heading" aria-flowto="condition_info">
-				<h1>Condition</h1>
+			
+			<div class="next_button" id="example_next" role="" araia-flowto="#audience">
+					<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
 			</div>
-			<div class="page_info" id="condition_info" role="" aria-flowto="condition_text">
-				<p>Please state as specifically as possible what will be provided to the audience.  Example:  a thesis statement, the quadratic equation, a map.</p>
-			</div>
-			<textarea rows="3" cols="50" placeholder="e.g., a thesis statement" id="condition_text" class="user_input" role="" aria-flowto="condition_next"></textarea>
-
-			<button class="prev-button"></button>
-			<button class="next-button"></button>
 		</section>
 
 		<section class ="content" id="audience" role="section" aria-flowto="audience_title">
@@ -67,24 +57,31 @@
 			</div>
 			<textarea rows="3" cols="50" placeholder="e.g., the student" id="audience_text" class="user_input" role="" aria-flowto="a_next"></textarea>
 
-			<button class="prev-button"></button>
-			<button class="next-button"></button>
+			<div class="prev_button">
+				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+			</div>
+
+			<div class="next_button" id="a_next" role="" aria-flowto="behavior">
+				<a href="#">
+					<img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation">
+				</a>
+			</div>
 		</section>
 
-		<section class ="content" id="behavior">
+		<section class ="content" id="behavior" role="section" aria-flowto="behavior_title">
 			<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
-			<div class="title" id="behavior_title">
+			<div class="title" id="behavior_title" role="heading" aria-flowto="domain_help">
 				<h1>Behavior</h1>
 			</div>
 			<div id="master_behavior">
 				<div id="domain_div">
-					<p class="numbers" id="one"><img src="1.png" alt="one" title="one"></p>
-					<h2 id="domain_title">Select a Domain</h2>
-					<select id="domain" class="user_input"></select>
+					<p class="numbers" id="one" role="" aria-flowto="domain_title"><img src="1.png" alt="one" title="one"></p>
+					<h2 id="domain_title" role="" aria-flowto="domain">Select a Domain</h2>
+					<select id="domain" class="user_input" role="" aria-flowto="two"></select>
 					<p class="info" id="info_pic1"><img src="info.png"></p>
 					<div id="domain_info">
 						<div id="domain_help_content">
-							<ul id="domain_help">
+							<ul id="domain_help" role="" aria-flowto="one">
 								<li>The Cognitive domain consists of thinking and development of intellectual skills</li>
 								<li>The Affective domain consists of how people interact with emotions and feelings</li>
 								<li>The Psychomotor domain consists of a person's physical movement, coordination, and use of the motor-skill</li>
@@ -104,40 +101,59 @@
 					<p class="info" id="info_pic2"><img src="info.png"></p>
 					<div id="level_info">
 						<div id="level_help_content">
-							<p id="level_help">Each domain is broken into different levels. Each level represents an increase in difficulty of mastery. The levels are listed simple (top) to complex (bottom)</p>
+							<p id="level_help" role="" aria-flowto="level">Each domain is broken into different levels. Each level represents an increase in difficulty of mastery. The levels are listed simple (top) to complex (bottom)</p>
 						</div>
 					</div>
 				</div>
 
 				<div id="verb_div">
-					<p class="numbers" id="three"><img src="3.png" alt="three" title="three"></p>
-					<h2 id="verb_title">Select a Verb</h2>
-					<select id="verb" class="user_input"></select>
+					<p class="numbers" id="three" role="" aria-flowto="verb_title"><img src="3.png" alt="three" title="three"></p>
+					<h2 id="verb_title" role="" aria-flowto="verb">Select a Verb</h2>
+					<select id="verb" class="user_input" role="" aria-flowto="four"></select>
 				</div>
 
 				<div id="tools">
-					<p class="numbers" id="four"><img src="4.png" alt="four" title="four"></p>
-					<h2 id="tool_title" role="" aria-flowto="tool_input">Product</h2>
-					<input type="text" name="tool" id="tool_input"></input>
-					<p class="info" id="info_pic4"><img src="info.png"></p>
+					<p class="numbers" id="four" role="" aria-flowto="tool_title"><img src="4.png" alt="four" title="four"></p>
+					<h2 id="tool_title" role="" aria-flowto="tool_input">Item</h2>
+					<input type="text" name="tool" id="tool_input" class="user_input" role="" aria-flowto="tool_help"></input>
 					<div id="tool_help_content">
-						<p id="tool_help">What the student will be doing or creating</p>
+						<p id="tool_help" role="" aria-flowto="behavior_next">Example: A paper</p>
 					</div>
 				</div>
 
 			</div>
-			<button class="prev-button"></button>
-			<button class="next-button"></button>
+			<div class="prev_button" id="behavior_prev">
+				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+			</div>
+			<div class="next_button" id="behavior_next" role="" aria-flowto="condition">
+				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+			</div>
 		</section>
 
+		<section class ="content" id="condition" role="section" role="" aria-flowto="condition_title">
+			<div class="title" id="condition_title" role="heading" aria-flowto="condition_info">
+				<h1>Condition</h1>
+			</div>
+			<div class="page_info" id="condition_info" role="" aria-flowto="condition_text">
+				<p>Please state as specifically as possible what will be provided to the audience.  Example:  a thesis statement, the quadratic equation, a map.</p>
+			</div>
+			<textarea rows="3" cols="50" placeholder="e.g., a thesis statement" id="condition_text" class="user_input" role="" aria-flowto="condition_next"></textarea>
 
+			<div class="prev_button">
+				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation" ></a>
+			</div>
+
+			<div class="next_button" id="condition_next" role="" aria-flowto="degree">
+				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
+			</div>
+		</section>
 
 		<section class ="content" id="degree" role="section" role="" aria-flowto="degree_title">
 			<div class="title" id="degree_title">
 				<h1>Degree</h1>
-			</div>
+-			</div>
 			<div class="page_info">
-				<p>State the level of accuracy that you deem "proficient". Example: 80%,in 500 words or less, on the first attempt, within 15 minutes.</p>
+				<p>State the level of accuracy that you deem "acceptable". Example: 80%,in 500 words or less, on the first attempt, within 15 minutes.</p>
 			</div>
 			<textarea rows="3" cols="50" placeholder="e.g., thirty minutes" id="degree_text" class="user_input"></textarea>
 
@@ -145,12 +161,9 @@
 				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
 			</div>
 
-			<div class="next_button" id="degree_next" role="link" >
+			<div class="next_button" id="degree_next">
 				<a href="#"><img src="arrow.png" alt="next" title="next" class="slidesjs-next slidesjs-navigation"></a>
 			</div>
-
-			<button class="prev-button"></button>
-			<button class="next-button"></button>
 		</section>
 
 		<section class ="content" id="finish" role="section" aria-hidden="true">
@@ -173,11 +186,13 @@
 				<div id="download_button">
 					<p id="download_text">View All</p>
 				</div>
-				<div class="black_overlay"><p>Copy your objectives and click anywhere outside the box to close.</p></div>
+				<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
 				<div id="finished_objective_text"><textarea readonly id="txtfile" cols="50"></textarea></div>
 				
 			</div>
-			<button class="prev-button"></button>
+			<div class="prev_button">
+				<a href="#"><img src="previous.png" alt="previous" title="previous" class="slidesjs-previous slidesjs-navigation"></a>
+			</div>
 		</section>
 	</div>
 	
@@ -189,9 +204,9 @@
 				<span id="objective_degree" slideid="5"></span>.
 			</p>
 			<div id="bottom_bar_buttons">
-				<div slideid="3" id="bar_audience">Audience</div>
-				<div slideid="4" id="bar_behavior">Behavior</div>
-				<div slideid="2" id="bar_condition">Condition</div>
+				<div slideid="2" id="bar_audience">Audience</div>
+				<div slideid="3" id="bar_behavior">Behavior</div>
+				<div slideid="4" id="bar_condition">Condition</div>
 				<div slideid="5" id="bar_degree">Degree</div>
 				<div slideid="6" id="bar_finish"><img src="check.png" alt="finish" title="finish" id="check"></div>
 			</div>

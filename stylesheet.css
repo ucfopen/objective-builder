@@ -150,8 +150,6 @@ p
 #verb_title
 {
 	margin-top: 23px;
-	position: absolute;
-	left: 54px;
 }
 select
 {
@@ -305,7 +303,7 @@ textarea
 	background-color: rgba(39,174,96,1);
 	border-radius: 3px;
 	color: white;
-	left: 50px;
+	left: 330px;
 }
 #bar_audience
 {
@@ -314,7 +312,7 @@ textarea
 	background-color: rgba(192,57,43,1);
 	border-radius: 3px;
 	color: white;
-	left: 190px;
+	left: 50px;
 }
 #bar_behavior
 {
@@ -323,7 +321,7 @@ textarea
 	background-color: rgba(243,156,18,1);
 	border-radius: 3px;
 	color: white;
-	left: 330px;
+	left: 190px;
 }
 #bar_degree
 {
@@ -561,10 +559,10 @@ textarea
 {
 	display: none;
 	position: absolute;
-	bottom: 123px;
-	left: 90px;
-	width: 350px;
-	height: 110px;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
 	padding: 16px;
 	border-radius: 3px;
 	background-color: white;
@@ -575,9 +573,8 @@ textarea
 {
 	z-index: 1003;
 	position: absolute;
-	left: 67px;
+	left: 190px;
 	bottom: 150px;
-	color: black;
 }
 .white_content li
 {
@@ -692,7 +689,7 @@ li
 {
 	position: absolute;
 	padding: 10px;
-	top: 225px;
+	top: 219px;
 }
 #splash_list li
 {
@@ -703,7 +700,7 @@ li
 #splash_list
 {
 	position: absolute;
-	top: 262px;
+	top: 255px;
 }
 .numbers
 {
@@ -728,12 +725,15 @@ li
 	left: 219px;
 	position: absolute;
 }
+.example_letters img
+{
+	height: 60px;
+}
 #letter_list
 {
 	list-style-type: none;
 	position: absolute;
-	right: 473px;
-	width: 564px
+	right: 493px;
 }
 #letter_list li 
 {
@@ -750,13 +750,13 @@ li
 {
 	color: rgba(39,174,96,1);
 	position: absolute;
-	top: 39px;
+	top: -3px;
 }
 #a_text
 {
 	color: rgba(192,57,43,1);
 	position: absolute;
-	top: 124px;
+	top: 82px;
 }
 #b_text
 {
@@ -768,7 +768,7 @@ li
 {
 	color: rgba(41,128,185,1);
 	position: absolute;
-	top: 321px;
+	top: 253px;
 }
 #example_text
 {
@@ -846,44 +846,4 @@ h3
 	top: -90px;
 	width: 239px;
 	font-size: 17px;
-}
-#c
-{
-	position: absolute;
-	top: 4px;
-	text-decoration: underline;
-}
-#c p
-{
-	font-size: 28px;
-}
-#a
-{
-	position: absolute;
-	top: 91px;
-	text-decoration: underline;
-}
-#a p
-{
-	font-size: 28px;
-}
-#b
-{
-	position: absolute;
-	top: 132px;
-	text-decoration: underline;
-}
-#b p
-{
-	font-size: 28px;
-}
-#d
-{
-	position: absolute;
-	top: 214px;
-	text-decoration: underline;
-}
-#d p
-{
-	font-size: 28px;
 }
