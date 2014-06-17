@@ -283,42 +283,46 @@ li
 #c
 {
 	position: absolute;
-	top: 4px;
+	top: -4px;
+	left: 43px;
 	text-decoration: underline;
 }
 #c p
 {
-	font-size: 28px;
+	font-size: 26px;
 }
 #a
 {
 	position: absolute;
-	top: 91px;
+	top: 49px;
+	left: 43px;
 	text-decoration: underline;
 }
 #a p
 {
-	font-size: 28px;
+	font-size: 26px;
 }
 #b
 {
 	position: absolute;
-	top: 132px;
+	top: 103px;
+	left: 43px;
 	text-decoration: underline;
 }
 #b p
 {
-	font-size: 28px;
+	font-size: 26px;
 }
 #d
 {
 	position: absolute;
-	top: 214px;
+	top: 163px;
+	left: 43px;
 	text-decoration: underline;
 }
 #d p
 {
-	font-size: 28px;
+	font-size: 26px;
 }
 #c_text
 {
@@ -330,26 +334,26 @@ li
 {
 	color: rgba(192,57,43,1);
 	position: absolute;
-	top: 124px;
+	top: 95px;
 }
 #b_text
 {
 	color: rgba(243,156,18,1);
 	position: absolute;
-	top: 168px;
+	top: 150px;
 }
 #d_text
 {
 	color: rgba(41,128,185,1);
 	position: absolute;
-	top: 321px;
+	top: 210px;
 }
 #example_text
 {
 	position: absolute;
-	left: 380px;
+	left: 455px;
 	top: 149px;
-	font-size: 30px;
+	font-size: 25px;
 	width: 300px;
 }
 #green_span
@@ -367,6 +371,22 @@ li
 #blue_span
 {
 	color: rgba(41,128,185,1);
+}
+#letter_list 
+{
+	list-style-type: none;
+	position: absolute;
+	left: 53px;
+	top: 113px;
+	width: 328px;
+}
+#example_info
+{
+	width: 718px;
+	position: absolute;
+	left: 22px;
+	top: 63px;
+	font-size: 16px;
 }
 
 /*Behavior*/
@@ -444,6 +464,22 @@ li
 	background-color: white;
 	z-index: 1002;
 	overflow: auto;
+}
+#definition 
+{
+	position: absolute;
+	left: 426px;
+	top: -34px;
+	font-size: 15px;
+	width: 221px;
+}
+#level_example
+{
+	position: absolute;
+	left: 427px;
+	top: 85px;
+	font-size: 15px;
+	width: 219px;
 }
 #verb_div
 {
