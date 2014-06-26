@@ -38,6 +38,65 @@ textarea
 	height: 500px;
 	text-align: center;
 }
+#objective
+{
+	margin-top: 0px;
+	margin: 0;
+	height: 50px;
+	width: 800px;
+	word-wrap: break-word;
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#bottom_bar_buttons li
+{
+	position: absolute;
+	display: inline-block;
+	left: 32px;
+	background: none;
+	border:none;
+}
+#home
+{
+	position: absolute;
+	left: 100px;
+	background: none;
+	border:none;
+	width: 110px;
+}
+#example
+{
+	position: absolute;
+	left: 200px;
+	background: none;
+	border:none;
+	width: 110px;
+}
+#bar_condition
+{
+	position: absolute;
+	left: 300px;
+	background: none;
+	border:none;
+	width: 110px;
+}
+#bar_audience
+{
+	position: absolute;
+	left: 400px;
+	background: none;
+	border:none;
+	width: 110px;
+}
+#bar_behavior
+{
+	position: absolute;
+	left: 500px;
+	background: none;
+	border:none;
+	width: 110px;
+
 
 /* Navigation */
 .next-button
@@ -134,12 +193,29 @@ section:not(.active)
 	border-radius: 3px;
 	color: white;
 	left: 470px;
+	position: absolute;
+	left: 600px;
+	background: none;
+	border:none;
+	width: 110px;
 }
 #bar_finish 
 {
 	border-radius: 3px;
 	background-color: rgba(142,68,173,1);
 	left: 610px;
+	position: absolute;
+	left: 700px;
+	background: none;
+	border:none;
+	width: 110px;
+}
+#bar_finish img 
+{
+	height: 22px;
+	margin-left: 45px;
+	display: table;
+	padding: 0px;
 }
 
 /* Slide Colors */

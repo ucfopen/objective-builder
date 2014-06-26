@@ -39,19 +39,21 @@ $(".prev-button").on("click", function(e){
 
 //Hide the bottom bar on load
 //Hide the bottom bar on load
+//Hide the bottom bar on load
 $("#hide").show();
 $("#example_hide").hide();
 $("#bottom_bar").hide();
 
 //Show the bottom bar when advancing to the next slide
-$("#splash_next").on("click", function(){
+$("#begin_next").on("click", function(){
 	$("#bottom_bar").show();
 	$("#hide").hide();
 	$("#example_hide").show();
 });
 $("#example_next").on("click",function(){
 	$("#example_hide").hide();
-})
+});
+
 
 //Logic to Build Objective
 
