@@ -1,3 +1,4 @@
+
 //Function to enable sliding via bottom bar
 var active_slide = 1;
 //Total number of sections in the document

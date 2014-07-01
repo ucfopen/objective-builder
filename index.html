@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title>Objective Builder</title>
-	<script src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	
 	<link rel="stylesheet" type="text/css" href="screen.css">
 	<link href='http://fonts.googleapis.com/css?family=Advent+Pro|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
 </head>
 
 
@@ -23,10 +25,10 @@
 				<ul id="splash_list">
 					<a href="http://www.jstor.org/stable/1477405" target="_blank"><li>Anderson and Krathwohl Revised Bloom&#39;s Taxonomy of the Cognitive Domain (2001)</li></a>
 					<a href="http://ets.tlt.psu.edu/learningdesign/objectives/affective" target="_blank"><li>Krathwohl and Bloom&#39;s Taxonomy of the Affective Domain (1964)</li></a>
-					<a href="http://books.google.com:books?id=0BP7MVhDzigC&lpg=PA60&ots=0n69tTbKCg&dq=%E2%80%A2" target="_blank"><li>Simpson&#39;s Taxonomy of the Psychomotor Domain (1972)</li></a>
+					<a href="http://books.google.com/books?id=0BP7MVhDzigC&lpg=PA60&ots=0n69tTbKCg&dq=%E2%80%A2" target="_blank"><li>Simpson&#39;s Taxonomy of the Psychomotor Domain (1972)</li></a>
 				</ul>
 				
-				<button class="next-button" id="begin_next" src="arrow.png" ><img src="arrow.png" alt="arrow" height="60" width="60"></button>
+				<button class="next-button" id="begin_next" ><img src="arrow.png" alt="arrow" height="60" width="60"></button>
 			</section>
 
 			<section   id="slide_2" class="slide content">
@@ -178,13 +180,13 @@
 		</div>
 		<div id="bottom_bar">
 			<p id="objective">
-				Given <span id="objective_condition" value="4"></span>,
-				<span id="objective_audience" value="2"></span> will
-				<span id="objective_behavior" value="3"></span>
-				<span id="objective_degree" value="5"></span>.
+				Given <span id="objective_condition" value="3"></span>,
+				<span id="objective_audience" value="4"></span> will
+				<span id="objective_behavior" value="5"></span>
+				<span id="objective_degree" value="6"></span>.
 			</p>
 	        <ul id="bottom_bar_buttons">
-	        	<li><button value="1" id="home">Home</button></li>
+	        	<li><button value="1" id="home"><img src="home.png" alt="home" height="42" width="42"></button></li>
 	        	<li><button value="2" id="example">Example</button></li>
 	            <li><button value="3" id="bar_condition">Condition</button></li>
 	            <li><button value="4" id="bar_audience">Audience</button></li>
@@ -199,4 +201,5 @@
 
 </body>
 <script type="text/javascript" src="objbuild.js"></script>
+
 </html>
