@@ -60,7 +60,8 @@ textarea
 #home
 {
 	position: absolute;
-	right: 444px;
+	bottom: 5px;
+	left: -56px;
 	background: none;
 	border:none;
 	width: 110px;
@@ -113,7 +114,7 @@ textarea
 	position: absolute;
 	display: block;
 	left: 31px;
-	bottom: 158px;
+	top: 402px;
 	background: none;
 	border: none;
 }
@@ -163,9 +164,11 @@ section:not(.active)
 {
 	font-family: 'Open Sans', sans-serif;
 	background-color: rgba(39,174,96,1);
+	font-size: 12pt;
 	border-radius: 3px;
 	color: white;
 	left: 50px;
+	padding: 5px;
 }
 #bar_audience
 {
@@ -175,6 +178,7 @@ section:not(.active)
 	border-radius: 3px;
 	color: white;
 	left: 190px;
+	padding: 5px;
 }
 #bar_behavior
 {
@@ -184,6 +188,7 @@ section:not(.active)
 	border-radius: 3px;
 	color: white;
 	left: 330px;
+	padding: 5px;
 }
 #bar_degree
 {
@@ -195,6 +200,8 @@ section:not(.active)
 	position: absolute;
 	border:none;
 	width: 110px;
+	padding: 5px;
+	left: 467px;
 }
 #bar_finish 
 {
@@ -204,11 +211,12 @@ section:not(.active)
 	position: absolute;
 	border:none;
 	width: 110px;
+	padding: 5px;
 }
 #bar_finish img 
 {
 	height: 22px;
-	margin-left: 45px;
+	margin-left: 38px;
 	display: table;
 	padding: 0px;
 }
@@ -344,8 +352,8 @@ li
 .page_info
 {
 	position: absolute;
-	left: 2%;
-	top: 26%;
+	left: 39px;
+	top: 150px;
 	display: block;
 	height: 50px;
 	width: 294px;
@@ -687,6 +695,11 @@ select
 
 
 /*Finish*/
+.objButtons
+{
+	display: table-cell;
+	vertical-align: middle;
+}
 .pencil
 {
 	position: relative;
@@ -761,10 +774,10 @@ select
 {
 	display: none;
 	position: absolute;
-	top: 25%;
-	left: 25%;
-	width: 50%;
-	height: 50%;
+	top: 100px;
+	left: 100px;
+	width: 456px;
+	height: 269;
 	padding: 16px;
 	border-radius: 3px;
 	background-color: white;

@@ -18,28 +18,39 @@ $(document).on("click", "#bottom_bar button", function() {
 
 //Function to enable navigation between slides for next button
 $(".next-button").on("click", function(e){
-	e.preventDefault;
+	e.preventDefault();
 
 	//Prevents from going beyond num of total slides
 	if(active_slide <= total_slides){
 		$("#slide_" + active_slide).removeClass("active");
-		active_slide = active_slide + 1;
+		console.log(active_slide);
+		console.log("before");
+		active_slide = parseInt(active_slide) + 1;
+		console.log(active_slide);
+		console.log("after");
 		$("#slide_" + active_slide).addClass("active");
 	}
+	console.log(active_slide);
 });
 
 $(".prev-button").on("click", function(e){
-	e.preventDefault;
+	e.preventDefault();
 
 	if(active_slide > 1){
 		$("#slide_" + active_slide).removeClass("active");
 		active_slide = active_slide - 1;
 		$("#slide_" + active_slide).addClass("active");
 	}
+	console.log(active_slide);
 });
+$("#home").on("click",function(e){
+	e.preventDefault();
 
-//Hide the bottom bar on load
-//Hide the bottom bar on load
+	$("#slide_" + active_slide).removeClass("active");
+	active_slide = 1;
+	$("#slide_" + active_slide).addClass("active");
+	console.log(active_slide);
+});
 //Hide the bottom bar on load
 $("#hide").show();
 $("#example_hide").hide();
@@ -172,6 +183,7 @@ $(".user_input").on("change keyup", function() {
 	current_objective.audience = $("#audience_text").val();
 	current_objective.domain = $("#domain").val();
 	current_objective.level = $("#level").val();
+	current_objective.tool = $("#tool_input").val();
 	var verb = $("#verb").val();
 	if (verb != null) {
 		current_objective.verb = verb;
@@ -213,7 +225,7 @@ $("#bottom_bar div, #objective span").each(function(){
 
 function updateFields(){
 	//Function to set all inputs.
-	$("#audience_text").val(current_objective.audience);
+	$("#audience_content").val(current_objective.audience);
 	$("#domain").val(current_objective.domain);
 	updateLevel();
 	$("#level").val(current_objective.level);
@@ -278,8 +290,10 @@ $(document.body).on("click", ".edit", function(e) {
 
 $("#add").on("click", function() {
 	//Link you back to audience page
-	$("[data-slidesjs-item=2]").click();
-
+	$("#slide_" + active_slide).removeClass("active");
+	active_slide = 3;
+	$("#slide_" + active_slide).addClass("active");
+	console.log(active_slide);
 	//Create new, blank objective
 	current_objective = new Objective();
 	objectiveList.push(current_objective);
