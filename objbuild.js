@@ -1,4 +1,15 @@
+//Logic to Build Objective
 
+//Master list of objectives
+var objectiveList = [];
+//The index of the current objective within objective list
+var current_index = 0;
+//create initial objective object and push it onto the stack
+var current_objective = new Objective();
+
+objectiveList.push(current_objective);
+//lis that contains all verbs from JSON file
+var verblist;
 //Function to enable sliding via bottom bar
 var active_slide = 1;
 //Total number of sections in the document
@@ -65,19 +76,6 @@ $("#begin_next").on("click", function(){
 $("#example_next").on("click",function(){
 	$("#example_hide").hide();
 });
-
-
-//Logic to Build Objective
-
-//Master list of objectives
-var objectiveList = [];
-//The index of the current objective within objective list
-var current_index = 0;
-//create initial objective object and push it onto the stack
-var current_objective = new Objective();
-objectiveList.push(current_objective);
-//lis that contains all verbs from JSON file
-var verblist;
 
 //Objective object constructor
 function Objective(audience, domain, level, verb, tool, condition, degree) {
@@ -200,9 +198,9 @@ $(".user_input").on("change keyup", function() {
 
 	$('#0').show();
 
-	//update completed box
-	$("#compList li")[current_index].innerHTML =
-		"<p id='finCon'>Given "
+	// update completed box
+	$("#compList #"+current_index+" p.finCon").html(
+		"Given "
 		+ current_objective.condition
 		+ ", "
 		+ current_objective.audience
@@ -212,8 +210,8 @@ $(".user_input").on("change keyup", function() {
 		+ current_objective.tool
 		+ " "
 		+ current_objective.degree
-		+".</p> <div class='objButtons'><a href='#' class='edit'><img src='pencil.png' alt='edit' title='edit' class='pencil'></a>"
-		+"<a href='#' class='delete'><img src='close.png' alt='delete' title='delete' class='close'></a></div>";
+		+"."
+	);
 });
 
 //Function that links bottom bar buttons to appropriate pages
@@ -225,7 +223,7 @@ $("#bottom_bar div, #objective span").each(function(){
 
 function updateFields(){
 	//Function to set all inputs.
-	$("#audience_content").val(current_objective.audience);
+	$("#audience_text").val(current_objective.audience);
 	$("#domain").val(current_objective.domain);
 	updateLevel();
 	$("#level").val(current_objective.level);
@@ -252,34 +250,41 @@ function updateObjectiveBar(){
 $(document.body).on("click", ".delete", function(e){
 	e.preventDefault();
 
-	current_index = ($(this).parent());
-	var current_obj = $("#compList li").index(current_index);
-	$(current_obj).remove();
-	$(current_index).remove();
-	//if else statement ternary
-	current_index > 0 ? current_index-- : current_index = 0;
-
+	console.log(objectiveList);
+	$(this).parents("li")[0].remove();
+	if($(this).parents("li")[0].id > -1){
+		objectiveList.splice($(this).parents("li")[0].id, 1);
+	}
+	console.log(objectiveList);
 	//Update fields
 	updateFields();
 
 	//Update preview
 	updateObjectiveBar();
-
-	$("#compList").append("<li id='new_li'></li>");
+	$("#objective_audience").empty();
+	$("#objective_behavior").empty();
+	$("#objective_condition").empty();
+	$("#objective_degree").empty();
 });
 
 $(document.body).on("click", ".edit", function(e) {
 	e.preventDefault();
 
 	//update current_index
-	current_index = this.parentNode.id;
+	current_index = $(this).parents("li")[0].id;
 
-	//Link back to the audience page
-	$("[data-slidesjs-item=2]").click();
+	//Link back to the condition page
+	$("#slide_" + active_slide).removeClass("active");
+	active_slide = 3;
+	$("#slide_" + active_slide).addClass("active");
+	console.log(active_slide);
 
 	//load objective into current_objective
+	console.log(objectiveList);
+	console.log(current_index);
 	current_objective = objectiveList[current_index];
-
+	console.log(objectiveList);
+	console.log(current_index);
 	//update fields
 	updateFields();
 
@@ -289,7 +294,7 @@ $(document.body).on("click", ".edit", function(e) {
 
 
 $("#add").on("click", function() {
-	//Link you back to audience page
+	//Link you back to condition page
 	$("#slide_" + active_slide).removeClass("active");
 	active_slide = 3;
 	$("#slide_" + active_slide).addClass("active");
@@ -299,16 +304,20 @@ $("#add").on("click", function() {
 	objectiveList.push(current_objective);
 	current_index = objectiveList.length - 1;
 
-	updateFields();
+	
 
 	//reset bottom bar
 	$("#objective_audience").empty();
 	$("#objective_behavior").empty();
 	$("#objective_condition").empty();
 	$("#objective_degree").empty();
-
 	//Code that appends the new object to the list
-	$("#compList").append('<li id="' + current_index + '"></li>');
+	$("#compList").append(
+		"<li id='"
+		+ current_index
+		+ "'><p class='finCon'>Given , will .</p><div class='objButtons'><a href='#' class='edit'><img src='pencil.png' alt='edit' title='edit' class='pencil'></a><a href='#' class='delete'><img src='close.png' alt='delete' title='delete' class='close'></a></div></li>");
+
+	updateFields();
 
 });
 //Building a lightbox
