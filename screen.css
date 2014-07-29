@@ -774,15 +774,17 @@ select
 	left: 219px;
 	position: absolute;
 }
+#txtfile
+{
+	width: 200px;
+}
 #finished_objective_text
 {
 	display: none;
 	position: absolute;
-	top: 100px;
 	left: 100px;
-	width: 456px;
-	height: 269;
-	padding: 16px;
+	height: 200px;
+	width: 100px;
 	border-radius: 3px;
 	background-color: white;
 	z-index: 1002;
