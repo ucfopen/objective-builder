@@ -15,9 +15,17 @@ textarea
 	resize:none;
 	border-radius: 3px;
 }
-a:visited
+a, a:visited
 {
 	text-decoration: none;
+}
+a, a li 
+{
+	color: #D8E0FF;
+}
+a:hover
+{
+	text-decoration: underline;
 }
 #container
 {
