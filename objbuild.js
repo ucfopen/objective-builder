@@ -318,7 +318,7 @@ $("#add").on("click", function() {
 		+ "'><p class='finCon'>Given , will .</p><div class='objButtons'><a href='#' class='edit'><img src='pencil.png' alt='edit' title='edit' class='pencil'></a><a href='#' class='delete'><img src='close.png' alt='delete' title='delete' class='close'></a></div></li>");
 
 	updateFields();
-
+	hideAllInfoBoxes();
 });
 //Building a lightbox
 
