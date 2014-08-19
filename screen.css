@@ -10,7 +10,7 @@ textarea
 	position: absolute;
 	font-family: 'Open Sans', sans-serif;
 	top: 187px;
-	left: 332px;
+	left: 403px;
 	display: block;
 	resize:none;
 	border-radius: 3px;
@@ -791,12 +791,20 @@ select
 	display: none;
 	position: absolute;
 	left: 100px;
-	height: 200px;
-	width: 100px;
+	height: 350px;
+	width: 600px;
 	border-radius: 3px;
 	background-color: white;
 	z-index: 1002;
 	overflow: auto;
+}
+#finished_objective_text textarea
+{
+	width: 336px;
+	height: 300px;
+	position: absolute;
+	left: 11px;
+	top: 18px;
 }
 #compList
 {

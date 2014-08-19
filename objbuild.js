@@ -353,7 +353,7 @@ function hideAllInfoBoxes(){
 	$("#verb_help_content").hide();
 	$("#tool_help_content").hide();
 	$("#level_definition").hide();
-	$("#0").hide();
+	//$("#0").hide();
 }
 
 //When the behavior page loads execute this
