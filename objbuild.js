@@ -352,7 +352,7 @@ function hideAllInfoBoxes(){
 	$("#level_help_content").hide();
 	$("#verb_help_content").hide();
 	$("#tool_help_content").hide();
-	$("#level_definition").hide();
+	//$("#level_definition").hide();
 	//$("#0").hide();
 }
 
