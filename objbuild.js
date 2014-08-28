@@ -27,6 +27,27 @@ $(document).on("click", "#bottom_bar button", function() {
     $("#slide_" + id).addClass("active");
 });
 
+//Function that links colored text from the objective to appropriate pages within the application
+$("#objword").on("click", "#bottom_bar p span", function() {
+	//Get index of slide
+    var slide = $(this).attr('value');
+    console.log(slide);
+    //remove active class
+    if(slide == 3){
+    	$("#slide_" + slide).removeClass("active");
+    	$("#slide_" + slide).addClass("active");	
+    }
+    else if (slide == 4){
+    	$("#slide_" + slide).addClass("active");
+    	$("#slide_" + slide).removeClass("active");
+    }
+    else if (slide == 5){
+    	$("#slide_" + slide).addClass("active");
+    	$("#slide_" + slide).removeClass("active");
+    }
+
+});
+
 //Function to enable navigation between slides for next button
 $(".next-button").on("click", function(e){
 	e.preventDefault();
@@ -71,7 +92,7 @@ $("#bottom_bar").hide();
 $("#begin_next").on("click", function(){
 	$("#bottom_bar").show();
 	$("#hide").hide();
-	$("#example_hide").show();
+	//$("#example_hide").show();
 });
 $("#example_next").on("click",function(){
 	$("#example_hide").hide();

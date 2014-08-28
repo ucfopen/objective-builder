@@ -79,6 +79,7 @@ a:hover
 	background: none;
 	border:none;
 	width: 110px;
+	cursor: pointer;
 }
 #example
 {
@@ -122,6 +123,7 @@ a:hover
 	top: 402px;
 	background: none;
 	border: none;
+	cursor: pointer;
 }
 .prev-button
 {
@@ -131,6 +133,7 @@ a:hover
 	top: 402px;
 	background: none;
 	border: none;
+	cursor: pointer;
 }
 
 .next_button img
@@ -165,6 +168,7 @@ section:not(.active)
 	bottom: 0;
 	height: 40px;
 	width: 800px;
+
 }
 #bottom_bar_buttons div
 {
@@ -183,6 +187,7 @@ section:not(.active)
 	color: white;
 	left: 50px;
 	padding: 5px;
+	cursor: pointer;
 }
 #bar_audience
 {
@@ -193,6 +198,7 @@ section:not(.active)
 	color: white;
 	left: 190px;
 	padding: 5px;
+	cursor: pointer;
 }
 #bar_behavior
 {
@@ -203,6 +209,7 @@ section:not(.active)
 	color: white;
 	left: 330px;
 	padding: 5px;
+	cursor: pointer;
 }
 #bar_degree
 {
@@ -216,6 +223,7 @@ section:not(.active)
 	width: 110px;
 	padding: 5px;
 	left: 467px;
+	cursor: pointer;
 }
 #bar_finish 
 {
@@ -226,6 +234,7 @@ section:not(.active)
 	border:none;
 	width: 110px;
 	padding: 5px;
+	cursor: pointer;
 }
 #bar_finish img 
 {
@@ -233,6 +242,7 @@ section:not(.active)
 	margin-left: 38px;
 	display: table;
 	padding: 0px;
+	cursor: pointer;
 }
 #objective_condition 
 {
@@ -361,7 +371,7 @@ li
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	cursor: auto;
-	width: 503px;
+	width: 495px;
 }
 .page_info
 {
@@ -574,7 +584,8 @@ li
 	position: absolute;
 	left: 54px;
 }
-#domain_help_content {
+#domain_help_content 
+{
 	display: none;
 	position: absolute;
 	top: 25%;
@@ -606,7 +617,8 @@ li
 {
 	color: black;
 }
-#level_help_content {
+#level_help_content 
+{
 	display: none;
 	position: absolute;
 	top: -40px;
@@ -616,6 +628,23 @@ li
 	background-color: white;
 	z-index: 1002;
 	overflow: auto;
+}
+#tool_help_content
+{
+	display: none;
+	position: absolute;
+	bottom: 48px;
+	left: 140px;
+	padding: 16px;
+	border-radius: 3px;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+#tool_help
+{
+	color: black;
+	width: 200px;
 }
 #definition 
 {
@@ -648,6 +677,7 @@ li
 select
 {
 	width: 150px;
+	height: 28px;
 	position: absolute;
 	top: 28px;
 	padding: 4px;
@@ -701,6 +731,7 @@ select
 {
 	left: 220px;
 	width: 139px;
+	height: 18px;
 	position: absolute;
 	top: 28px;
 	padding: 3px;
@@ -711,8 +742,12 @@ select
 /*Finish*/
 .objButtons
 {
-	display: table-cell;
-	vertical-align: middle;
+	display: inline-flex;
+	vertical-align: top;
+	float: right;
+	left: 561px;
+	top: 137px;
+
 }
 .pencil
 {
@@ -792,9 +827,9 @@ select
 {
 	display: none;
 	position: absolute;
-	left: 100px;
+	left: 167px;
 	height: 350px;
-	width: 600px;
+	width: 450px;
 	border-radius: 3px;
 	background-color: white;
 	z-index: 1002;
@@ -805,12 +840,13 @@ select
 	width: 336px;
 	height: 300px;
 	position: absolute;
-	left: 11px;
+	left: 51px;
 	top: 18px;
 }
 #compList
 {
 	list-style-type: none;
+	max-width: 496px;
 	cursor: pointer;
 	position: absolute;
 	padding-left: 0px;
@@ -821,7 +857,6 @@ select
 #compList li
 {
 	display: table;
-	padding: 7px;
 	border-bottom: 1px solid #646464;
 }
 #finish_edit
@@ -843,6 +878,13 @@ select
 	cursor: pointer;
 	width: 104px;
 	padding: 3px;
+}
+.finCon
+{
+	max-width: 480px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 5px;
 }
 /*Hide and Show Div */
 
