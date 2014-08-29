@@ -28,24 +28,15 @@ $(document).on("click", "#bottom_bar button", function() {
 });
 
 //Function that links colored text from the objective to appropriate pages within the application
-$("#objword").on("click", "#bottom_bar p span", function() {
+$(document).on("click", ".objwords", function() {
 	//Get index of slide
     var slide = $(this).attr('value');
     console.log(slide);
     //remove active class
-    if(slide == 3){
-    	$("#slide_" + slide).removeClass("active");
-    	$("#slide_" + slide).addClass("active");	
-    }
-    else if (slide == 4){
-    	$("#slide_" + slide).addClass("active");
-    	$("#slide_" + slide).removeClass("active");
-    }
-    else if (slide == 5){
-    	$("#slide_" + slide).addClass("active");
-    	$("#slide_" + slide).removeClass("active");
-    }
-
+    $("#slide_" + active_slide).removeClass("active");
+   	$("#slide_" + slide).addClass("active");	
+    
+    active_slide = slide;
 });
 
 //Function to enable navigation between slides for next button
