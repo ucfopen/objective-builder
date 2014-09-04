@@ -111,10 +111,16 @@ function updateVerbs() {
 	// If level IS NOT specified, disable verb select box
 	if (level == ''){
 		$(verb_select).prop('disabled', true);
+		$("#objective_behavior").text('');
+		$("#definition").text('');
+		$("#level_example").text('');
 	}
 	// If level IS specified, enable and populate verb select box
 	else if (domain == ''){
 		$(verb_select).prop('disabled', true);
+		$("#objective_behavior").text('');
+		$("#definition").text('');
+		$("#level_example").text('');
 	}
 	else{
 		$(verb_select).prop('disabled', false);
@@ -144,6 +150,9 @@ function updateLevel(){
 	if (domain == ''){
 		$(level_select).prop('disabled', true);
 		$(verb_select).prop('disabled', true);
+		$("#objective_behavior").text('');
+		$("#definition").text('');
+		$("#level_example").text('');
 	}
 	// If domain IS specified, enable and populate level select box
 	else {
@@ -224,13 +233,6 @@ $(".user_input").on("change keyup", function() {
 		+ current_objective.degree
 		+"."
 	);
-});
-
-//Function that links bottom bar buttons to appropriate pages
-$("#bottom_bar div, #objective span").each(function(){
-	$(this).on("click", function(e) {
-		$("[data-slidesjs-item=" + $(this).attr("slideid") + "]").click();
-	});
 });
 
 function updateFields(){

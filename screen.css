@@ -14,6 +14,8 @@ textarea
 	display: block;
 	resize:none;
 	border-radius: 3px;
+	width: 322px;
+	max-width: 323px;
 }
 a, a:visited
 {
@@ -57,7 +59,7 @@ a:hover
 	margin-right: 50px;
 	height: 50px;
 	width: 800px;
-	max-width: 660px;
+	max-width: 640px;
 	word-wrap: break-word;
 	text-align: center;
 	overflow-x: hidden;
