@@ -31,7 +31,6 @@ $(document).on("click", "#bottom_bar button", function() {
 $(document).on("click", ".objwords", function() {
 	//Get index of slide
     var slide = $(this).attr('value');
-    console.log(slide);
     //remove active class
     $("#slide_" + active_slide).removeClass("active");
    	$("#slide_" + slide).addClass("active");	
@@ -46,14 +45,11 @@ $(".next-button").on("click", function(e){
 	//Prevents from going beyond num of total slides
 	if(active_slide <= total_slides){
 		$("#slide_" + active_slide).removeClass("active");
-		console.log(active_slide);
-		console.log("before");
 		active_slide = parseInt(active_slide) + 1;
-		console.log(active_slide);
-		console.log("after");
+
 		$("#slide_" + active_slide).addClass("active");
 	}
-	console.log(active_slide);
+
 });
 
 $(".prev-button").on("click", function(e){
@@ -64,7 +60,7 @@ $(".prev-button").on("click", function(e){
 		active_slide = active_slide - 1;
 		$("#slide_" + active_slide).addClass("active");
 	}
-	console.log(active_slide);
+
 });
 $("#home").on("click",function(e){
 	e.preventDefault();
@@ -72,7 +68,7 @@ $("#home").on("click",function(e){
 	$("#slide_" + active_slide).removeClass("active");
 	active_slide = 1;
 	$("#slide_" + active_slide).addClass("active");
-	console.log(active_slide);
+
 });
 //Hide the bottom bar on load
 $("#hide").show();
@@ -268,12 +264,10 @@ function updateObjectiveBar(){
 $(document.body).on("click", ".delete", function(e){
 	e.preventDefault();
 
-	console.log(objectiveList);
 	$(this).parents("li")[0].remove();
 	if($(this).parents("li")[0].id > -1){
 		objectiveList.splice($(this).parents("li")[0].id, 1);
 	}
-	console.log(objectiveList);
 	//Update fields
 	updateFields();
 
@@ -295,14 +289,11 @@ $(document.body).on("click", ".edit", function(e) {
 	$("#slide_" + active_slide).removeClass("active");
 	active_slide = 3;
 	$("#slide_" + active_slide).addClass("active");
-	console.log(active_slide);
+
 
 	//load objective into current_objective
-	console.log(objectiveList);
-	console.log(current_index);
 	current_objective = objectiveList[current_index];
-	console.log(objectiveList);
-	console.log(current_index);
+
 	//update fields
 	updateFields();
 
@@ -316,7 +307,6 @@ $("#add").on("click", function() {
 	$("#slide_" + active_slide).removeClass("active");
 	active_slide = 3;
 	$("#slide_" + active_slide).addClass("active");
-	console.log(active_slide);
 	//Create new, blank objective
 	current_objective = new Objective();
 	objectiveList.push(current_objective);
@@ -404,12 +394,10 @@ $("#behavior").ready(function(){
 function getDefinitions(){
 	var level_def;
 	$.getJSON("verbs.json", function(data){
-		console.log(data);
 		var index1;
 		var index2;
 		index1 = $("#domain").val();
 		index2 = $("#level").val();
-		console.log(data[index1][index2]);
 		definition = data[index1][index2]["definition"];
 		example = data[index1][index2]["example"];
 		var def = document.getElementById("definition");
