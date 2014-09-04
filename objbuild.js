@@ -193,7 +193,11 @@ $.get('verbs.json', function(verb_obj) {
 
 	// When level box value is changed...
 
-	$(level_select).on("change", function(){ updateVerbs(); getDefinitions(); });
+	$(level_select).on("change", function(){ 
+		updateVerbs(); 
+		getDefinitions(); 
+		$("#objective_behavior").text('');
+	});
 });
 
 //This part of the code deals with taking the input from the user and dropping it in the finished product box
