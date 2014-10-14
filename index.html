@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Objective Builder</title>
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="screen.css">
+	<link href='http://fonts.googleapis.com/css?family=Advent+Pro|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+	<div id="container">
+		<div id="slides">
+			<section class ="slide active content"  id="slide_1">
+				<h1 id="splash_title">Objective Builder</h1>
+				<span class="blocks" id="red_block"></span>
+				<span class="blocks" id="orange_block"></span>
+				<span class="blocks" id="green_block"></span>
+				<span class="blocks" id="blue_block"></span>
+				<span class="blocks" id="purple_block"></span>
+				<p id="splash_text">Objective builder provides a step-by-step process for the creation of measurable learning objectives in the cognitive, affective, or psychomotor domains. <br/><br/>Learning objectives are created in the CABD format, which stands for Condition, Audience, Behavior, and Degree.</p>
+				<p id="framework">The following theoretical frameworks are used:</p>
+				<ul id="splash_list">
+					<li><a href="http://www.jstor.org/stable/1477405" target="_blank">Anderson and Krathwohl Revised Bloom&#39;s Taxonomy of the Cognitive Domain (2001)</a></li>
+					<li><a href="http://ets.tlt.psu.edu/learningdesign/objectives/affective" target="_blank">Krathwohl and Bloom&#39;s Taxonomy of the Affective Domain (1964)</a></li>
+					<li><a href="http://books.google.com/books?id=0BP7MVhDzigC&lpg=PA60&ots=0n69tTbKCg&dq=%E2%80%A2" target="_blank">Simpson&#39;s Taxonomy of the Psychomotor Domain (1972)</a></li>
+				</ul>
+				
+				<button class="next-button" id="begin_next" ><img src="arrow.png" alt="arrow" height="60" width="60"></button>
+			</section>
+
+			<section   id="slide_2" class="slide content">
+				<h1 id="example_title" class="title">Example</h1>
+				<p id="example_info">This is an example of an objective created by objective builder.  Each part of the objective is color coded. More information about writing objectives can be found at the <a href="http://ets.tlt.psu.edu/learningdesign/objectives/writingobjectives" target="_blank">Penn State Learning Design Community Hub</a></p>
+				<ul id="letter_list">
+					<li><span class="example_letters" id="c"><p>Condition</p></span><p class="letter_text" id="c_text">Given a blank map of the United States</p></li>
+					<li><span class="example_letters" id="a"><p>Audience</p></span><p class="letter_text" id="a_text">the student</p></li>
+					<li><span class="example_letters" id="b"><p>Behavior</p></span><p class="letter_text" id="b_text">will identify all 50 states and capitals </p></li>
+					<li><span class="example_letters" id="d"><p>Degree</p></span><p class="letter_text" id="d_text">with 90 percent accuracy</p></li>
+				</ul>
+				<p id="example_text">"<span id="green_span">Given a blank map of the United States</span> <span id="red_span">the student</span> <span id="orange_span"> will identify all 50 states and capitals</span><span id="blue_span"> with 90 percent accuracy.</span>"</p>
+				
+				
+				<button class="prev-button"><img src="previous.png" alt="arrow" height="60" width="60"></button>
+				<button class="next-button" id="example_next"><img src="arrow.png" alt="arrow" height="60" width="60"></button>
+			</section>
+
+			<section   id="slide_3" class="slide content">
+				<div class="title" id="condition_title">
+					<h1>Condition</h1>
+				</div>
+				<div class="page_info" id="condition_info">
+					<p>Please state as specifically as possible what will be provided to the audience.  Example:  a thesis statement, the quadratic equation, a map.</p>
+				</div>
+				<textarea rows="3" cols="50" placeholder="e.g., a thesis statement" id="condition_text" class="user_input"></textarea>
+
+			
+				<button class="prev-button"><img src="previous.png" alt="arrow" height="60" width="60"></button>
+				<button class="next-button"  id="condition_next"><img src="arrow.png" alt="arrow" height="60" width="60"></button>
+			</section>
+
+			<section  id="slide_4" class="slide content">
+				<div class="title" id="audience_title">
+					<h1>Audience</h1>
+				</div>
+				<div class="page_info" id="audience_content" >
+					<p>Typically, the generic word "student" is used, however be specific if writing your objective for a narrow population.</p>
+				</div>
+				<textarea rows="3" cols="50" placeholder="e.g., the student" id="audience_text" class="user_input"></textarea>
+
+			
+				<button class="prev-button"><img src="previous.png" alt="arrow" height="60" width="60"></button>
+				<button class="next-button" id="audience_next"><img src="arrow.png" alt="arrow" height="60" width="60"></button>
+			</section>
+
+			<section  id="slide_5" class="slide content">
+				<div class="black_overlay"><p>Click anywhere to outside the box to close</p></div>
+				<div class="title" id="behavior_title">
+					<h1>Behavior</h1>
+				</div>
+				<div id="master_behavior">
+					<div id="domain_div">
+						<p class="numbers" id="one"><img src="1.png" alt="one" title="one"></p>
+						<h2 id="domain_title">Select a Domain</h2>
+						<select id="domain" class="user_input"></select>
+						<p class="info" id="info_pic1"><img src="info.png"></p>
+						<div id="domain_info">
+							<div id="domain_help_content">
+								<ul id="domain_help">
+									<li>The Cognitive domain consists of thinking and development of intellectual skills</li>
+									<li>The Affective domain consists of how people interact with emotions and feelings</li>
+									<li>The Psychomotor domain consists of a person's physical movement, coordination, and use of the motor-skill</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div id="level_div">
+						<p class="numbers" id="two"><img src="2.png" alt="two" title="two"></p>
+						<h2 id="level_title" >Select a Level</h2>
+						<select id="level" class="user_input"></select>
+						<div id="level_definition">
+							<h3 id="definition_title">Level Definition &amp; Example</h3>
+							<p id="def">Definition:</p><p id="definition" role="" aria-flowto="ex"></p><p id="ex" >Example:</p><p id="level_example"></p>
+						</div>
+						<p class="info" id="info_pic2"><img src="info.png"></p>
+						<div id="level_info">
+							<div id="level_help_content">
+								<p id="level_help">Each domain is broken into different levels. Each level represents an increase in difficulty of mastery. The levels are listed simple (top) to complex (bottom)</p>
+							</div>
+						</div>
+					</div>
+
+					<div id="verb_div">
+						<p class="numbers" id="three"><img src="3.png" alt="three" title="three"></p>
+						<h2 id="verb_title">Select a Verb</h2>
+						<select id="verb" class="user_input"></select>
+					</div>
+
+					<div id="tools">
+						<p class="numbers" id="four"><img src="4.png" alt="four" title="four"></p>
+						<h2 id="tool_title">Product</h2>
+						<input type="text" name="tool" id="tool_input" class="user_input"></input>
+						<p class="info" id="info_pic4"><img src="info.png"></p>
+						<div id="tool_help_content">
+							<p id="tool_help">Please give a brief description of the product your audience will interact with. Refer to the example for details.</p>
+						</div>
+					</div>
+
+				</div>
+				<button class="prev-button"><img src="previous.png" alt="arrow" height="60" width="60"></button>
+				<button class="next-button" id="behavior_next"><img src="arrow.png" alt="arrow" height="60" width="60"></button>
+			</section>
+
+
+
+			<section id="slide_6" class="slide content">
+				<div class="title" id="degree_title">
+					<h1>Degree</h1>
+				</div>
+				<div class="page_info">
+					<p>State the level of accuracy that you deem "proficient". Example: 80%,in 500 words or less, on the first attempt, within 15 minutes.</p>
+				</div>
+				<textarea rows="3" cols="50" placeholder="e.g., thirty minutes" id="degree_text" class="user_input"></textarea>
+
+				<button class="prev-button"><img src="previous.png" alt="arrow" height="60" width="60"></button>
+				<button class="next-button"><img src="arrow.png" alt="arrow" height="60" width="60"></button>
+
+			</section>
+
+			<section id="slide_7" class="slide content">
+				<div class="title" >
+					<h1>Finished Product</h1>
+				</div>
+				<div class="page_info" id="congrats">
+					<p>Your learning objective is now complete</p>
+				</div>
+				<div id="completed">
+					<ul id="compList">
+						<li id='0'>
+							<p class='finCon'>Given , will .</p>
+							<div class='objButtons'>
+								<a href='#' class='edit'>
+									<img src='pencil.png' alt='edit' title='edit' class='pencil'>
+								</a>
+								<a href='#' class='delete'>
+									<img src='close.png' alt='delete' title='delete' class='close'>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div id="finish_edit">
+					<p id="add">New Objective</p>
+				</div>
+				<div id="download">
+					<div id="download_button">
+						<p id="download_text">View All</p>
+					</div>
+					<div class="black_overlay"><p>Copy your objectives and click anywhere outside the box to close.</p></div>
+					<div id="finished_objective_text"><textarea readonly id="txtfile" cols="50"></textarea></div>
+					
+				</div>
+				
+				<button class="prev-button"><img src="previous.png" alt="arrow" height="60" width="60"></button>
+			</section>
+		</div>
+		<div id="bottom_bar">
+			<p id="objective">
+				Given <span id="objective_condition" class="objwords" value="3"></span>,
+				<span id="objective_audience" class="objwords" value="4"></span> will
+				<span id="objective_behavior" class="objwords" value="5"></span>
+				<span id="objective_degree" class="objwords" value="6"></span>.
+			</p>
+	        <ul id="bottom_bar_buttons">
+	        	<li><button value="1" id="home"><img src="home.png" alt="home" height="42" width="42"></button></li>
+	        	<li><button value="2" id="example">Example</button></li>
+	            <li><button value="3" id="bar_condition">Condition</button></li>
+	            <li><button value="4" id="bar_audience">Audience</button></li>
+	            <li><button value="5" id="bar_behavior">Behavior</button></li>
+	            <li><button value="6" id="bar_degree">Degree</button></li>
+	            <li><button value="7" id="bar_finish"><img src="check.png" alt="finish" title="finish" id="check"></button></li>
+	        </ul>
+	    </div>
+	    <div id="hide"></div>
+		<div id="example_hide"></div>
+	</div>
+
+</body>
+<script type="text/javascript" src="objbuild.js"></script>
+
+</html>
