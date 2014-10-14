@@ -747,8 +747,7 @@ select
 	display: inline-flex;
 	vertical-align: top;
 	float: right;
-	left: 561px;
-	top: 137px;
+	margin-right:10px;
 
 }
 .pencil
@@ -839,11 +838,12 @@ select
 }
 #finished_objective_text textarea
 {
-	width: 336px;
-	height: 300px;
+	width: 409px;
+	height: 306px;
 	position: absolute;
-	left: 51px;
+	left: 18px;
 	top: 18px;
+	max-width: 409px;
 }
 #compList
 {
