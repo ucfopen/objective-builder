@@ -11,15 +11,15 @@ body
 }
 #begin
 {
-	background-color: rgba(105,115,117,1);
+	background-color: #000000;
 }
 #example
 {
-	background-color: rgba(64,66,68,1);
+	background-color: #697375;
 }
 #audience
 {
-	background-color: rgba(192,57,43,1);
+	background-color: #550000;
 }
 #audience_example
 {
@@ -28,19 +28,19 @@ body
 }
 #behavior
 {
-	background-color: rgba(243,156,18,1);
+	background-color: #600060;
 }
 #condition
 {
-	background-color: rgba(39,174,96,1);
+	background-color: #1E8549;
 }
 #degree
 {
-	background-color: rgba(41,128,185,1);
+	background-color: #0a3055;
 }
 #finish
 {
-	background-color: rgba(142,68,173,1);
+	background-color: #8E44AD;
 }
 .textbox
 {
@@ -88,23 +88,23 @@ p
 }
 #red_block
 {
-	background-color: rgba(192,57,43,1);
+	background-color: #550000;
 }
 #orange_block
 {
-	background-color: rgba(243,156,18,1);
+	background-color: #600060;
 }
 #green_block
 {
-	background-color: rgba(39,174,96,1);
+	background-color: #1E8549;
 }
 #blue_block
 {
-	background-color: rgba(41,128,185,1);
+	background-color: #0a3055;
 }
 #purple_block
 {
-	background-color: rgba(142,68,173,1);
+	background-color: #8E44AD;
 }
 #master_behavior
 {
@@ -203,7 +203,7 @@ textarea
 }
 #bottom_bar
 {
-	background-color: rgba(64, 66, 68, 1);
+	background-color: #000000;
 	height: 100px;
 	width: 800px;
 	position: relative;
@@ -239,68 +239,68 @@ textarea
 } 
 #objective_condition
 {
-	color: rgba(39,174,96,1);
+	color: #1E8549;
 	text-decoration: underline;
 	cursor: pointer;
 }
 	#objective_condition:hover
 	{
 		color: white;
-		background-color: rgba(39,174,96,1);
+		background-color: #1E8549;
 		text-decoration: none;
 	}
 #objective_audience
 {
-	color: rgba(192,57,43,1);
+	color: #550000;
 	text-decoration: underline;
 	cursor: pointer;
 }
 	#objective_audience:hover
 	{
 		color: white;
-		background-color: rgba(192,57,43,1);
+		background-color: #550000;
 		text-decoration: none;
 	}
 #objective_behavior
 {
-	color: rgba(243,156,18,1);
+	color: #600060;
 	text-decoration: underline;
 	cursor: pointer;
 }
 	#objective_behavior:hover
 	{
 		color: white;
-		background-color: rgba(243,156,18,1);
+		background-color: #600060;
 		text-decoration: none;
 	}
 #objective_tool
 {
-	color: rgba(243,156,18,1);
+	color: #600060;
 	text-decoration: underline;
 	cursor: pointer;
 }
 	#objective_tool:hover
 	{
 		color: white;
-		background-color: rgba(243,156,18,1);
+		background-color: #600060;
 		text-decoration: none;
 	}
 #objective_degree
 {
-	color: rgba(41,128,185,1);
+	color: #0a3055;
 	text-decoration: underline;
 	cursor: pointer;
 }
 	#objective_degree:hover
 	{
 		color: white;
-		background-color: rgba(41,128,185,1);
+		background-color: #0a3055;
 		text-decoration: none;
 	}
 #bar_condition
 {
 	font-family: 'Open Sans', sans-serif;
-	background-color: rgba(39,174,96,1);
+	background-color: #1E8549;
 	border-radius: 3px;
 	color: white;
 	left: 330px;
@@ -309,7 +309,7 @@ textarea
 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
-	background-color: rgba(192,57,43,1);
+	background-color: #550000;
 	border-radius: 3px;
 	color: white;
 	left: 50px;
@@ -318,7 +318,7 @@ textarea
 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
-	background-color: rgba(243,156,18,1);
+	background-color: #600060;
 	border-radius: 3px;
 	color: white;
 	left: 190px;
@@ -327,7 +327,7 @@ textarea
 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
-	background-color: rgba(41,128,185,1);
+	background-color: #0a3055;
 	border-radius: 3px;
 	color: white;
 	left: 470px;
@@ -335,7 +335,7 @@ textarea
 #bar_finish 
 {
 	border-radius: 3px;
-	background-color: rgba(142,68,173,1);
+	background-color: #8E44AD;
 	left: 610px;
 }
 #bar_finish img
@@ -347,7 +347,7 @@ textarea
 }
 #first
 {
-	border-color:rgba(255,255,255,1);
+	border-color:#FFFFFF;
 	border-style: solid;
 	border-radius: 3px;
 	border-width: 5px;
@@ -417,13 +417,13 @@ textarea
 {
 	width: 800px;
 	height: 100px;
-	background-color: rgba(105,115,117,1);
+	background-color: #000000;
 }
 #example_hide
 {
 	width: 800px;
 	height: 100px;
-	background-color: rgba(64,66,68,1);
+	background-color: #697375;
 	top: 500px;
 	position: absolute;
 }
@@ -463,7 +463,7 @@ textarea
 	padding-left: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	background-color: rgba(64,66,68,1);
+	background-color: #697375;
 }
 #compList li
 {
@@ -608,7 +608,7 @@ li
 #finCon
 {
 	margin: 0;
-	background-color: rgba(64,66,68,1);
+	background-color: #697375;
 	display: table-cell;
 	text-align: left;
 	width: 300px;
@@ -696,6 +696,7 @@ li
 	padding: 7px;
 	text-align: left;
 	width: 600px;
+	color: black;
 }
 #splash_list
 {
@@ -748,25 +749,25 @@ li
 }
 #c_text
 {
-	color: rgba(39,174,96,1);
+	color: #1E8549;
 	position: absolute;
 	top: -3px;
 }
 #a_text
 {
-	color: rgba(192,57,43,1);
+	color: #550000;
 	position: absolute;
 	top: 82px;
 }
 #b_text
 {
-	color: rgba(243,156,18,1);
+	color: #600060;
 	position: absolute;
 	top: 168px;
 }
 #d_text
 {
-	color: rgba(41,128,185,1);
+	color: #0a3055;
 	position: absolute;
 	top: 253px;
 }
@@ -780,19 +781,19 @@ li
 }
 #green_span
 {
-	color: rgba(39,174,96,1);
+	color: #1E8549;
 }
 #red_span
 {
-	color: rgba(192,57,43,1);
+	color: #550000;
 }
 #orange_span
 {
-	color: rgba(243,156,18,1);
+	color: #600060;
 }
 #blue_span
 {
-	color: rgba(41,128,185,1);
+	color: #0a3055;
 }
 #left_bracket
 {
@@ -846,4 +847,16 @@ h3
 	top: -90px;
 	width: 239px;
 	font-size: 17px;
+	
+}
+h3.intro
+{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	position: absolute;
+	left: 418px;
+	top: -90px;
+	width: 239px;
+	font-size: 17px;
+	
 }

@@ -156,7 +156,7 @@ section:not(.active)
 /*Bottom Bar*/
 #bottom_bar
 {
-	background-color: rgba(64, 66, 68, 1);
+	background-color: #FFFFFF;
 	height: 100px;
 	width: 800px;
 	position: relative;
@@ -168,7 +168,7 @@ section:not(.active)
 #bottom_bar_buttons {
 	position: absolute;
 	bottom: 0;
-	height: 40px;
+	height: 50px;
 	width: 800px;
 
 }
@@ -183,8 +183,8 @@ section:not(.active)
 #bar_condition
 {
 	font-family: 'Open Sans', sans-serif;
-	background-color: rgba(39,174,96,1);
-	font-size: 12pt;
+	background-color: #1E8549;
+	font-size: 14pt;
 	border-radius: 3px;
 	color: white;
 	left: 50px;
@@ -194,8 +194,8 @@ section:not(.active)
 #bar_audience
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12pt;
-	background-color: rgba(192,57,43,1);
+	font-size: 14pt;
+	background-color: #550000;
 	border-radius: 3px;
 	color: white;
 	left: 190px;
@@ -205,8 +205,8 @@ section:not(.active)
 #bar_behavior
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12pt;
-	background-color: rgba(243,156,18,1);
+	font-size: 14pt;
+	background-color: #600060;
 	border-radius: 3px;
 	color: white;
 	left: 330px;
@@ -216,12 +216,12 @@ section:not(.active)
 #bar_degree
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12pt;
-	background-color: rgba(41,128,185,1);
+	font-size: 14pt;
+	background-color: #0A3055;
 	border-radius: 3px;
+	border:none;
 	color: white;
 	position: absolute;
-	border:none;
 	width: 110px;
 	padding: 5px;
 	left: 467px;
@@ -230,8 +230,9 @@ section:not(.active)
 #bar_finish 
 {
 	border-radius: 3px;
-	background-color: rgba(142,68,173,1);
+	background-color: #2c3e50;
 	left: 610px;
+	border-style: solid;
 	position: absolute;
 	border:none;
 	width: 110px;
@@ -240,7 +241,7 @@ section:not(.active)
 }
 #bar_finish img 
 {
-	height: 22px;
+	height: 26px;
 	margin-left: 38px;
 	display: table;
 	padding: 0px;
@@ -248,92 +249,92 @@ section:not(.active)
 }
 #objective_condition 
 {
-	color: rgba(39,174,96,1);
+	color: #1E8549;
 	text-decoration: underline;
 	cursor: pointer;
 }
 #objective_condition:hover
 	{
 		color: white;
-		background-color: rgba(39,174,96,1);
+		background-color: #1E8549;
 		text-decoration: none;
 	}
 #objective_audience 
 {
-	color: rgba(192,57,43,1);
+	color: #550000;
 	text-decoration: underline;
 	cursor: pointer;
 }
 #objective_audience:hover
 	{
 		color: white;
-		background-color: rgba(192,57,43,1);
+		background-color: #550000;
 		text-decoration: none;
 	}
 #objective_behavior 
 {
-	color: rgba(243,156,18,1);
+	color: #600060;
 	text-decoration: underline;
 	cursor: pointer;
 }
 #objective_behavior:hover
 	{
 		color: white;
-		background-color: rgba(243,156,18,1);
+		background-color: #600060;
 		text-decoration: none;
 	}
 #objective_tool
 {
-	color: rgba(243,156,18,1);
+	color: #600060;
 	text-decoration: underline;
 	cursor: pointer;
 }
 	#objective_tool:hover
 	{
 		color: white;
-		background-color: rgba(243,156,18,1);
+		background-color: #600060;
 		text-decoration: none;
 	}
 #objective_degree 
 {
-	color: rgba(41,128,185,1);
+	color: #0A3055;
 	text-decoration: underline;
 	cursor: pointer;
 }
 #objective_degree:hover
 	{
 		color: white;
-		background-color: rgba(41,128,185,1);
+		background-color: #0A3055;
 		text-decoration: none;
 	}
 /* Slide Colors */
 #slide_1
 {
-	background-color: rgba(105,115,117,1);
+	background-color: #FFFFFF;
 }
 #slide_2
 {
-	background-color: rgba(64,66,68,1);
+	background-color: #FFFFFF;
 }
 #slide_3
 {
-	background-color: rgba(39,174,96,1);
+	background-color: #1E8549;
 }
 #slide_4
 {
-	background-color: rgba(192,57,43,1);
+	background-color:#550000;
 }
 #slide_5
 {
-	background-color: rgba(243,156,18,1);
+	background-color: #600060;
 }
 #slide_6
 {
-	background-color: rgba(41,128,185,1);
+	background-color: #0A3055;
 }
 #slide_7
 {
-	background-color: rgba(142,68,173,1);
+	background-color: #2c3e50;
 }
 
 /*titles*/
@@ -344,11 +345,26 @@ h1
 	color: white;
 	margin:0px;
 }
+h1.intro
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	color: black;
+	margin:0px;
+}
 h2
 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	color: white;
+	display: inline-block;
+	padding-top: 3px;
+}
+h2.intro
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: black;
 	display: inline-block;
 	padding-top: 3px;
 }
@@ -362,6 +378,22 @@ h3
 	width: 239px;
 	font-size: 17px;
 }
+h3.intro
+{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	position: absolute;
+	left: 418px;
+	top: -90px;
+	width: 239px;
+	font-size: 17px;
+}
+p.intro
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: black;
+}
 p
 {
 	font-family: 'Open Sans', sans-serif;
@@ -371,7 +403,7 @@ p
 li
 {
 	font-family: 'Open Sans', sans-serif;
-	color: white;
+	color: black;
 	cursor: auto;
 	width: 495px;
 }
@@ -416,6 +448,7 @@ li
 	padding: 7px;
 	text-align: left;
 	width: 600px;
+	color: black;
 }
 #splash_list
 {
@@ -424,23 +457,23 @@ li
 }
 #red_block
 {
-	background-color: rgba(192,57,43,1);
+	background-color: #550000;
 }
 #orange_block
 {
-	background-color: rgba(243,156,18,1);
+	background-color: #600060;
 }
 #green_block
 {
-	background-color: rgba(39,174,96,1);
+	background-color: #1E8549;
 }
 #blue_block
 {
-	background-color: rgba(41,128,185,1);
+	background-color: #0a3055;
 }
 #purple_block
 {
-	background-color: rgba(142,68,173,1);
+	background-color: #2c3e50;
 }
 
 /*example slide*/
@@ -490,25 +523,25 @@ li
 }
 #c_text
 {
-	color: rgba(39,174,96,1);
+	color: #1E8549;
 	position: absolute;
 	top: 39px;
 }
 #a_text
 {
-	color: rgba(192,57,43,1);
+	color: #550000;
 	position: absolute;
 	top: 95px;
 }
 #b_text
 {
-	color: rgba(243,156,18,1);
+	color: #600060;
 	position: absolute;
 	top: 150px;
 }
 #d_text
 {
-	color: rgba(41,128,185,1);
+	color: #0a3055;
 	position: absolute;
 	top: 210px;
 }
@@ -522,19 +555,19 @@ li
 }
 #green_span
 {
-	color: rgba(39,174,96,1);
+	color: #1E8549;
 }
 #red_span
 {
-	color: rgba(192,57,43,1);
+	color: #550000;
 }
 #orange_span
 {
-	color: rgba(243,156,18,1);
+	color: #600060;
 }
 #blue_span
 {
-	color: rgba(41,128,185,1);
+	color: #0a3055;
 }
 #letter_list 
 {
@@ -543,6 +576,7 @@ li
 	left: 53px;
 	top: 113px;
 	width: 328px;
+	
 }
 #example_info
 {
@@ -854,7 +888,7 @@ select
 	padding-left: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	background-color: rgba(64,66,68,1);
+	background-color: #697375;
 }
 #compList li
 {
@@ -894,13 +928,13 @@ select
 {
 	width: 800px;
 	height: 100px;
-	background-color: rgba(105,115,117,1);
+	background-color: #FFFFFF;
 }
 #example_hide
 {
 	width: 800px;
 	height: 100px;
-	background-color: rgba(64,66,68,1);
+	background-color: #697375;
 	top: 500px;
 	position: absolute;
 }
