@@ -394,6 +394,10 @@ p.intro
 	font-size: 18px;
 	color: black;
 }
+p#objective
+{
+	color: black;
+}
 p
 {
 	font-family: 'Open Sans', sans-serif;
