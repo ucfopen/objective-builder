@@ -76,7 +76,7 @@ a:hover
 #home
 {
 	position: absolute;
-	bottom: 5px;
+	bottom: 0px;
 	left: -56px;
 	background: none;
 	border:none;
